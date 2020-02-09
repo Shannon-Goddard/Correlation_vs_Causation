@@ -72,8 +72,7 @@ Although, that number is flabbergasting enough, it fails when compared to surrou
 - Ventura  
 - San Diego  
 
-Where the median home prices are easily doubled. Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php) Meaning, the single gross annual income would, also, have to double.  
+These counties the median home prices are, easily, doubled.  Meaning, the gross annual income would, also, have to double.  
+Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php)  
 
-Going back to the "Grandfather Warehouse Clerk making a maximum wage of $20.11, their gross annual income would be calculated by **hourly rate X 40 hours a week X 52 weeks a year = $41,828.80**. A Kroger employee working for 20-30 years to make maximum wage would only be able to afford a home valued at $125,486.40, when using the best practice of three times your annual income. It would take 2.79, almost 3 incomes to live in a median valued home in the cheapest county of southern California when at maximum wage job in the top 20 fortune 500 company. It would be intresting to see what in deapth analysis could reveal. 
-
-
+Going back to the "Grandfather Warehouse Clerk making a maximum wage of $20.11, their gross annual income would be calculated by **hourly rate X 40 hours a week X 52 weeks a year = $41,828.80**. A Kroger employee working for 20-30 years to make maximum wage would only be able to afford a home valued at $125,486.40, when using the best practice of three times your annual income. It would take 2.79, almost 3 incomes, to live in a median valued home in the cheapest county of southern California when at maximum wage job in the top 20 fortune 500 company. It would be intresting to see what an in deapth analysis could reveal.
