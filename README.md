@@ -34,9 +34,8 @@ The study said high taxes, cost of living, and affordable housing were among the
 A [recent study by UC Berkeley](https://escholarship.org/uc/item/96j2704t) made similar findings with voters. According to the poll, roughly half of the state's voters have considered leaving California.  
 
 The main reason was the high cost of housing, but high taxes and political culture were also big reasons voters considered leaving.  
-
-Author: **Eric Escalante**
-Published: **5:30 PM PST November 5, 2019**
+Author: **Eric Escalante**  
+Published: **5:30 PM PST November 5, 2019**  
 Updated: **12:38 PM PST November 11, 2019**  
 Full article can be found at [abc10.com](https://www.abc10.com/article/news/local/california/691000-leave-california/103-e02662aa-dfae-46b2-b94a-f20158053e60)  
 
