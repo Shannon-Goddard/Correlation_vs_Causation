@@ -1,3 +1,5 @@
+**Resources** [https://www.census.gov](https://www.census.gov/quickfacts/fact/table/sanbernardinocountycalifornia,yolocountycalifornia,contracostacountycalifornia/PST045219)
+
 ## Nearly 700,000 people left California last year
 ### Despite roughly 500,000 people coming to the Golden State in 2018, census data shows more people left California than moved in.
 CALIFORNIA, USA — In 2018, nearly 700,000 people decided to pack their bags and leave the California life behind.
