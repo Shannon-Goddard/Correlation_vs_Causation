@@ -1,3 +1,5 @@
+ [![news]()]()
+
 **Resources** [https://www.census.gov](https://www.census.gov/quickfacts/fact/table/sanbernardinocountycalifornia,yolocountycalifornia,contracostacountycalifornia/PST045219)
 
 ## Nearly 700,000 people left California last year
