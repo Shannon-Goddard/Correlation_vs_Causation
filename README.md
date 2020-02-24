@@ -66,7 +66,7 @@ We would like to perform analysis on the cost of living that included:
 - Median Home Price
 - Median Household Income  
   
-With the different counties we live in Califoria being the targeted data, we wanted to compare another states county for further analysis; Spring Hill, Tennessee. Questions the team hopes to answer with the data is:  
+With the different counties we live in California being the targeted data, we wanted to compare another states county for further analysis; Spring Hill, Tennessee. Questions the team hopes to answer with the data is:  
 - What are the California median household prices in our counties expected to be in the next five years?  
 - What are the California median household prices in our counties expected to be in the next ten years?  
 - Is it time to leave California?  
