@@ -116,10 +116,7 @@ Performing calculations on our analysis, we hope to answer:
 - models limitations  
 
 ## Presentation  
-The presentation can be found in [Google Slides](https://docs.google.com/presentation/d/14h7wNLqN1Vh8AVsPMiOpv18YU4jbhMqiKdh0yhPtdns/edit?usp=sharing)
-The presentation should be finalized in Google Slides and include the following:
-Slides are primarily images or graphics (rather than primarily text).
-Images are clear, in high-definition, and directly illustrative of subject matter.  
+The presentation can be found in [Google Slides](https://docs.google.com/presentation/d/14h7wNLqN1Vh8AVsPMiOpv18YU4jbhMqiKdh0yhPtdns/edit?usp=sharing)  
 
 ## Sources  
 ### Description of the source of data
