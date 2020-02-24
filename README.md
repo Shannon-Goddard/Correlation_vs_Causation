@@ -1,4 +1,4 @@
- [![news](/pics/news_cover.png)](/clip/News_vid.mp4?raw=true)
+ [![news](/pics/header.png)](/clip/News_vid.mp4?raw=true)
 
 **Resources** [https://www.census.gov](https://www.census.gov/quickfacts/fact/table/sanbernardinocountycalifornia,yolocountycalifornia,contracostacountycalifornia/PST045219)
 
