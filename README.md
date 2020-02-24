@@ -1,8 +1,5 @@
  [![news](/pics/header.png)](/clip/News_vid.mp4?raw=true)  
  
- ![Header](/pics/moviesETL.png)
-## Leaving California README.md
-
 #### Table of Contents  
 
 [Project Roadmap](#project-roadmap )    
@@ -38,10 +35,12 @@ The project roadmap and description of all the project deliverables can be found
 **Description of the data exploration phase of the project**  
 - Description of data preprocessing
 - Description of feature engineering and the feature selection, including the team’s decision-making process  
+
 **Description of the analysis phase of the project**  
 - Description of how data was split into training and testing sets  
 - Description of how the model was trained (or retrained if the team used an existing model)
-- Description and explanation of model’s confusion matrix, including final accuracy score    
+- Description and explanation of model’s confusion matrix, including final accuracy score  
+
 **Result of analysis**  
 - How does the model address the question or problem the team is solving.  
 
