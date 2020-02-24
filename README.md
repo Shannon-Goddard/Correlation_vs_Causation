@@ -15,8 +15,62 @@
 The project roadmap and description of all the project deliverables can be found in [Deliverables.md](/Deliverables.md)  
 
 ## Project Overview  
-**Reason the topic was selected**   
+**Reason the topic was selected**  
+## Nearly 700,000 people left California last year
+### Despite roughly 500,000 people coming to the Golden State in 2018, census data shows more people left California than moved in.
+CALIFORNIA, USA — In 2018, nearly 700,000 people decided to pack their bags and leave the California life behind.
+
+**By contrast, there were only 501,000 people who decided to follow the California dream and set up camp in the state. With 691,000 people leaving the Golden State for another state, California was in the negative as far as net population change.**
+
+The exodus from California also led among other states. Only the numbers for Texas, Florida, and New York came close.
+
+**Texas lost 462,000; New York lost 458,000; and Florida lost 470,000.**
+
+According to [the Census data](https://www.census.gov/data/tables/time-series/demo/geographic-mobility/state-to-state-migration.html), most Californians found themselves heading to Texas, Arizona, Washington, Nevada, and Oregon.  
+- Texas - 86,000
+- Arizona - 68,000
+- Washington - 55,000
+- Nevada - 50,000
+- Oregon - 43,000  
+
+While California led in people leaving the state in 2018, it came in third for the number of people who moved in. The state was behind Florida, who had 587,000, and Texas, who saw 563,000 move in.
+
+**Census data also showed that the number of people leaving California has steadily increased since 2011.**  
+- 2018 - 691,000
+- 2017 - 661,000
+- 2016 - 657,000
+- 2015 - 643,000
+- 2014 - 593,000
+- 2013 - 581,000
+- 2012 - 566,000
+- 2011 - 562,000  
+
+A [2018 study by the California Legislative Analyst's Office](https://lao.ca.gov/laoecontax/article/detail/265) revealed that more than a million people left California - spread out over a decade - as opposed to those who moved here from other states.  
+
+The study said high taxes, cost of living, and affordable housing were among the main reasons why people were leaving.  
+
+A [recent study by UC Berkeley](https://escholarship.org/uc/item/96j2704t) made similar findings with voters. According to the poll, roughly half of the state's voters have considered leaving California.  
+
+The main reason was the high cost of housing, but high taxes and political culture were also big reasons voters considered leaving.  
+
+Author: **Eric Escalante**  
+Published: **5:30 PM PST November 5, 2019**  
+Updated: **12:38 PM PST November 11, 2019**  
+Full article can be found at [abc10.com](https://www.abc10.com/article/news/local/california/691000-leave-california/103-e02662aa-dfae-46b2-b94a-f20158053e60)  
+
+There are many articles written, like this one, about Califorian's leaving due to the high cost of living. The reason this topic was selected, with our group living in California, it's personal.
+
 **Questions the team hopes to answer with the data**  
+We would like to perform analysis on the cost of living that included:  
+
+- Median Home Price
+- Median Household Income  
+  
+With the different counties we live in Califoria being the targeted data, we wanted to compare another states county for further analysis; Spring Hill, Tennessee. Questions the team hopes to answer with the data is:  
+- What are the California median household prices in our counties expected to be in the next five years?  
+- What are the California median household prices in our counties expected to be in the next ten years?  
+- Is it time to leave California?  
+
 **Description of the source of data**
 
 ## Resources
@@ -61,59 +115,10 @@ It is important to establish a communication protocol. We created direct message
 In an emergency we will inform our group through our group-text and reach out to the staff by direct conversation in Slack.
 
 
-**Resources** [https://www.census.gov](https://www.census.gov/quickfacts/fact/table/sanbernardinocountycalifornia,yolocountycalifornia,contracostacountycalifornia/PST045219)
 
-## Nearly 700,000 people left California last year
-### Despite roughly 500,000 people coming to the Golden State in 2018, census data shows more people left California than moved in.
-CALIFORNIA, USA — In 2018, nearly 700,000 people decided to pack their bags and leave the California life behind.
+  
 
-**By contrast, there were only 501,000 people who decided to follow the California dream and set up camp in the state. With 691,000 people leaving the Golden State for another state, California was in the negative as far as net population change.**
 
-The exodus from California also led among other states. Only the numbers for Texas, Florida, and New York came close.
-
-**Texas lost 462,000; New York lost 458,000; and Florida lost 470,000.**
-
-According to [the Census data](https://www.census.gov/data/tables/time-series/demo/geographic-mobility/state-to-state-migration.html), most Californians found themselves heading to Texas, Arizona, Washington, Nevada, and Oregon.  
-- Texas - 86,000
-- Arizona - 68,000
-- Washington - 55,000
-- Nevada - 50,000
-- Oregon - 43,000  
-
-While California led in people leaving the state in 2018, it came in third for the number of people who moved in. The state was behind Florida, who had 587,000, and Texas, who saw 563,000 move in.
-
-**Census data also showed that the number of people leaving California has steadily increased since 2011.**  
-- 2018 - 691,000
-- 2017 - 661,000
-- 2016 - 657,000
-- 2015 - 643,000
-- 2014 - 593,000
-- 2013 - 581,000
-- 2012 - 566,000
-- 2011 - 562,000  
-
-A [2018 study by the California Legislative Analyst's Office](https://lao.ca.gov/laoecontax/article/detail/265) revealed that more than a million people left California - spread out over a decade - as opposed to those who moved here from other states.  
-
-The study said high taxes, cost of living, and affordable housing were among the main reasons why people were leaving.  
-
-A [recent study by UC Berkeley](https://escholarship.org/uc/item/96j2704t) made similar findings with voters. According to the poll, roughly half of the state's voters have considered leaving California.  
-
-The main reason was the high cost of housing, but high taxes and political culture were also big reasons voters considered leaving.  
-
-Author: **Eric Escalante**  
-Published: **5:30 PM PST November 5, 2019**  
-Updated: **12:38 PM PST November 11, 2019**  
-Full article can be found at [abc10.com](https://www.abc10.com/article/news/local/california/691000-leave-california/103-e02662aa-dfae-46b2-b94a-f20158053e60)  
-
-There are many articles written, like this one, about Califorian's leaving due to the high cost of living. I would like to perform analysis on the cost of living that included:  
-
-- Cost of Goods
-- Minimum Wage  
-- Maximum Wage
-- Median Household Income  
-- Median Home Price  
-
-Although, Califoria would be the targeted data, it can be broken down by county and easily comparable to other California counties or counties in other states. With our diverse group living in different counties, each person can load the data from their county. As long as we all followed the same analysis steps, the test we perform would be meaningful.
 
 Through various charts of the matplotlib library we would be able to visualize a strong correlation between the cost of goods and minimum wage. We could use Supervised Learning models to determine if the rise in minimum wage is the causation of the rise in the cost of goods. 
 
