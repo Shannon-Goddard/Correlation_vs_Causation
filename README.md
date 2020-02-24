@@ -9,6 +9,8 @@
 [Summary](#summary)  
 [Recommendation](#recommendation)  
 [Limitations](#limitations)  
+[Presentation](#presentation)  
+[Sources](#sources)
 [Communication Protocols](#communication-protocols)  
 
 ## Project Roadmap  
@@ -112,6 +114,15 @@ Performing calculations on our analysis, we hope to answer:
 **Anything the team would have done differently**  
 - models benifits 
 - models limitations  
+
+**Presentation**
+The presentation should be finalized in Google Slides and include the following:
+Slides are primarily images or graphics (rather than primarily text).
+Images are clear, in high-definition, and directly illustrative of subject matter.  
+
+**Sources**
+Description of the source of data
+
 ## Communication Protocols  
 It is important to establish a communication protocol. We created direct messages for only team members in Slack at [final-project-jas](https://ucbdatasept19.slack.com/archives/CTXNA5K5G) and exchanged cell phone numbers where we created a group-text.  
 
