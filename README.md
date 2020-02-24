@@ -57,6 +57,7 @@ Published: **5:30 PM PST November 5, 2019**
 Updated: **12:38 PM PST November 11, 2019**  
 Full article can be found at [abc10.com](https://www.abc10.com/article/news/local/california/691000-leave-california/103-e02662aa-dfae-46b2-b94a-f20158053e60)  
 
+**Reason the topic was selected**
 There are many articles written, like this one, about Califorian's leaving due to the high cost of living. The reason this topic was selected, with our group living in California, it's personal.  
 
 As a broad generalization, most people can afford to purchase a house worth about three times their total (gross) annual income, assuming a 20% down payment and a moderate amount of other long-term debts, such as car or student loan payments. This best practice can be found at [mymoneyblog.com](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html). As there are many similar "Best Practices" in home buying, We would like to keep a consistancy throughout the analysis and use this one, three times total annual income.  
