@@ -119,7 +119,7 @@ Performing calculations on our analysis, we hope to answer:
 The presentation can be found in [Google Slides](https://docs.google.com/presentation/d/14h7wNLqN1Vh8AVsPMiOpv18YU4jbhMqiKdh0yhPtdns/edit?usp=sharing)  
 
 ## Sources  
-### Description of the source of data
+### Description of visual sources:
 **README.md video** was created with clips from: 
 - [California faces housing 'crisis' amid extremely high rents](https://www.youtube.com/watch?v=kJH4wSW_X5A)
 - [California housing crisis reaches boiling point](https://www.youtube.com/watch?v=Q4Zq5NmoWoM)
@@ -127,7 +127,12 @@ The presentation can be found in [Google Slides](https://docs.google.com/present
 - [Goodbye, California! Longtime residents fleeing rising housing cost](https://www.youtube.com/watch?v=Q4t7GlCs2IY)  
 
 **README.md header picture** was found at:
-- [zerohedge.com](https://www.zerohedge.com/political/conservative-californians-leaving-droves-america-first-law-and-order-red-states)
+- [zerohedge.com](https://www.zerohedge.com/political/conservative-californians-leaving-droves-america-first-law-and-order-red-states)  
+
+**Code pictures** were screenshots of:  
+- Line x of [.ipynb]()  
+- Line x of [.ipynb]()  
+- Line x of [.ipynb]()
 
 ## Communication Protocols  
 It is important to establish a communication protocol. We created direct messages for only team members in Slack at [final-project-jas](https://ucbdatasept19.slack.com/archives/CTXNA5K5G) and exchanged cell phone numbers where we created a group-text.  
