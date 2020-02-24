@@ -14,10 +14,9 @@
 ## Project Roadmap  
 The project roadmap and description of all the project deliverables can be found in [Deliverables.md](/Deliverables.md)  
 
-## Project Overview  
-**Reason the topic was selected**  
-## Nearly 700,000 people left California last year
-### Despite roughly 500,000 people coming to the Golden State in 2018, census data shows more people left California than moved in.
+## Project Overview    
+### Nearly 700,000 people left California last year
+#### Despite roughly 500,000 people coming to the Golden State in 2018, census data shows more people left California than moved in.
 CALIFORNIA, USA — In 2018, nearly 700,000 people decided to pack their bags and leave the California life behind.
 
 **By contrast, there were only 501,000 people who decided to follow the California dream and set up camp in the state. With 691,000 people leaving the Golden State for another state, California was in the negative as far as net population change.**
@@ -70,8 +69,6 @@ With the different counties we live in California being the targeted data, we wa
 - What are the California median household prices in our counties expected to be in the next five years?  
 - What are the California median household prices in our counties expected to be in the next ten years?  
 - Is it time to leave California?  
-
-**Description of the source of data**
 
 ## Resources
 - **Data Source:** [data](), [data](), [data]()
