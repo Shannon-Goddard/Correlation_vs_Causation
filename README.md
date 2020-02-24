@@ -115,13 +115,21 @@ Performing calculations on our analysis, we hope to answer:
 - models benifits 
 - models limitations  
 
-**Presentation**
+## Presentation  
 The presentation should be finalized in Google Slides and include the following:
 Slides are primarily images or graphics (rather than primarily text).
 Images are clear, in high-definition, and directly illustrative of subject matter.  
 
-**Sources**
-Description of the source of data
+## Sources  
+### Description of the source of data
+**README.md video** was created with clips from: 
+- [California faces housing 'crisis' amid extremely high rents](https://www.youtube.com/watch?v=kJH4wSW_X5A)
+- [California housing crisis reaches boiling point](https://www.youtube.com/watch?v=Q4Zq5NmoWoM)
+- [Can Big Tech Curb A Housing Crisis It Helped Cause](https://www.youtube.com/watch?v=e-cT0gQQsiw)
+- [Goodbye, California! Longtime residents fleeing rising housing cost](https://www.youtube.com/watch?v=Q4t7GlCs2IY)  
+
+**README.md header picture** was found at:
+- [zerohedge.com](https://www.zerohedge.com/political/conservative-californians-leaving-droves-america-first-law-and-order-red-states)
 
 ## Communication Protocols  
 It is important to establish a communication protocol. We created direct messages for only team members in Slack at [final-project-jas](https://ucbdatasept19.slack.com/archives/CTXNA5K5G) and exchanged cell phone numbers where we created a group-text.  
