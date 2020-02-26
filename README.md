@@ -81,7 +81,7 @@ We would like to perform analysis on the cost of housing in California that incl
 With California being the targeted data, we wanted to compare all the other states. Questions the team hopes to answer with the data is:  
 - What are the California median household prices in California expected to be in the next five years?  
 - What are the California median household prices in California expected to be in the next ten years?  
-- Based on the ["Best Practices"]((https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html)) in home buying, how much income would be needed to live in a median priced home in California at that time.  
+- Based on the ["Best Practices"](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html) in home buying, how much income would be needed to live in a median priced home in California at that time.  
 - What are the top 5 states Californians are moving to?  
 - How does California housing cost compare to those 5 states?
 
