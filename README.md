@@ -67,7 +67,10 @@ As a broad generalization, most people can afford to purchase a house worth abou
 With the best pracice in mind and the median price of homes currently listed in San Bernardino County is $350,000, according to [zillow.com](https://www.zillow.com/san-bernardino-county-ca/home-values/), a single gross income of **$116,666.67** would be needed to purchase a **median price** home in **San Bernardino County**.  
 
 Although, that number is flabbergasting enough, it fails when compared to surrounding California counties.These counties the median home prices are, easily, doubled.  Meaning, the gross annual income would, also, have to double.  
-Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php)
+Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php)  
+
+**Description of the source of data**  
+All .csv resources for our analysis were downloaded from [data.census.gov](https://data.census.gov)
 
 **Questions the team hopes to answer with the data**  
 We would like to perform analysis on the cost of housing in California that included:  
