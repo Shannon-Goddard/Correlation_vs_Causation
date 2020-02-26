@@ -70,17 +70,20 @@ Although, that number is flabbergasting enough, it fails when compared to surrou
 Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php)
 
 **Questions the team hopes to answer with the data**  
-We would like to perform analysis on the cost of living in our counties in California that included:  
+We would like to perform analysis on the cost of housing in California that included:  
 
 - Median Home Price
 - Median Household Income  
   
-With the different counties we live in California being the targeted data, we wanted to compare another states county for further analysis; Spring Hill, Tennessee. Questions the team hopes to answer with the data is:  
-- What are the California median household prices in our counties expected to be in the next five years?  
-- What are the California median household prices in our counties expected to be in the next ten years?  
+With California being the targeted data, we wanted to compare all the other states. Questions the team hopes to answer with the data is:  
+- What are the California median household prices in California expected to be in the next five years?  
+- What are the California median household prices in California expected to be in the next ten years?  
+- Based on the "Best Practices" in home buying, how much income would be needed to live in a median priced home in California at that time.  
+- What are the top 5 states Californians are moving to?  
+- How does California housing cost compare to those 5 states?
 
-Performing calculations on our analysis, we hope to answer:
-- Is it time to leave California?  
+After our analysis, we hope to answer:
+- Is it time to leave California? 
 
 ## Resources
 - **Data Source:** [data](), [data](), [data]()
