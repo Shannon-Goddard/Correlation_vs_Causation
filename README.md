@@ -64,6 +64,10 @@ Author: **Eric Escalante**
 Published: **5:30 PM PST November 5, 2019**  
 Updated: **12:38 PM PST November 11, 2019**  
 Full article can be found at [abc10.com](https://www.abc10.com/article/news/local/california/691000-leave-california/103-e02662aa-dfae-46b2-b94a-f20158053e60)  
+<br/>
+<br/>
+<br/>
+<br/>  
 
 **Reason the topic was selected**  
 There are many articles written, like this one, about Califorian's leaving due to the high cost of living. The reason this topic was selected, with our group living in California, it's personal.  
@@ -74,7 +78,10 @@ With the best pracice in mind and the median price of homes currently listed in 
 
 Although, that number is flabbergasting enough, it fails when compared to surrounding California counties.These counties the median home prices are, easily, doubled.  Meaning, the gross annual income would, also, have to double.  
 Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php)  
-
+<br/>
+<br/>
+<br/>
+<br/>  
 
 **Questions the team hopes to answer with the data**  
 We would like to perform analysis on the cost of housing in California that included:  
@@ -87,7 +94,11 @@ With California being the targeted data, we wanted to compare all the other stat
 - What are the California median household prices in California expected to be in the next ten years?  
 - Based on the ["Best Practices"](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html) in home buying, how much income would be needed to live in a median priced home in California at that time.  
 - What are the top 5 states Californians are moving to?  
-- How does California housing cost compare to those 5 states?
+- How does California housing cost compare to those 5 states?  
+<br/>
+<br/>
+<br/>
+<br/>  
 
 **After our analysis, we hope to answer:**
 - Is it time to leave California?  
