@@ -210,7 +210,13 @@ We used linear regression, for our unsupervised learning, to predict continuous 
 
 **Description of how the model was trained (or retrained if the team used an existing model)**
 
-**Description and explanation of model’s confusion matrix, including final accuracy score**
+**Description and explanation of model’s confusion matrix, including final accuracy score**  
+Models’ performance  
+The results show that:  
+Out of  good housing cost (Actual 0), 3 were predicted to be good (Predicted 0), which we call true positives.  
+Out of  good housing cost (Actual 0), 0 were predicted to be bad (Predicted 1), which are considered false negatives. 
+Out of  bad housing cost (Actual 1), 0 was predicted to be good (Predicted 0) and are considered false positives.  
+Out of  bad housing cost (Actual 1), 22 were predicted to be bad (Predicted 1) and are considered true negatives. 
 
 **How does the model address the question or problem the team is solving.**  
 
