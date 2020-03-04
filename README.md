@@ -97,7 +97,7 @@ With California being the targeted data, we wanted to compare all the other stat
 - **Algorithms:**  
 
 
-Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)## Objectives   
+## Objectives   
 - Import, analyze, clean, and preprocess a “real-world” classification dataset.
 - Select, design, and train a binary classification model of our choosing.
 - Optimize model training and input data to achieve desired model performance.
@@ -137,7 +137,7 @@ Using the dtypes method, we confirm the data type, which also will alert us if a
 <img align="left" width="900" src="/pics/dtypes.png"><br/>
 Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)  
 
-Our data is all Objects and needed to be converted to numeric.  
+Our data is all Objects and needed to be converted to a numeric data type.  
 
 **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
