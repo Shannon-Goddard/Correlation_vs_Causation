@@ -254,6 +254,10 @@ Rather than remove columns we feel were **not** relavant to our analysis, we fil
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Description of data preprocessing  
 Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:
