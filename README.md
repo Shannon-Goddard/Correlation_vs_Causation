@@ -96,7 +96,8 @@ With California being the targeted data, we wanted to compare all the other stat
 - **Dependencies:** Pandas, Matplotlib, SciPy  
 - **Algorithms:**  
 
-## Objectives   
+
+Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)## Objectives   
 - Import, analyze, clean, and preprocess a “real-world” classification dataset.
 - Select, design, and train a binary classification model of our choosing.
 - Optimize model training and input data to achieve desired model performance.
@@ -112,7 +113,9 @@ With California being the targeted data, we wanted to compare all the other stat
 Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.  
 
  
-
+  
+  
+   
 <img align="left" width="250" src="/pics/excel.png"><br/>  
 
 <img align="left" width="250" src="/pics/df.png"><br/>  
@@ -123,7 +126,7 @@ Data selection entails making good choices about which data will be used. Consid
 
 <img align="left" width="250" src="/pics/duplicate.png"><br/>  
 
-<img align="left" width="250" src="/pics/dtypes.png"><br/>
+
 
 
 
@@ -133,13 +136,14 @@ The first roadblock our team encountered was lack of data for our origional mach
 **What data is available?**  
 First, we account for the data we have. We use the columns method and output the columns.  
 
-# Columns  
-df.columns
+<img align="right" width="900" src="/pics/columns.png">
+Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)  
 
 **What type of data is available?**  
 Using the dtypes method, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
-<img align="right" width="900" src="/pics/columns.png">  
-Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
+
+<img align="left" width="250" src="/pics/dtypes.png">
+Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)  
 
 **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
