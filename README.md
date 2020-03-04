@@ -230,7 +230,7 @@ Data processing involves organizing the data by formatting, cleaning, and sampli
 - Only numerical data is used.
 - Values are scaled. In other words, data has been manipulated to ensure that the variance between the numbers won’t skew results.  
 
-**Is the data in a format that can be passed into an unsupervised learning model?**
+**Is the data in a format that can be passed into an unsupervised learning model?**  
 We saw that all our data had the incorrect type for each column. We had to use [pandas.to_numeric](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html) to convert our arguments to a numeric type. Also, we know that our model can’t have strings passed into it. The only string value left is the name of the states. 
 
 In our dataset on states housing cost, The scale for Median Income and Median Home Value is much larger than all the other values in the dataset. We adjusted this format by dividing by 1,000 to rescale those data points.  
