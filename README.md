@@ -138,7 +138,7 @@ df.columns
 
 **What type of data is available?**  
 Using the dtypes method, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
-<img align="left" width="500" src="/pics/columns.png">  
+<img align="right" width="500" src="/pics/columns.png">  
 Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
 
 **What data is missing?**  
