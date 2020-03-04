@@ -324,10 +324,10 @@ In this section, we used Scikit-learn’s StandardScaler module to scale data. T
 
 ### **Models’ performance**  
 **The results show that:**  
-Out of 113 good housing cost (Actual 0), 112 were predicted to be good (Predicted 0), which we call true positives.  
-Out of 113 good housing cost (Actual 0), 1 was predicted to be bad (Predicted 1), which is considered a false negative. 
-Out of 4 bad housing cost (Actual 1), 2 was predicted to be good (Predicted 0) and are considered false positives.  
-Out of 4 bad housing cost (Actual 1), 2 were predicted to be bad (Predicted 1) and are considered true negatives.  
+- Out of **113** good housing cost (Actual 0), **112** were predicted to be good (Predicted 0), which we call true positives.  
+- Out of **113** good housing cost (Actual 0), **1** was predicted to be bad (Predicted 1), which is considered a false negative. 
+- Out of **4** bad housing cost (Actual 1), **2** was predicted to be good (Predicted 0) and are considered false positives.  
+- Out of **4** bad housing cost (Actual 1), **2** were predicted to be bad (Predicted 1) and are considered true negatives.  
 
 **Precision**  
 Precision is the measure of how reliable a positive classification is. From our results, the precision for the good housing cost can be determined by the ratio **TP/(TP + FP)**, which is **112/(112 + 2) = .9825**. The precision for the bad housing cost can be determined as follows: **2/(2 + 1) = .6667**. A low precision is indicative of a large number of false positives—of the 3 housing cost we predicted to be bad housing cost,  1 was actually a good housing cost.  
