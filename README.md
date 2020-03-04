@@ -193,11 +193,18 @@ We had to perform all these steps on all our datasets. We kept the procees consi
 The migration datsets were, also, done similarly. The most predominant change was having to add a line of code to remove the commas from the number values in order to be able to make them floats.  
 
 ### Machine Learning Model
-**Description of feature engineering and the feature selection, including the team’s decision-making process**
+**Description of feature engineering and the feature selection, including the team’s decision-making process**  
+Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions. There are many different models; a mathematical representation of something that happens in the real world. Machine learning can be divided into three learning categories: supervised, unsupervised, and deep.  
 
-**Description of how data was split into training and testing sets**
+We decided to do **supervised learning**, which deals with labeled data. This supervised learning will be to predict, based on data from the census, whether it's time to leave California.  
 
-**Explanation of model choice, including limitations and benefits**
+We, also, decided to do **unsupervised learning**, by contrast, machine learning algorithms work with datasets without labeled outcomes. In supervised learning, the labels provide the correct answers. In unsupervised learning, such correct answers, or labels, aren’t provided. Our analysis of unsupervised learning will be to task a machine learning algorithm with grouping housing cost. The algorithm isn’t given labels, so it’s on its own to find patterns. In our case, we hope it will find a trend that will allow us to predict future housing cost.  
+
+**Description of how data was split into training and testing sets**  
+The models use the training dataset to learn from it. It then uses the testing dataset to assess its performance. If you use your entire dataset to train the model, you won’t know how well the model will perform when it encounters unseen data. That is why it’s important to set aside a portion of your dataset to evaluate your model.
+
+**Explanation of model choice, including limitations and benefits**  
+We used linear regression, for our unsupervised learning, to predict continuous variables. For our analysis, we’re interested in predicting housing cost. To accomplish this task, we collected housing data on all the states from 2010 through 2018. The regression model’s algorithms will attempt to learn patterns that exist among all the factors. If presented with the data of a new year, the model would make a prediction of the states housing cost, based on previously learned patterns from the dataset.
 
 **Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)**
 
