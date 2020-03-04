@@ -214,7 +214,8 @@ Limitations to us using a random forest model are, random forest models will onl
 In this section, we used Scikit-learn’s StandardScaler module to scale data. The model -> fit -> predict/transform workflow is also used when scaling data. The standard scaler standardizes the data. This means, all our numerical columns will now have a mean of 0 and a standard deviation of 1, reducing the likelihood that large values will unduly influence our model.
 
 **Description and explanation of model’s confusion matrix, including final accuracy score**  
-<img align="left" width="900" src="/pics/confusion_matrix.png"><br/>
+<img align="left" width="900" src="/pics/confusion_matrix.png"><br/>  
+
 **Models’ performance**  
 The results show that:  
 Out of 113 good housing cost (Actual 0), 112 were predicted to be good (Predicted 0), which we call true positives.  
@@ -225,16 +226,16 @@ Out of 4 bad housing cost (Actual 1), 2 were predicted to be bad (Predicted 1) a
 **Precision**  
 Precision is the measure of how reliable a positive classification is. From our results, the precision for the good housing cost can be determined by the ratio **TP/(TP + FP)**, which is **112/(112 + 2) = .9825**. The precision for the bad housing cost can be determined as follows: **2/(2 + 1) = .6667**. A low precision is indicative of a large number of false positives—of the 3 housing cost we predicted to be bad housing cost,  1 was actually a good housing cost.  
 
-**Recall scores**
+**Recall scores**  
 Recall is the ability of the classifier to find all the positive samples. It can be determined by the ratio: TP/(TP + FN), or  for the good housing cost **112/(112 + 1) = .9912** and for the bad housing cost **2/(2 + 2) = .5**. A low recall is indicative of a large number of false negatives.  
 
-**Balanced accuracy score**
+**Balanced accuracy score**  
 An accuracy score is not always an appropriate or a meaningful performance metric. This program’s accuracy score appears to be great at **0.9744**.  
 
-**F1 score**
+**F1 score**  
 F1 score is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0.  
 
-**Support**
+**Support**  
 Support is the number of actual occurrences of the class in the specified dataset. For our results, there are **113** actual occurrences for the good housing cost and **4** actual occurrences for bad housing cost.  
 
 **Recommendation on the model to use:**  
