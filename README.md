@@ -155,7 +155,7 @@ Next, we see if any data is missing. Unsupervised learning models can’t handle
 
 
 **What data can be removed?**  
-We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. Consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
+We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
 
 In our dataset, there are **no** rows that have null data points. Using the duplicated().sum() method, we, also, saw our dataset did **not** have any duplicates.  
 
