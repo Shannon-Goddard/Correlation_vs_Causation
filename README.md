@@ -332,6 +332,8 @@ In this section, we used Scikit-learn’s StandardScaler module to scale data. T
 - Out of **113** good housing cost (Actual 0), **1** was predicted to be bad (Predicted 1), which is considered a false negative. 
 - Out of **4** bad housing cost (Actual 1), **2** was predicted to be good (Predicted 0) and are considered false positives.  
 - Out of **4** bad housing cost (Actual 1), **2** were predicted to be bad (Predicted 1) and are considered true negatives.  
+<br/>
+<br/>
 
 **Precision**  
 Precision is the measure of how reliable a positive classification is. From our results, the precision for the good housing cost can be determined by the ratio **TP/(TP + FP)**, which is **112/(112 + 2) = .9825**. The precision for the bad housing cost can be determined as follows: **2/(2 + 1) = .6667**. A low precision is indicative of a large number of false positives—of the 3 housing cost we predicted to be bad housing cost,  1 was actually a good housing cost.  
@@ -349,7 +351,11 @@ F1 score is a weighted average of the true positive rate (recall) and precision,
 Support is the number of actual occurrences of the class in the specified dataset. For our results, there are **113** actual occurrences for the good housing cost and **4** actual occurrences for bad housing cost.  
 
 **Recommendation on the model to use:**  
-In summary, this model is good at predicting good housing cost. The model's accuracy of is high at **0.9744**, the precision and F1 score are good enough to state that the model will be good at classifying good housing cost.
+In summary, this model is good at predicting good housing cost. The model's accuracy of is high at **0.9744**, the precision and F1 score are good enough to state that the model will be good at classifying good housing cost.  
+<br/>
+<br/>
+<br/>
+<br/>
 
 **How does the model address the question or problem the team is solving.**  
 <br/>
