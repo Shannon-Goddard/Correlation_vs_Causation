@@ -112,46 +112,38 @@ Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)## Objective
 **Data Selection**  
 Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.  
 
- 
-  
-  
-   
-<img align="left" width="250" src="/pics/excel.png"><br/>  
-
-<img align="left" width="250" src="/pics/df.png"><br/>  
-
-<img align="left" width="250" src="/pics/null_values.png"><br/>  
-
-  
-
-<img align="left" width="250" src="/pics/duplicate.png"><br/>  
-
-
-
-
-
 **Obstructions to progress**  
 The first roadblock our team encountered was lack of data for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
 
 **What data is available?**  
 First, we account for the data we have. We use the columns method and output the columns.  
 
-<img align="right" width="900" src="/pics/columns.png">
+<img align="right" width="900" src="/pics/columns.png"><br/>
 Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)  
+
+Our output of column titles does **not** let us know what data we have. Scrolling back to the dataframe we can see the first row has the column description.  
+
+<img align="left" width="900" src="/pics/df.png"><br/>
+Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
+
+We refered back to the Excel file and expanded the cells to get the full description of the column values.  
+
+<img align="left" width="900" src="/pics/excel.png"><br/>
+File can be found in Resources/data/[2010_data.csv](Resources/data/2010_data.csv)
 
 **What type of data is available?**  
 Using the dtypes method, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
 
-<img align="left" width="250" src="/pics/dtypes.png">
+<img align="left" width="900" src="/pics/dtypes.png">
 Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)  
+
+Our data is, almost, all Objects and needed to be converted to numeric.  
 
 **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
 
-# Find null values  
-for column in df.columns:  
-print(f"Column {column} has { df[column].isnull().sum()}  
-null values")  
+<img align="left" width="250" src="/pics/null_values.png"><br/>
+Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
 
 **What data can be removed?**  
 We have begun to explore the data and have taken a look at null values. Next, determine if the data can be removed. Consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
@@ -165,8 +157,8 @@ df = df.dropna()
 
 Duplicates were also be removed using the duplicated().sum() method.  
 
-# Find duplicate entries  
-print(f"Duplicate entries: {df.duplicated().sum()}")  
+<img align="left" width="250" src="/pics/duplicate.png"><br/>
+Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
 
 To remove columns we used:  
 
