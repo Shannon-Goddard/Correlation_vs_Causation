@@ -313,6 +313,10 @@ In this section, we used Scikit-learn’s StandardScaler module to scale data. T
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 **Models’ performance**  
 The results show that:  
