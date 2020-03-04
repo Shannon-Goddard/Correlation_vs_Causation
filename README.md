@@ -14,6 +14,10 @@
 [Limitations](#limitations)  
 [Sources](#sources)  
 [Communication Protocols](#communication-protocols)  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Project Roadmap  
 The project roadmap and description of all the project deliverables can be found in [Deliverables.md](/Deliverables.md)  
