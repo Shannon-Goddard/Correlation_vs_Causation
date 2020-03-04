@@ -127,10 +127,16 @@ First, we account for the data we have. We use the columns method and output the
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
 Our output of column titles does **not** let us know what data we have. Scrolling back to the dataframe we can see the first row has the column description.  
 
 <img align="left" width="900" src="/pics/df.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -151,11 +157,19 @@ We refered back to the Excel file and expanded the cells to get the full descrip
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 **What type of data is available?**  
 Using the dtypes method, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
 
 <img align="left" width="900" src="/pics/dtypes.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -179,6 +193,8 @@ Next, we see if any data is missing. Unsupervised learning models can’t handle
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
 **What data can be removed?**  
 We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
@@ -194,10 +210,18 @@ In our dataset, there are **no** rows that have null data points. Using the dupl
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 Rather than remove columns we feel were **not** relavant to our analysis, we filtered the columns.  
 
 <img align="left" width="900" src="/pics/filter.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
