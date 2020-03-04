@@ -5,6 +5,7 @@
 [Project Roadmap](#project-roadmap )    
 [Project Overview](#project-overview)  
 [Resources](#resources)  
+[Technology](#technology)  
 [Objectives](#objectives)  
 [Summary](#summary)  
 [Dashboard](#dashboard)  
@@ -88,10 +89,11 @@ With California being the targeted data, we wanted to compare all the other stat
 - Is it time to leave California? 
 
 ## Resources
-- **Data Source:** [2010_data](/Resources/data/2010_data.csv) | [2011_data](/Resources/data/2011_data.csv) | [2012_data](/Resources/data/2012_data.csv) | [2013_data](/Resources/data/2013_data.csv) | [2014_data](/Resources/data/2014_data.csv) | [2015_data](/Resources/data/2015_data.csv) | [2016_data](/Resources/data/2016_data.csv) | [2017_data](/Resources/data/2017_data.csv) | [2018_data](/Resources/data/2018_data.csv) | [population_data](/Resources/data/population_data.csv) | [migration_2010](/Resources/data/migration_2010.csv) | [migration_2011](/Resources/data/migration_2011.csv) | [migration_2012](/Resources/data/migration_2012.csv) | [migration_2013](/Resources/data/migration_2013.csv) | [migration_2014](/Resources/data/migration_2014.csv) | [migration_2015](/Resources/data/migration_2015.csv) | [migration_2016](/Resources/data/migration_2016.csv) | [migration_2017](/Resources/data/migration_2017.csv) | [migration_2018](/Resources/data/migration_2018.csv) |  [2010_migration_flow.csv](/Data/2010_migration_flow.csv) | [Housing_and_Income.csv ](/Data/Housing_and_Income.csv) | [Region.csv](/Data/Region.csv) | [State.csv](/Data/State.csv)
-- **Software:** Jupyter Notebook, PostgreSQL  
-- **Languages:** Python  
-- **Dependencies:** Pandas  
+- **Data Source:** [2010_data](/Resources/data/2010_data.csv) | [2011_data](/Resources/data/2011_data.csv) | [2012_data](/Resources/data/2012_data.csv) | [2013_data](/Resources/data/2013_data.csv) | [2014_data](/Resources/data/2014_data.csv) | [2015_data](/Resources/data/2015_data.csv) | [2016_data](/Resources/data/2016_data.csv) | [2017_data](/Resources/data/2017_data.csv) | [2018_data](/Resources/data/2018_data.csv) | [population_data](/Resources/data/population_data.csv) | [migration_2010](/Resources/data/migration_2010.csv) | [migration_2011](/Resources/data/migration_2011.csv) | [migration_2012](/Resources/data/migration_2012.csv) | [migration_2013](/Resources/data/migration_2013.csv) | [migration_2014](/Resources/data/migration_2014.csv) | [migration_2015](/Resources/data/migration_2015.csv) | [migration_2016](/Resources/data/migration_2016.csv) | [migration_2017](/Resources/data/migration_2017.csv) | [migration_2018](/Resources/data/migration_2018.csv) |  [zillow_data](/Resources/data/zillow_data.csv)  
+## Technology
+- **Software:** Jupyter Notebook, pgAdmin,   
+- **Languages:** Python, JSON, SQL  
+- **Dependencies:** Pandas, Matplotlib, SciPy  
 - **Algorithms:**  
 
 ## Objectives   
@@ -106,12 +108,73 @@ With California being the targeted data, we wanted to compare all the other stat
 - Description of the analysis phase of the project  
 
 ### Description of the data exploration phase of the project  
+**Data Selection**  
+Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.  
+
 **Obstructions to progress**  
 The first roadblock our team encountered was lack of data for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
 
-### Machine Learning Model  
-**Description of data preprocessing**
+**What data is available?**  
+First, we account for the data we have. We use the columns method and output the columns.  
 
+# Columns  
+df.columns
+
+**What type of data is available?**  
+Using the dtypes method, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
+
+# List dataframe data types  
+df.dtypes  
+
+**What data is missing?**  
+Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
+
+# Find null values  
+for column in df.columns:  
+print(f"Column {column} has { df[column].isnull().sum()}  
+null values")  
+
+**What data can be removed?**  
+We have begun to explore the data and have taken a look at null values. Next, determine if the data can be removed. Consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
+
+In our dataset, there are string type columns, and we made the decision that only a few rows have null data points, but not enough to remove a whole column’s worth.  
+
+Rows of data with null values were removed with the dropna() method.  
+
+# Drop null rows  
+df = df.dropna()  
+
+Duplicates were also be removed using the duplicated().sum() method.  
+
+# Find duplicate entries  
+print(f"Duplicate entries: {df.duplicated().sum()}")  
+
+To remove columns we used:  
+
+# Remove columns
+df.drop(columns=
+
+**Description of data preprocessing**  
+Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:
+- Null values are handled.
+- Only numerical data is used.
+- Values are scaled. In other words, data has been manipulated to ensure that the variance between the numbers won’t skew results.  
+
+**Is the data in a format that can be passed into an unsupervised learning model?**
+We saw that all our data had the incorrect type for each column. We had to use [pandas.to_numeric](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html) to convert our arguments to a numeric type. Also, we know that our model can’t have strings passed into it.  
+
+To make sure we could use our string data, we transformed our strings of Region values in population data to 1, 2, 3, 4. We did this by creating a function that converts Northeast Region to 1, Midwest Region to 2, South Region to 3, West Region to 4, and anything else to 0. The function was then ran on the whole column with the .apply method.  
+
+In our dataset on states housing cost, The scale for Median Income and Median Home Value is much larger than all the other values in the dataset. We adjusted this format by dividing by 1,000 to rescale those data points.  
+
+**Data Transformation**
+Data transformation involves thinking about the future. More times than not, there will be new data coming into your data storage (a place where raw data is stored before being touched), with many people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.  
+
+**Can I quickly hand off this data for others to use?**
+The data now needs to be transformed back into a more user-friendly format. We converted the final products into a common data type CSV files. With our data being cleaned and processed, it is ready to be converted to a readable format for future use.  
+
+
+### Machine Learning Model
 **Description of feature engineering and the feature selection, including the team’s decision-making process**
 
 **Description of how data was split into training and testing sets**
@@ -126,6 +189,8 @@ The first roadblock our team encountered was lack of data for our origional mach
 
 **How does the model address the question or problem the team is solving.**  
 
+### Description of the analysis phase of the project
+
 ### Database Integration  
 **Our final segment includes a fully integrated database, with the following features:**
 - Stores static data for use during the project
@@ -133,18 +198,13 @@ The first roadblock our team encountered was lack of data for our origional mach
 - Includes at least two tables (or collections if using MongoDB)
 - Includes at least one join using the database language (not including any joins in Pandas)
 - Includes at least one connection string (using SQLAlchemy or PyMongo)
-- Important If you use a SQL database, you must provide your Entity Relationship Diagram (ERD) with relationships.  
-
-### Description of the analysis phase of the project  
+- Important If you use a SQL database, you must provide your Entity Relationship Diagram (ERD) with relationships.    
 
 ## Recommendation
 **Recommendation for future analysis**   
 
 ## Limitations  
 **Anything the team would have done differently**  
-- models benifits 
-- models limitations  
-
 
 ## Dashboard
 The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:
