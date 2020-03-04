@@ -17,6 +17,10 @@
 
 ## Project Roadmap  
 The project roadmap and description of all the project deliverables can be found in [Deliverables.md](/Deliverables.md)  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Project Overview    
 ### Nearly 700,000 people left California last year
@@ -86,7 +90,11 @@ With California being the targeted data, we wanted to compare all the other stat
 - How does California housing cost compare to those 5 states?
 
 **After our analysis, we hope to answer:**
-- Is it time to leave California? 
+- Is it time to leave California?  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Resources
 - **Data Source:** [2010_data](/Resources/data/2010_data.csv) | [2011_data](/Resources/data/2011_data.csv) | [2012_data](/Resources/data/2012_data.csv) | [2013_data](/Resources/data/2013_data.csv) | [2014_data](/Resources/data/2014_data.csv) | [2015_data](/Resources/data/2015_data.csv) | [2016_data](/Resources/data/2016_data.csv) | [2017_data](/Resources/data/2017_data.csv) | [2018_data](/Resources/data/2018_data.csv) | [population_data](/Resources/data/population_data.csv) | [migration_2010](/Resources/data/migration_2010.csv) | [migration_2011](/Resources/data/migration_2011.csv) | [migration_2012](/Resources/data/migration_2012.csv) | [migration_2013](/Resources/data/migration_2013.csv) | [migration_2014](/Resources/data/migration_2014.csv) | [migration_2015](/Resources/data/migration_2015.csv) | [migration_2016](/Resources/data/migration_2016.csv) | [migration_2017](/Resources/data/migration_2017.csv) | [migration_2018](/Resources/data/migration_2018.csv) |  [zillow_data](/Resources/data/zillow_data.csv)  
@@ -205,10 +213,6 @@ In our dataset, there are **no** rows that have null data points. Using the dupl
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 Rather than remove columns we feel were **not** relavant to our analysis, we filtered the columns.  
 
@@ -244,6 +248,10 @@ The data now needs to be transformed back into a more user-friendly format. We c
 We had to perform all these steps on all our datasets. We kept the procees consist, not only, for us to be able to easily concatenate the years, but to have a meaningul analysis.  
 
 The migration datsets were, also, done similarly. The most predominant change was having to add a line of code to remove the commas from the number values in order to be able to make them floats.  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Machine Learning Model
 **Description of feature engineering and the feature selection, including the team’s decision-making process**  
@@ -301,8 +309,16 @@ Support is the number of actual occurrences of the class in the specified datase
 In summary, this model is good at predicting good housing cost. The model's accuracy of is high at **0.9744**, the precision and F1 score are good enough to state that the model will be good at classifying good housing cost.
 
 **How does the model address the question or problem the team is solving.**  
+<br/>
+<br/>
+<br/>
+<br/>
 
-### Description of the analysis phase of the project
+### Description of the analysis phase of the project  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Database Integration  
 **Our final segment includes a fully integrated database, with the following features:**
@@ -311,23 +327,43 @@ In summary, this model is good at predicting good housing cost. The model's accu
 - Includes at least two tables (or collections if using MongoDB)
 - Includes at least one join using the database language (not including any joins in Pandas)
 - Includes at least one connection string (using SQLAlchemy or PyMongo)
-- Important If you use a SQL database, you must provide your Entity Relationship Diagram (ERD) with relationships.    
+- Important If you use a SQL database, you must provide your Entity Relationship Diagram (ERD) with relationships.  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Recommendation
-**Recommendation for future analysis**   
+**Recommendation for future analysis**  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Limitations  
 **Anything the team would have done differently**  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Dashboard
 The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:
 - Images from the initial analysis
 - Data (images or report) from the machine learning task
 - At least one interactive element
-- Either the dashboard is published or the submission includes a screen capture video of it in action
+- Either the dashboard is published or the submission includes a screen capture video of it in action  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Presentation  
 The presentation can be found in [Google Slides](https://docs.google.com/presentation/d/14h7wNLqN1Vh8AVsPMiOpv18YU4jbhMqiKdh0yhPtdns/edit?usp=sharing)  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Sources  
 ### Description of the source of data  
@@ -379,7 +415,11 @@ DBD created at :
 **Code pictures** were screenshots of:  
 - Line x of [.ipynb]()  
 - Line x of [.ipynb]()  
-- Line x of [.ipynb]()
+- Line x of [.ipynb]()  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Communication Protocols  
 It is important to establish a communication protocol. We created direct messages for only team members in Slack at [final-project-jas](https://ucbdatasept19.slack.com/archives/CTXNA5K5G) and exchanged cell phone numbers where we created a group-text.  
