@@ -317,9 +317,13 @@ In this section, we used Scikit-learn’s StandardScaler module to scale data. T
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-**Models’ performance**  
-The results show that:  
+### **Models’ performance**  
+**The results show that:**  
 Out of 113 good housing cost (Actual 0), 112 were predicted to be good (Predicted 0), which we call true positives.  
 Out of 113 good housing cost (Actual 0), 1 was predicted to be bad (Predicted 1), which is considered a false negative. 
 Out of 4 bad housing cost (Actual 1), 2 was predicted to be good (Predicted 0) and are considered false positives.  
