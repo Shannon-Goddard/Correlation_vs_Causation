@@ -119,57 +119,65 @@ The first roadblock our team encountered was lack of data for our origional mach
 First, we account for the data we have. We use the columns method and output the columns.  
 
 <img align="right" width="900" src="/pics/columns.png"><br/>
- 
-
+<br/>
+<br/>
+<br/>
+<br/>  
 
 Our output of column titles does **not** let us know what data we have. Scrolling back to the dataframe we can see the first row has the column description.  
 
-
 <img align="left" width="900" src="/pics/df.png"><br/>
-
-
+<br/>
+<br/>
+<br/>
+<br/>  
 
 We refered back to the Excel file and expanded the cells to get the full description of the column values.  
 
-
 <img align="left" width="900" src="/pics/excel.png"><br/>
-
-
+<br/>
+<br/>
+<br/>
+<br/>  
 
 **What type of data is available?**  
 Using the dtypes method, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
 
-
 <img align="left" width="900" src="/pics/dtypes.png"><br/>
- 
-
+<br/>
+<br/>
+<br/>
+<br/>  
 
 Our data is all Objects and needs to be converted to a numeric data type.  
-
 
 **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
 
 <img align="left" width="900" src="/pics/null_values.png"><br/>
-
-
+<br/>
+<br/>
+<br/>
+<br/>  
 
 **What data can be removed?**  
 We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
 
 In our dataset, there are **no** rows that have null data points. Using the duplicated().sum() method, we, also, saw our dataset did **not** have any duplicates.  
 
-
 <img align="left" width="900" src="/pics/duplicate.png"><br/>
-
-
+<br/>
+<br/>
+<br/>
+<br/>  
 
 Rather than remove columns we feel were **not** relavant to our analysis, we filtered the columns.  
 
-
 <img align="left" width="900" src="/pics/filter.png"><br/>
-
-
+<br/>
+<br/>
+<br/>
+<br/>  
 
 ### Description of data preprocessing  
 Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:
@@ -214,7 +222,9 @@ Limitations to us using a random forest model are, random forest models will onl
 In this section, we used Scikit-learn’s StandardScaler module to scale data. The model -> fit -> predict/transform workflow is also used when scaling data. The standard scaler standardizes the data. This means, all our numerical columns will now have a mean of 0 and a standard deviation of 1, reducing the likelihood that large values will unduly influence our model.
 
 **Description and explanation of model’s confusion matrix, including final accuracy score**  
-<img align="left" width="900" src="/pics/confusion_matrix.png"><br/>  
+<img align="left" width="900" src="/pics/confusion_matrix.png"><br/>
+<br/>
+<br/>  
 
 **Models’ performance**  
 The results show that:  
