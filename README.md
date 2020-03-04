@@ -119,21 +119,21 @@ The first roadblock our team encountered was lack of data for our origional mach
 First, we account for the data we have. We use the columns method and output the columns.  
 
 <img align="right" width="900" src="/pics/columns.png"><br/>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)  
+ 
 
 
 Our output of column titles does **not** let us know what data we have. Scrolling back to the dataframe we can see the first row has the column description.  
 
 
 <img align="left" width="900" src="/pics/df.png"><br/>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
+
 
 
 We refered back to the Excel file and expanded the cells to get the full description of the column values.  
 
 
 <img align="left" width="900" src="/pics/excel.png"><br/>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; File can be found in Resources/data/[2010_data.csv](Resources/data/2010_data.csv)
+
 
 
 **What type of data is available?**  
@@ -141,7 +141,7 @@ Using the dtypes method, we confirm the data type, which also will alert us if a
 
 
 <img align="left" width="900" src="/pics/dtypes.png"><br/>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)  
+ 
 
 
 Our data is all Objects and needs to be converted to a numeric data type.  
@@ -151,7 +151,7 @@ Our data is all Objects and needs to be converted to a numeric data type.
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
 
 <img align="left" width="900" src="/pics/null_values.png"><br/>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
+
 
 
 **What data can be removed?**  
@@ -161,14 +161,14 @@ In our dataset, there are **no** rows that have null data points. Using the dupl
 
 
 <img align="left" width="900" src="/pics/duplicate.png"><br/>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
+
 
 
 Rather than remove columns we feel were **not** relavant to our analysis, we filtered the columns.  
 
 
 <img align="left" width="900" src="/pics/filter.png"><br/>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
+
 
 
 **Description of data preprocessing**  
@@ -198,17 +198,20 @@ Machine learning is the use of statistical algorithms to perform tasks such as l
 
 We decided to do **supervised learning**, which deals with labeled data. This supervised learning will be to predict, based on data from the census, whether it's time to leave California.  
 
-We, also, decided to do **unsupervised learning**, by contrast, machine learning algorithms work with datasets without labeled outcomes. In supervised learning, the labels provide the correct answers. In unsupervised learning, such correct answers, or labels, aren’t provided. Our analysis of unsupervised learning will be to task a machine learning algorithm with grouping housing cost. The algorithm isn’t given labels, so it’s on its own to find patterns. In our case, we hope it will find a trend that will allow us to predict future housing cost.  
-
 **Description of how data was split into training and testing sets**  
-The models use the training dataset to learn from it. It then uses the testing dataset to assess its performance. If you use your entire dataset to train the model, you won’t know how well the model will perform when it encounters unseen data. That is why it’s important to set aside a portion of your dataset to evaluate your model.
+The model uses the training dataset to learn from it. It then uses the testing dataset to assess its performance. If you use your entire dataset to train the model, you won’t know how well the model will perform when it encounters unseen data. That is why it’s important to set aside a portion of your dataset to evaluate your model.  
 
 **Explanation of model choice, including limitations and benefits**  
-We used linear regression, for our unsupervised learning, to predict continuous variables. For our analysis, we’re interested in predicting housing cost. To accomplish this task, we collected housing data on all the states from 2010 through 2018. The regression model’s algorithms will attempt to learn patterns that exist among all the factors. If presented with the data of a new year, the model would make a prediction of the states housing cost, based on previously learned patterns from the dataset.
+We chose to use a random forest classifier. Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision.  
+
+Benifits to us using a random forest model are both output and feature selection are easy to interpret, and they can easily handle outliers and nonlinear data.  
+
+Limitations to us using a random forest model are, random forest models will only handle tabular data, so data such as images or natural language data cannot be used in a random forest without heavy modifications to the data.
 
 **Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)**
 
-**Description of how the model was trained (or retrained if the team used an existing model)**
+**Description of how the model was trained (or retrained if the team used an existing model)**  
+In this section, we used Scikit-learn’s StandardScaler module to scale data. The model -> fit -> predict/transform workflow is also used when scaling data. The standard scaler standardizes the data. This means, all our numerical columns will now have a mean of 0 and a standard deviation of 1, reducing the likelihood that large values will unduly influence our model.
 
 **Description and explanation of model’s confusion matrix, including final accuracy score**  
 Models’ performance  
@@ -216,7 +219,24 @@ The results show that:
 Out of  good housing cost (Actual 0), 3 were predicted to be good (Predicted 0), which we call true positives.  
 Out of  good housing cost (Actual 0), 0 were predicted to be bad (Predicted 1), which are considered false negatives. 
 Out of  bad housing cost (Actual 1), 0 was predicted to be good (Predicted 0) and are considered false positives.  
-Out of  bad housing cost (Actual 1), 22 were predicted to be bad (Predicted 1) and are considered true negatives. 
+Out of  bad housing cost (Actual 1), 22 were predicted to be bad (Predicted 1) and are considered true negatives.  
+
+Precision  
+Precision is the measure of how reliable a positive classification is. From our results, the precision for the good housing cost can be determined by the ratio TP/(TP + FP), which is . The precision for the bad housing cost can be determined as follows: . A low precision is indicative of a large number of false positives—of the housing cost we predicted to be bad housing cost,  were actually good housing cost.  
+
+Recall scores
+Recall is the ability of the classifier to find all the positive samples. It can be determined by the ratio: TP/(TP + FN), or  for the good housing cost and for the bad housing cost. A low recall is indicative of a large number of false negatives.  
+
+Balanced accuracy score
+An accuracy score is not always an appropriate or a meaningful performance metric. This program’s accuracy score appears to be okay at  
+F1 score
+F1 score is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0.  
+
+Support
+Support is the number of actual occurrences of the class in the specified dataset. For our results, there are actual occurrences for the good housing cost and actual occurrences for bad housing cost.  
+
+Recommendation on the model to use:  
+In summary, this model is good at predicting good housing cost. The model's accuracy of is high, the precision and F1 score are  to state that the model will be good at classifying fraudulent loan applications.
 
 **How does the model address the question or problem the team is solving.**  
 
