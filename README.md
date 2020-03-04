@@ -209,16 +209,10 @@ In our dataset, there are **no** rows that have null data points. Using the dupl
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 Rather than remove columns we feel were **not** relavant to our analysis, we filtered the columns.  
 
 <img align="left" width="900" src="/pics/filter.png"><br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
