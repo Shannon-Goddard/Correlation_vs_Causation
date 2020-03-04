@@ -142,7 +142,7 @@ Our data is all Objects and needed to be converted to a numeric data type.
 **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
 
-<img align="left" width="250" src="/pics/null_values.png"><br/>
+<img align="left" width="900" src="/pics/null_values.png"><br/>
 Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
 
 **What data can be removed?**  
@@ -157,7 +157,7 @@ df = df.dropna()
 
 Duplicates were also be removed using the duplicated().sum() method.  
 
-<img align="left" width="250" src="/pics/duplicate.png"><br/>
+<img align="left" width="900" src="/pics/duplicate.png"><br/>
 Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
 
 To remove columns we used:  
