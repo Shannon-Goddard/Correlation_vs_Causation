@@ -173,13 +173,12 @@ Using the dtypes method, we confirm the data type, which also will alert us if a
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 Our data is all Objects and needs to be converted to a numeric data type.  
+<br/>
+<br/>
+<br/>
+<br/>
 
 **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
