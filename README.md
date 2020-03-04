@@ -111,6 +111,22 @@ With California being the targeted data, we wanted to compare all the other stat
 **Data Selection**  
 Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.  
 
+ 
+
+<img align="left" width="250" src="/pics/excel.png"><br/>  
+
+<img align="left" width="250" src="/pics/df.png"><br/>  
+
+<img align="left" width="250" src="/pics/null_values.png"><br/>  
+
+  
+
+<img align="left" width="250" src="/pics/duplicate.png"><br/>  
+
+<img align="left" width="250" src="/pics/dtypes.png"><br/>
+
+
+
 **Obstructions to progress**  
 The first roadblock our team encountered was lack of data for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
 
@@ -122,9 +138,8 @@ df.columns
 
 **What type of data is available?**  
 Using the dtypes method, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
-
-# List dataframe data types  
-df.dtypes  
+<img align="left" width="250" src="/pics/columns.png">  
+Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
 
 **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
