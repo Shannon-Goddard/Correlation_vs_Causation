@@ -134,10 +134,10 @@ File can be found in Resources/data/[2010_data.csv](Resources/data/2010_data.csv
 **What type of data is available?**  
 Using the dtypes method, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
 
-<img align="left" width="900" src="/pics/dtypes.png">
+<img align="left" width="900" src="/pics/dtypes.png"><br/>
 Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)  
 
-Our data is, almost, all Objects and needed to be converted to numeric.  
+Our data is all Objects and needed to be converted to numeric.  
 
 **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
