@@ -121,23 +121,31 @@ First, we account for the data we have. We use the columns method and output the
 <img align="right" width="900" src="/pics/columns.png"><br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)  
 
+
 Our output of column titles does **not** let us know what data we have. Scrolling back to the dataframe we can see the first row has the column description.  
+
 
 <img align="left" width="900" src="/pics/df.png"><br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
 
+
 We refered back to the Excel file and expanded the cells to get the full description of the column values.  
+
 
 <img align="left" width="900" src="/pics/excel.png"><br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; File can be found in Resources/data/[2010_data.csv](Resources/data/2010_data.csv)
 
+
 **What type of data is available?**  
 Using the dtypes method, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
+
 
 <img align="left" width="900" src="/pics/dtypes.png"><br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)  
 
-Our data is all Objects and needed to be converted to a numeric data type.  
+
+Our data is all Objects and needs to be converted to a numeric data type.  
+
 
 **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
@@ -145,18 +153,23 @@ Next, we see if any data is missing. Unsupervised learning models can’t handle
 <img align="left" width="900" src="/pics/null_values.png"><br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
 
+
 **What data can be removed?**  
-We have begun to explore the data and have taken a look at null values. Next, determine if the data can be removed. Consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
+We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. Consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
 
 In our dataset, there are **no** rows that have null data points. Using the duplicated().sum() method, we, also, saw our dataset did **not** have any duplicates.  
+
 
 <img align="left" width="900" src="/pics/duplicate.png"><br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
 
+
 Rather than remove columns we feel were **not** relavant to our analysis, we filtered the columns.  
+
 
 <img align="left" width="900" src="/pics/filter.png"><br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Code can be found in [census_2010.ipynb](Notebook/census_2010.ipynb)
+
 
 **Description of data preprocessing**  
 Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:
@@ -165,18 +178,19 @@ Data processing involves organizing the data by formatting, cleaning, and sampli
 - Values are scaled. In other words, data has been manipulated to ensure that the variance between the numbers won’t skew results.  
 
 **Is the data in a format that can be passed into an unsupervised learning model?**
-We saw that all our data had the incorrect type for each column. We had to use [pandas.to_numeric](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html) to convert our arguments to a numeric type. Also, we know that our model can’t have strings passed into it.  
-
-To make sure we could use our string data, we transformed our strings of Region values in population data to 1, 2, 3, 4. We did this by creating a function that converts Northeast Region to 1, Midwest Region to 2, South Region to 3, West Region to 4, and anything else to 0. The function was then ran on the whole column with the .apply method.  
+We saw that all our data had the incorrect type for each column. We had to use [pandas.to_numeric](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html) to convert our arguments to a numeric type. Also, we know that our model can’t have strings passed into it. The only string value left is the name of the states. 
 
 In our dataset on states housing cost, The scale for Median Income and Median Home Value is much larger than all the other values in the dataset. We adjusted this format by dividing by 1,000 to rescale those data points.  
 
 **Data Transformation**
-Data transformation involves thinking about the future. More times than not, there will be new data coming into your data storage (a place where raw data is stored before being touched), with many people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.  
+Data transformation involves thinking about the future. More times than not, there will be new data coming into our data storage, with three people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.  
 
 **Can I quickly hand off this data for others to use?**
-The data now needs to be transformed back into a more user-friendly format. We converted the final products into a common data type CSV files. With our data being cleaned and processed, it is ready to be converted to a readable format for future use.  
+The data now needs to be transformed back into a more user-friendly format. We converted the final products into common data type(CSV) files. With our data being cleaned and processed, it is ready to be converted to a readable format for future use.  
 
+We had to perform all these steps on all our datasets. We kept the procees consist, not only, for us to be able to easily concatenate the years, but to have a meaningul analysis.  
+
+The migration datsets were, also, done similarly. The most predominant change was having to add a line of code to remove the commas from the number values in order to be able to make them floats.  
 
 ### Machine Learning Model
 **Description of feature engineering and the feature selection, including the team’s decision-making process**
