@@ -270,10 +270,10 @@ We saw that all our data had the incorrect type for each column. We had to use [
 
 In our dataset on states housing cost, The scale for Median Income and Median Home Value is much larger than all the other values in the dataset. We adjusted this format by dividing by 1,000 to rescale those data points.  
 
-**Data Transformation**
+**Data Transformation**  
 Data transformation involves thinking about the future. More times than not, there will be new data coming into our data storage, with three people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.  
 
-**Can I quickly hand off this data for others to use?**
+**Can I quickly hand off this data for others to use?**  
 The data now needs to be transformed back into a more user-friendly format. We converted the final products into common data type(CSV) files. With our data being cleaned and processed, it is ready to be converted to a readable format for future use.  
 
 We had to perform all these steps on all our datasets. We kept the procees consist, not only, for us to be able to easily concatenate the years, but to have a meaningul analysis.  
