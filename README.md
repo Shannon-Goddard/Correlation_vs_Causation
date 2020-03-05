@@ -151,15 +151,15 @@ With California being the targeted data, we wanted to compare it to all the othe
 <br/>
 <br/>  
 
-### Description of the data exploration phase of the project  
-##### **Data Selection**  
-Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.  
+## Description of the data exploration phase of the project  
+### **Data Selection**  
+**Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.**  
 
 ##### **Obstructions to progress**  
 The first roadblock our team encountered was lack of data, from our data selection, for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
 
 ##### **What data is available?**  
-First, we account for the data we have. We use the columns method and output the columns.  
+First, we account for the data we have. We use the **columns method** and output the columns.  
 
 <img align="right" width="900" src="/pics/columns.png"><br/>
 <br/>
@@ -173,7 +173,7 @@ First, we account for the data we have. We use the columns method and output the
 <br/>
 <br/>
 
-Our output of column titles does **not** let us know what data we have. Scrolling back to the dataframe we can see the first row has the column description.  
+Our output of column titles does **not** let us know what data we have. The output shows codes. Scrolling back to the dataframe we can see the first row has the column description.  
 
 <img align="left" width="900" src="/pics/df.png"><br/>
 <br/>
@@ -206,7 +206,7 @@ We refered back to the Excel file and expanded the cells to get the full descrip
 <br/>
 
 ##### **What type of data is available?**  
-Using the dtypes method, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
+Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
 
 <img align="left" width="900" src="/pics/dtypes.png"><br/>
 <br/>
@@ -217,14 +217,14 @@ Using the dtypes method, we confirm the data type, which also will alert us if a
 <br/>
 <br/>
 
-Our data is all Objects and needs to be converted to a numeric data type.  
+Our data is all **Objects** and needs to be converted to a **numeric** data type.  
 <br/>
 <br/>
 <br/>
 <br/>
 
 ##### **What data is missing?**  
-Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
+Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the **isnull() method** to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
 
 <img align="left" width="900" src="/pics/null_values.png"><br/>
 <br/>
@@ -236,12 +236,14 @@ Next, we see if any data is missing. Unsupervised learning models can’t handle
 <br/>
 <br/>
 <br/>
-<br/>
+<br/>  
+
+We can, easily, read through our output and see there are **no** null values in our dataset.
 
 ##### **What data can be removed?**  
 We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
 
-In our dataset, there are **no** rows that have null data points. Using the duplicated().sum() method, we, also, saw our dataset did **not** have any duplicates.  
+In our dataset, there are **no** rows that have null data points. Using the **duplicated().sum() method**, we, also, saw our dataset did **not** have duplicates.  
 
 <img align="left" width="900" src="/pics/duplicate.png"><br/>
 <br/>
@@ -249,7 +251,7 @@ In our dataset, there are **no** rows that have null data points. Using the dupl
 <br/>
 <br/>
 
-Rather than remove columns we feel were **not** relavant to our analysis, we filtered the columns.  
+With uncertainty of what housing data would be of value for our analysis, we went the safe route and only removed the **Margin of Error!!VALUE!!** columns. Those columns represented a margin of error for each statistic given. We felt,they would not serve a purpose for our, specific, analysis. Maybe, a complimentary analysis giving a margin of error for our analysis, at a later time. For now, we used **pandas.DataFrame.filter** to remove those columns from our dataframe.  
 
 <img align="left" width="900" src="/pics/filter.png"><br/>
 <br/>
@@ -267,7 +269,7 @@ Rather than remove columns we feel were **not** relavant to our analysis, we fil
 <br/>
 <br/>
 
-### Description of data preprocessing  
+### Data Preprocessing  
 **Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:**
 - Null values are handled.
 - Only numerical data is used.
@@ -280,8 +282,8 @@ In our dataset on states housing cost, The scale for Median Income and Median Ho
 <br/>
 <br/>
 
-##### **Data Transformation**  
-Data transformation involves thinking about the future. More times than not, there will be new data coming into our data storage, with three people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.  
+### **Data Transformation**  
+**Data transformation involves thinking about the future. More times than not, there will be new data coming into our data storage, with three people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.**  
 <br/>
 <br/>
 
