@@ -327,22 +327,32 @@ In this section, we used Scikit-learn’s StandardScaler module to scale data. T
 - Out of **4** bad housing cost (Actual 1), **2** was predicted to be good (Predicted 0) and are considered false positives.  
 - Out of **4** bad housing cost (Actual 1), **2** were predicted to be bad (Predicted 1) and are considered true negatives.  
 <br/>
-<br/>
+<br/>  
 
 ##### **Precision**  
-Precision is the measure of how reliable a positive classification is. From our results, the precision for the good housing cost can be determined by the ratio **TP/(TP + FP)**, which is **112/(112 + 2) = .9825**. The precision for the bad housing cost can be determined as follows: **2/(2 + 1) = .6667**. A low precision is indicative of a large number of false positives—of the 3 housing cost we predicted to be bad housing cost,  1 was actually a good housing cost.  
+Precision is the measure of how reliable a positive classification is. From our results, the precision for the good housing cost can be determined by the ratio **TP/(TP + FP)**, which is **112/(112 + 2) = .9825**. The precision for the bad housing cost can be determined as follows: **2/(2 + 1) = .6667**. A low precision is indicative of a large number of false positives—of the 3 housing cost we predicted to be bad housing cost,  1 was actually a good housing cost.
+<br/>
+<br/>  
 
 ##### **Recall scores**  
-Recall is the ability of the classifier to find all the positive samples. It can be determined by the ratio: TP/(TP + FN), or  for the good housing cost **112/(112 + 1) = .9912** and for the bad housing cost **2/(2 + 2) = .5**. A low recall is indicative of a large number of false negatives.  
+Recall is the ability of the classifier to find all the positive samples. It can be determined by the ratio: TP/(TP + FN), or  for the good housing cost **112/(112 + 1) = .9912** and for the bad housing cost **2/(2 + 2) = .5**. A low recall is indicative of a large number of false negatives.
+<br/>
+<br/>  
 
 ##### **Balanced accuracy score**  
-An accuracy score is not always an appropriate or a meaningful performance metric. This program’s accuracy score appears to be great at **0.9744**.  
+An accuracy score is not always an appropriate or a meaningful performance metric. This program’s accuracy score appears to be great at **0.9744**.
+<br/>
+<br/>  
 
 ##### **F1 score**  
-F1 score is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0.  
+F1 score is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0.
+<br/>
+<br/>  
 
 ##### **Support**  
-Support is the number of actual occurrences of the class in the specified dataset. For our results, there are **113** actual occurrences for the good housing cost and **4** actual occurrences for bad housing cost.  
+Support is the number of actual occurrences of the class in the specified dataset. For our results, there are **113** actual occurrences for the good housing cost and **4** actual occurrences for bad housing cost.
+<br/>
+<br/>  
 
 ##### **Recommendation on the model to use:**  
 In summary, this model is good at predicting good housing cost. The model's accuracy of is high at **0.9744**, the precision and F1 score are good enough to state that the model will be good at classifying good housing cost.  
