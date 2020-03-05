@@ -1,4 +1,6 @@
- [![news](/pics/header.png)](/vids/News_vid.mp4?raw=true)  
+  
+  <br/>
+  <br/>[![news](/pics/header.png)](/vids/News_vid.mp4?raw=true)  
  
 #### Table of Contents  
 
@@ -293,24 +295,38 @@ The migration datsets were, also, done similarly. The most predominant change wa
 Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions. There are many different models; a mathematical representation of something that happens in the real world. Machine learning can be divided into three learning categories: supervised, unsupervised, and deep.  
 
 We decided to do **supervised learning**, which deals with labeled data. This supervised learning will be to predict, based on data from the census, whether it's time to leave California.  
+<br/>
+<br/>
 
 **Description of how data was split into training and testing sets**  
 The model uses the training dataset to learn from it. It then uses the testing dataset to assess its performance. If you use your entire dataset to train the model, you won’t know how well the model will perform when it encounters unseen data. That is why it’s important to set aside a portion of your dataset to evaluate your model.  
+<br/>
+<br/>
 
 **Explanation of model choice, including limitations and benefits**  
 We chose to use a random forest classifier. Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision.  
 
 Benifits to us using a random forest model are both output and feature selection are easy to interpret, and they can easily handle outliers and nonlinear data.  
 
-Limitations to us using a random forest model are, random forest models will only handle tabular data, so data such as images or natural language data cannot be used in a random forest without heavy modifications to the data.
+Limitations to us using a random forest model are, random forest models will only handle tabular data, so data such as images or natural language data cannot be used in a random forest without heavy modifications to the data.  
+<br/>
+<br/>
 
-**Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)**
+**Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)**  
+<br/>
+<br/>
 
 **Description of how the model was trained (or retrained if the team used an existing model)**  
-In this section, we used Scikit-learn’s StandardScaler module to scale data. The model -> fit -> predict/transform workflow is also used when scaling data. The standard scaler standardizes the data. This means, all our numerical columns will now have a mean of 0 and a standard deviation of 1, reducing the likelihood that large values will unduly influence our model.
+In this section, we used Scikit-learn’s StandardScaler module to scale data. The model -> fit -> predict/transform workflow is also used when scaling data. The standard scaler standardizes the data. This means, all our numerical columns will now have a mean of 0 and a standard deviation of 1, reducing the likelihood that large values will unduly influence our model.  
+<br/>
+<br/>
 
 **Description and explanation of model’s confusion matrix, including final accuracy score**  
 <img align="left" width="900" src="/pics/confusion_matrix.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
