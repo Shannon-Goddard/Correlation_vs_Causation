@@ -140,6 +140,9 @@ With California being the targeted data, we wanted to compare it to all the othe
 
 ## Summary  
 - Description of the data exploration phase of the project  
+ - Data selection  
+ - Data processing  
+ -Data transformation
 - Machine Learning Model   
 - Database Integration  
 - Description of the analysis phase of the project  
@@ -149,13 +152,13 @@ With California being the targeted data, we wanted to compare it to all the othe
 <br/>  
 
 ### Description of the data exploration phase of the project  
-**Data Selection**  
+##### **Data Selection**  
 Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.  
 
-**Obstructions to progress**  
-The first roadblock our team encountered was lack of data for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
+##### **Obstructions to progress**  
+The first roadblock our team encountered was lack of data, from our data selection, for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
 
-**What data is available?**  
+##### **What data is available?**  
 First, we account for the data we have. We use the columns method and output the columns.  
 
 <img align="right" width="900" src="/pics/columns.png"><br/>
@@ -202,7 +205,7 @@ We refered back to the Excel file and expanded the cells to get the full descrip
 <br/>
 <br/>
 
-**What type of data is available?**  
+##### **What type of data is available?**  
 Using the dtypes method, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
 
 <img align="left" width="900" src="/pics/dtypes.png"><br/>
@@ -220,7 +223,7 @@ Our data is all Objects and needs to be converted to a numeric data type.
 <br/>
 <br/>
 
-**What data is missing?**  
+##### **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the isnull() method to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total.  
 
 <img align="left" width="900" src="/pics/null_values.png"><br/>
@@ -235,7 +238,7 @@ Next, we see if any data is missing. Unsupervised learning models can’t handle
 <br/>
 <br/>
 
-**What data can be removed?**  
+##### **What data can be removed?**  
 We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
 
 In our dataset, there are **no** rows that have null data points. Using the duplicated().sum() method, we, also, saw our dataset did **not** have any duplicates.  
@@ -265,24 +268,24 @@ Rather than remove columns we feel were **not** relavant to our analysis, we fil
 <br/>
 
 ### Description of data preprocessing  
-Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:
+**Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:**
 - Null values are handled.
 - Only numerical data is used.
 - Values are scaled. In other words, data has been manipulated to ensure that the variance between the numbers won’t skew results.  
 
-**Is the data in a format that can be passed into an unsupervised learning model?**  
+##### **Is the data in a format that can be passed into an unsupervised learning model?**  
 We saw that all our data had the incorrect type for each column. We had to use [pandas.to_numeric](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html) to convert our arguments to a numeric type. Also, we know that our model can’t have strings passed into it. The only string value left is the name of the states. 
 
 In our dataset on states housing cost, The scale for Median Income and Median Home Value is much larger than all the other values in the dataset. We adjusted this format by dividing by 1,000 to rescale those data points.  
 <br/>
 <br/>
 
-**Data Transformation**  
+##### **Data Transformation**  
 Data transformation involves thinking about the future. More times than not, there will be new data coming into our data storage, with three people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.  
 <br/>
 <br/>
 
-**Can I quickly hand off this data for others to use?**  
+##### **Can I quickly hand off this data for others to use?**  
 The data now needs to be transformed back into a more user-friendly format. We converted the final products into common data type(CSV) files. With our data being cleaned and processed, it is ready to be converted to a readable format for future use.  
 
 We had to perform all these steps on all our datasets. We kept the procees consist, not only, for us to be able to easily concatenate the years, but to have a meaningul analysis.  
