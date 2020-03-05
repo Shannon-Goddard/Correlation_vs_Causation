@@ -64,10 +64,10 @@ The project roadmap and description of all the project deliverables can be found
 
 ##### The main reason was the high cost of housing, but high taxes and political culture were also big reasons voters considered leaving.  
 
-###### Author: **Eric Escalante**  
-###### Published: **5:30 PM PST November 5, 2019**  
-###### Updated: **12:38 PM PST November 11, 2019**  
-##### Full article can be found at [abc10.com](https://www.abc10.com/article/news/local/california/691000-leave-california/103-e02662aa-dfae-46b2-b94a-f20158053e60)  
+###### &nbsp; &nbsp; &nbsp; &nbsp;  Author: **Eric Escalante**  
+###### &nbsp; &nbsp; &nbsp; &nbsp;  Published: **5:30 PM PST November 5, 2019**  
+###### &nbsp; &nbsp; &nbsp; &nbsp;  Updated: **12:38 PM PST November 11, 2019**  
+###### &nbsp; &nbsp; &nbsp; &nbsp;  Full article can be found at [abc10.com](https://www.abc10.com/article/news/local/california/691000-leave-california/103-e02662aa-dfae-46b2-b94a-f20158053e60)  
 <br/>
 <br/>
 <br/>
