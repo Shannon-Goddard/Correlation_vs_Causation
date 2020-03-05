@@ -107,8 +107,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 <br/>
 
 ## Resources  
-- **Data Source:**  
-######## [2010_data](/Resources/data/2010_data.csv) | [2011_data](/Resources/data/2011_data.csv) | [2012_data](/Resources/data/2012_data.csv) | [2013_data](/Resources/data/2013_data.csv) | [2014_data](/Resources/data/2014_data.csv) | [2015_data](/Resources/data/2015_data.csv) | [2016_data](/Resources/data/2016_data.csv) | [2017_data](/Resources/data/2017_data.csv) | [2018_data](/Resources/data/2018_data.csv) | [population_data](/Resources/data/population_data.csv) | [migration_2010](/Resources/data/migration_2010.csv) | [migration_2011](/Resources/data/migration_2011.csv) | [migration_2012](/Resources/data/migration_2012.csv) | [migration_2013](/Resources/data/migration_2013.csv) | [migration_2014](/Resources/data/migration_2014.csv) | [migration_2015](/Resources/data/migration_2015.csv) | [migration_2016](/Resources/data/migration_2016.csv) | [migration_2017](/Resources/data/migration_2017.csv) | [migration_2018](/Resources/data/migration_2018.csv) |  [zillow_data](/Resources/data/zillow_data.csv)  
+- **Data Source:** [2010_data](/Resources/data/2010_data.csv) | [2011_data](/Resources/data/2011_data.csv) | [2012_data](/Resources/data/2012_data.csv) | [2013_data](/Resources/data/2013_data.csv) | [2014_data](/Resources/data/2014_data.csv) | [2015_data](/Resources/data/2015_data.csv) | [2016_data](/Resources/data/2016_data.csv) | [2017_data](/Resources/data/2017_data.csv) | [2018_data](/Resources/data/2018_data.csv) | [population_data](/Resources/data/population_data.csv) | [migration_2010](/Resources/data/migration_2010.csv) | [migration_2011](/Resources/data/migration_2011.csv) | [migration_2012](/Resources/data/migration_2012.csv) | [migration_2013](/Resources/data/migration_2013.csv) | [migration_2014](/Resources/data/migration_2014.csv) | [migration_2015](/Resources/data/migration_2015.csv) | [migration_2016](/Resources/data/migration_2016.csv) | [migration_2017](/Resources/data/migration_2017.csv) | [migration_2018](/Resources/data/migration_2018.csv) |  [zillow_data](/Resources/data/zillow_data.csv)  
 <br/>
 <br/>
 <br/>
@@ -149,9 +148,17 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 ## Description of the data exploration phase of the project  
 ### **Data Selection**  
 **Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.**  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ##### **Obstructions to progress**  
 The first roadblock our team encountered was lack of data, from our data selection, for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ##### **What data is available?**  
 First, we account for the data we have. We use the **columns method** and output the columns.  
@@ -166,9 +173,14 @@ First, we account for the data we have. We use the **columns method** and output
 <br/>
 <br/>
 <br/>
+<br/>  
+Our output of column titles does **not** let us know what data we have. The output shows codes.  
+<br/>
+<br/>
+<br/>
 <br/>
 
-Our output of column titles does **not** let us know what data we have. The output shows codes. Scrolling back to the dataframe we can see the first row has the column description.  
+Scrolling back to the dataframe we can see the first row has the column description.  
 
 <img align="left" width="900" src="/pics/df.png"><br/>
 <br/>
@@ -233,7 +245,11 @@ Next, we see if any data is missing. Unsupervised learning models can’t handle
 <br/>
 <br/>  
 
-We can, easily, read through our output and see there are **no** null values in our dataset.
+We can, easily, read through our output and see there are **no** null values in our dataset.  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ##### **What data can be removed?**  
 We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
