@@ -174,8 +174,6 @@ Scrolling back to the dataframe we can see the first row has the column descript
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
 <br/>  
 
 We refered back to the Excel file and expanded the cells to get the full description of the column values.  
@@ -214,6 +212,12 @@ Next, we see if any data is missing. Unsupervised learning models can’t handle
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>  
 
 ##### **What data can be removed?**  
@@ -222,6 +226,12 @@ We have begun to explore the data and have taken a look at null values. Next, we
 In our dataset, there are **no** rows that have null data points. Using the **duplicated().sum() method**, we, also, saw our dataset did **not** have duplicates.  
 
 <img align="left" width="700" src="/pics/duplicate.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
