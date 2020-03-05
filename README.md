@@ -464,9 +464,9 @@ DBD created at :
 - [zerohedge.com](https://www.zerohedge.com/political/conservative-californians-leaving-droves-america-first-law-and-order-red-states)  
 
 **Code pictures** were screenshots of:  
-- Line x of [.ipynb]()  
-- Line x of [.ipynb]()  
-- Line x of [.ipynb]()  
+- [.ipynb]()  
+- [.ipynb]()  
+- [.ipynb]()  
 <br/>
 <br/>
 <br/>
