@@ -201,7 +201,6 @@ Using the **dtypes method**, we confirm the data type, which also will alert us 
 <br/>
 <br/>
 <br/>
-<br/>
 <br/>  
 
 ##### **What data is missing?**  
