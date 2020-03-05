@@ -146,7 +146,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 <br/>  
 
 ## Description of the data exploration phase of the project  
-### **Data Selection**  
+##### **Data Selection**  
 **Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.**  
 <br/>
 <br/>
