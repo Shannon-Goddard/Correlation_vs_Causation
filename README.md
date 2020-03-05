@@ -377,6 +377,7 @@ In summary, this model is good at predicting good housing cost. The model's accu
 - Includes at least one join using the database language (not including any joins in Pandas)
 - Includes at least one connection string (using SQLAlchemy or PyMongo)
 - Important If you use a SQL database, you must provide your Entity Relationship Diagram (ERD) with relationships.  
+<img align="left" width="900" src="/pics/sql.png"><br/>
 <br/>
 <br/>
 <br/>
