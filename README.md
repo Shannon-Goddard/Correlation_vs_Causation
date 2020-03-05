@@ -147,12 +147,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 
 ## Description of the data exploration phase of the project  
 ### **Data Selection**  
-**Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.**  
-<br/>
-<br/>
-<br/>
-<br/>
-
+###### **Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.**  
 ##### **Obstructions to progress**  
 The first roadblock our team encountered was lack of data, from our data selection, for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
 <br/>
