@@ -91,8 +91,6 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 ##### **We would like to perform analysis on the cost of housing in California that included**:  
 - Median Home Price
 - Median Household Income  
-  
-With California being the targeted data, we wanted to compare it to all the other states. 
 
 ##### **Questions the team hopes to answer with the data is:**  
 - What are the California median household prices in California expected to be in the next five years?  
@@ -112,8 +110,9 @@ With California being the targeted data, we wanted to compare it to all the othe
 <br/>
 <br/>
 
-## Resources
-#### - **Data Source:** [2010_data](/Resources/data/2010_data.csv) | [2011_data](/Resources/data/2011_data.csv) | [2012_data](/Resources/data/2012_data.csv) | [2013_data](/Resources/data/2013_data.csv) | [2014_data](/Resources/data/2014_data.csv) | [2015_data](/Resources/data/2015_data.csv) | [2016_data](/Resources/data/2016_data.csv) | [2017_data](/Resources/data/2017_data.csv) | [2018_data](/Resources/data/2018_data.csv) | [population_data](/Resources/data/population_data.csv) | [migration_2010](/Resources/data/migration_2010.csv) | [migration_2011](/Resources/data/migration_2011.csv) | [migration_2012](/Resources/data/migration_2012.csv) | [migration_2013](/Resources/data/migration_2013.csv) | [migration_2014](/Resources/data/migration_2014.csv) | [migration_2015](/Resources/data/migration_2015.csv) | [migration_2016](/Resources/data/migration_2016.csv) | [migration_2017](/Resources/data/migration_2017.csv) | [migration_2018](/Resources/data/migration_2018.csv) |  [zillow_data](/Resources/data/zillow_data.csv)  
+## Resources  
+- **Data Source:**  
+##### [2010_data](/Resources/data/2010_data.csv) | [2011_data](/Resources/data/2011_data.csv) | [2012_data](/Resources/data/2012_data.csv) | [2013_data](/Resources/data/2013_data.csv) | [2014_data](/Resources/data/2014_data.csv) | [2015_data](/Resources/data/2015_data.csv) | [2016_data](/Resources/data/2016_data.csv) | [2017_data](/Resources/data/2017_data.csv) | [2018_data](/Resources/data/2018_data.csv) | [population_data](/Resources/data/population_data.csv) | [migration_2010](/Resources/data/migration_2010.csv) | [migration_2011](/Resources/data/migration_2011.csv) | [migration_2012](/Resources/data/migration_2012.csv) | [migration_2013](/Resources/data/migration_2013.csv) | [migration_2014](/Resources/data/migration_2014.csv) | [migration_2015](/Resources/data/migration_2015.csv) | [migration_2016](/Resources/data/migration_2016.csv) | [migration_2017](/Resources/data/migration_2017.csv) | [migration_2018](/Resources/data/migration_2018.csv) |  [zillow_data](/Resources/data/zillow_data.csv)  
 <br/>
 <br/>
 <br/>
