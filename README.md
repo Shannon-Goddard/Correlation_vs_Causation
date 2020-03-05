@@ -148,11 +148,10 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 ## Description of the data exploration phase of the project  
 ### **Data Selection**  
 **Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.**  
+
 The first roadblock our team encountered was lack of data, from our data selection, for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
 <br/>
-<br/>
-<br/>
-<br/>
+<br/>  
 
 ##### **What data is available?**  
 First, we account for the data we have. We use the **columns method** and output the columns. Our output of column titles does **not** let us know what data we have. The output shows codes.  
@@ -167,11 +166,7 @@ First, we account for the data we have. We use the **columns method** and output
 <br/>
 <br/>
 <br/>
-<br/>    
-<br/>
-<br/>
-<br/>
-<br/>
+<br/>  
 
 Scrolling back to the dataframe we can see the first row has the column description.  
 
@@ -187,11 +182,7 @@ Scrolling back to the dataframe we can see the first row has the column descript
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<br/>  
 
 We refered back to the Excel file and expanded the cells to get the full description of the column values.  
 
@@ -207,11 +198,7 @@ We refered back to the Excel file and expanded the cells to get the full descrip
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<br/>  
 
 ##### **What type of data is available?**  
 Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type. Our data is all **Objects** and needs to be converted to a **numeric** data type.  
@@ -225,11 +212,7 @@ Using the **dtypes method**, we confirm the data type, which also will alert us 
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<br/>  
 
 ##### **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the **isnull() method** to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total. We can, easily, read through our output and see there are **no** null values in our dataset. 
@@ -246,11 +229,7 @@ Next, we see if any data is missing. Unsupervised learning models can’t handle
 <br/>
 <br/>  
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<br/>  
 
 ##### **What data can be removed?**  
 We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
@@ -275,11 +254,7 @@ With uncertainty of what housing data would be of value for our analysis, we wen
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<br/>  
 
 ### Data Preprocessing  
 **Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:**
