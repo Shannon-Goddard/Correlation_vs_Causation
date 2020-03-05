@@ -194,6 +194,10 @@ Scrolling back to the dataframe we can see the first row has the column descript
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 We refered back to the Excel file and expanded the cells to get the full description of the column values.  
 
@@ -210,9 +214,13 @@ We refered back to the Excel file and expanded the cells to get the full descrip
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ##### **What type of data is available?**  
-Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type.  
+Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type. Our data is all **Objects** and needs to be converted to a **numeric** data type.  
 
 <img align="left" width="900" src="/pics/dtypes.png"><br/>
 <br/>
@@ -222,8 +230,8 @@ Using the **dtypes method**, we confirm the data type, which also will alert us 
 <br/>
 <br/>
 <br/>
-
-Our data is all **Objects** and needs to be converted to a **numeric** data type.  
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
