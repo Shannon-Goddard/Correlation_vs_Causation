@@ -72,7 +72,7 @@ Full article can be found at [abc10.com](https://www.abc10.com/article/news/loca
 <br/>
 <br/>
 <br/>  
-
+<span style="color:gray; font-size: 80%; text-align: center;">Test Text</span>
 ### **Reason the topic was selected**  
 ##### **There are many articles written, like this one, about Califorian's leaving due to the high cost of living. The reason this topic was selected, with our group living in California, it's personal.**  
 
