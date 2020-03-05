@@ -163,7 +163,7 @@ The first roadblock our team encountered was lack of data, from our data selecti
 ##### **What data is available?**  
 First, we account for the data we have. We use the **columns method** and output the columns. Our output of column titles does **not** let us know what data we have. The output shows codes.  
 
-<img align="right" width="900" src="/pics/columns.png"><br/>
+<img align="right" width="700" src="/pics/columns.png"><br/>
 <br/>
 <br/>
 <br/>
@@ -181,7 +181,7 @@ First, we account for the data we have. We use the **columns method** and output
 
 Scrolling back to the dataframe we can see the first row has the column description.  
 
-<img align="left" width="900" src="/pics/df.png"><br/>
+<img align="left" width="700" src="/pics/df.png"><br/>
 <br/>
 <br/>
 <br/>
@@ -201,7 +201,7 @@ Scrolling back to the dataframe we can see the first row has the column descript
 
 We refered back to the Excel file and expanded the cells to get the full description of the column values.  
 
-<img align="left" width="900" src="/pics/excel.png"><br/>
+<img align="left" width="700" src="/pics/excel.png"><br/>
 <br/>
 <br/>
 <br/>
@@ -222,7 +222,7 @@ We refered back to the Excel file and expanded the cells to get the full descrip
 ##### **What type of data is available?**  
 Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type. Our data is all **Objects** and needs to be converted to a **numeric** data type.  
 
-<img align="left" width="900" src="/pics/dtypes.png"><br/>
+<img align="left" width="700" src="/pics/dtypes.png"><br/>
 <br/>
 <br/>
 <br/>
@@ -240,7 +240,7 @@ Using the **dtypes method**, we confirm the data type, which also will alert us 
 ##### **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the **isnull() method** to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total. We can, easily, read through our output and see there are **no** null values in our dataset. 
 
-<img align="left" width="900" src="/pics/null_values.png"><br/>
+<img align="left" width="700" src="/pics/null_values.png"><br/>
 <br/>
 <br/>
 <br/>
@@ -263,7 +263,7 @@ We have begun to explore the data and have taken a look at null values. Next, we
 
 In our dataset, there are **no** rows that have null data points. Using the **duplicated().sum() method**, we, also, saw our dataset did **not** have duplicates.  
 
-<img align="left" width="900" src="/pics/duplicate.png"><br/>
+<img align="left" width="700" src="/pics/duplicate.png"><br/>
 <br/>
 <br/>
 <br/>
@@ -271,7 +271,7 @@ In our dataset, there are **no** rows that have null data points. Using the **du
 
 With uncertainty of what housing data would be of value for our analysis, we went the safe route and only removed the **Margin of Error!!VALUE!!** columns. Those columns represented a margin of error for each statistic given. We felt,they would not serve a purpose for our, specific, analysis. Maybe, a complimentary analysis giving a margin of error for our analysis, at a later time. For now, we used **pandas.DataFrame.filter** to remove those columns from our dataframe.  
 
-<img align="left" width="900" src="/pics/filter.png"><br/>
+<img align="left" width="700" src="/pics/filter.png"><br/>
 <br/>
 <br/>
 <br/>
