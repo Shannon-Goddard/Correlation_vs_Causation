@@ -140,9 +140,9 @@ With California being the targeted data, we wanted to compare it to all the othe
 
 ## Summary  
 - Description of the data exploration phase of the project  
- - Data selection  
- - Data processing  
- -Data transformation
+  - Data selection  
+  - Data processing  
+  - Data transformation
 - Machine Learning Model   
 - Database Integration  
 - Description of the analysis phase of the project  
