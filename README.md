@@ -221,14 +221,6 @@ Next, we see if any data is missing. Unsupervised learning models can’t handle
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>  
-<br/>
 <br/>  
 
 ##### **What data can be removed?**  
