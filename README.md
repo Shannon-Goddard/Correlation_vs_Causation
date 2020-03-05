@@ -161,7 +161,7 @@ The first roadblock our team encountered was lack of data, from our data selecti
 <br/>
 
 ##### **What data is available?**  
-First, we account for the data we have. We use the **columns method** and output the columns.  
+First, we account for the data we have. We use the **columns method** and output the columns. Our output of column titles does **not** let us know what data we have. The output shows codes.  
 
 <img align="right" width="900" src="/pics/columns.png"><br/>
 <br/>
@@ -173,8 +173,7 @@ First, we account for the data we have. We use the **columns method** and output
 <br/>
 <br/>
 <br/>
-<br/>  
-Our output of column titles does **not** let us know what data we have. The output shows codes.  
+<br/>    
 <br/>
 <br/>
 <br/>
