@@ -1,6 +1,4 @@
-  
-  <br/>
-  <br/>[![news](/pics/header.png)](/vids/News_vid.mp4?raw=true)  
+[![news](/pics/header.png)](/vids/News_vid.mp4?raw=true)  
  
 #### Table of Contents  
 
