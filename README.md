@@ -88,13 +88,13 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 <br/>  
 
 ### **Questions the team hopes to answer with the data**  
-**We would like to perform analysis on the cost of housing in California that included**:  
+##### **We would like to perform analysis on the cost of housing in California that included**:  
 - Median Home Price
 - Median Household Income  
   
 With California being the targeted data, we wanted to compare it to all the other states. 
 
-**Questions the team hopes to answer with the data is:**  
+##### **Questions the team hopes to answer with the data is:**  
 - What are the California median household prices in California expected to be in the next five years?  
 - What are the California median household prices in California expected to be in the next ten years?  
 - Based on the ["Best Practices"](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html) in home buying, how much income would be needed to live in a median priced home in California at that time.  
@@ -105,7 +105,7 @@ With California being the targeted data, we wanted to compare it to all the othe
 <br/>
 <br/>  
 
-**After our analysis, we hope to answer:**
+##### **After our analysis, we hope to answer:**
 - Is it time to leave California?  
 <br/>
 <br/>
