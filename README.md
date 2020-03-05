@@ -47,14 +47,14 @@ The project roadmap and description of all the project deliverables can be found
 ##### While California led in people leaving the state in 2018, it came in third for the number of people who moved in. The state was behind Florida, who had 587,000, and Texas, who saw 563,000 move in.
 
 ##### **Census data also showed that the number of people leaving California has steadily increased since 2011.**  
-##### - 2018 - 691,000
-##### - 2017 - 661,000
-##### - 2016 - 657,000
-##### - 2015 - 643,000
-##### - 2014 - 593,000
-##### - 2013 - 581,000
-##### - 2012 - 566,000
-##### - 2011 - 562,000  
+###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2018 - 691,000
+###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2017 - 661,000
+###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2016 - 657,000
+###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2015 - 643,000
+###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2014 - 593,000
+###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2013 - 581,000
+###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2012 - 566,000
+###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2011 - 562,000  
 
 ##### A [2018 study by the California Legislative Analyst's Office](https://lao.ca.gov/laoecontax/article/detail/265) revealed that more than a million people left California - spread out over a decade - as opposed to those who moved here from other states.  
 
@@ -67,7 +67,7 @@ The project roadmap and description of all the project deliverables can be found
 ###### Author: **Eric Escalante**  
 ###### Published: **5:30 PM PST November 5, 2019**  
 ###### Updated: **12:38 PM PST November 11, 2019**  
-###### Full article can be found at [abc10.com](https://www.abc10.com/article/news/local/california/691000-leave-california/103-e02662aa-dfae-46b2-b94a-f20158053e60)  
+##### Full article can be found at [abc10.com](https://www.abc10.com/article/news/local/california/691000-leave-california/103-e02662aa-dfae-46b2-b94a-f20158053e60)  
 <br/>
 <br/>
 <br/>
