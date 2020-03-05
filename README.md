@@ -147,7 +147,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 
 ## Description of the data exploration phase of the project  
 ### **Data Selection**  
-###### **Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.**  
+**Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.**  
 The first roadblock our team encountered was lack of data, from our data selection, for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
 <br/>
 <br/>
@@ -282,7 +282,7 @@ With uncertainty of what housing data would be of value for our analysis, we wen
 <br/>
 
 ### Data Preprocessing  
-###### **Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:**
+**Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:**
 - Null values are handled.
 - Only numerical data is used.
 - Values are scaled. In other words, data has been manipulated to ensure that the variance between the numbers won’t skew results.  
@@ -295,7 +295,7 @@ In our dataset on states housing cost, The scale for Median Income and Median Ho
 <br/>
 
 ### **Data Transformation**  
-###### **Data transformation involves thinking about the future. More times than not, there will be new data coming into our data storage, with three people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.**  
+**Data transformation involves thinking about the future. More times than not, there will be new data coming into our data storage, with three people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.**  
 <br/>
 <br/>
 
