@@ -150,8 +150,6 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 **Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.**  
 
 The first roadblock our team encountered was lack of data, from our data selection, for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
-<br/>
-<br/>  
 
 ##### **What data is available?**  
 First, we account for the data we have. We use the **columns method** and output the columns. Our output of column titles does **not** let us know what data we have. The output shows codes.  
@@ -164,15 +162,11 @@ First, we account for the data we have. We use the **columns method** and output
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
 <br/>  
 
 Scrolling back to the dataframe we can see the first row has the column description.  
 
 <img align="left" width="700" src="/pics/df.png"><br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -196,8 +190,6 @@ We refered back to the Excel file and expanded the cells to get the full descrip
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
 <br/>  
 
 ##### **What type of data is available?**  
@@ -212,7 +204,8 @@ Using the **dtypes method**, we confirm the data type, which also will alert us 
 <br/>
 <br/>
 <br/>
-<br/>  
+<br/>
+<br/>
 
 ##### **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the **isnull() method** to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total. We can, easily, read through our output and see there are **no** null values in our dataset. 
