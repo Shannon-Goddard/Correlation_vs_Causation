@@ -235,6 +235,8 @@ With uncertainty of what housing data would be of value for our analysis, we wen
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 <br/>  
 
 ### Data Preprocessing  
@@ -249,6 +251,8 @@ We saw that all our data had the incorrect type for each column. We had to use [
 In our dataset on states housing cost, The scale for Median Income and Median Home Value is much larger than all the other values in the dataset. We adjusted this format by dividing by 1,000 to rescale those data points.  
 <br/>
 <br/>
+<br/>
+<br/>  
 
 ### **Data Transformation**  
 **Data transformation involves thinking about the future. More times than not, there will be new data coming into our data storage, with three people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.**  
