@@ -478,9 +478,11 @@ Resources for data:
 - [California housing crisis reaches boiling point](https://www.youtube.com/watch?v=Q4Zq5NmoWoM)
 - [Can Big Tech Curb A Housing Crisis It Helped Cause](https://www.youtube.com/watch?v=e-cT0gQQsiw)
 - [Goodbye, California! Longtime residents fleeing rising housing cost](https://www.youtube.com/watch?v=Q4t7GlCs2IY)  
+<br/>  
 
 **README.md header picture** was found at:
 - [zerohedge.com](https://www.zerohedge.com/political/conservative-californians-leaving-droves-america-first-law-and-order-red-states)  
+<br/>  
 
 **Code pictures** were screenshots of:  
 - [.ipynb]()  
