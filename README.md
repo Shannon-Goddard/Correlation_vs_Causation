@@ -429,9 +429,9 @@ They also tend to be visually strong. In a bar chart, we can clearly see the dif
 ## Dashboard
 The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:
 - Images from the initial analysis
-- Data (images or report) from the machine learning task
-- At least one interactive element
-- Either the dashboard is published or the submission includes a screen capture video of it in action  
+- Data (images and report) from the machine learning task
+- Interactive elements
+- Our dashboard is published on GitPages [Leaving California Dashboard]()  
 <br/>
 <br/>
 <br/>
@@ -446,7 +446,7 @@ The presentation can be found in [Google Slides](https://docs.google.com/present
 
 ## Sources  
 ### Description of the source of data  
-**All .csv resources for our analysis were downloaded from [data.census.gov](https://data.census.gov) and [www2.census.gov](https://www2.census.gov)**  
+**Our .csv resources for our analysis were downloaded from [data.census.gov](https://data.census.gov), [www2.census.gov](https://www2.census.gov), and [zillow.com](https://www.zillow.com/)** 
 
 Resources for data:
 
