@@ -26,24 +26,19 @@ With the best pracice in mind and the median price of homes currently, as of 02/
 
 Although, that number is flabbergasting enough, it fails when compared to surrounding California counties.These counties the median home prices are, easily, **doubled**.  Meaning, the gross annual income would, also, have to **double**.  
 Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php)  
-<br/>
-<br/>
-<br/>
-<br/>  
 
-### **Questions the team hopes to answer with the data**  
-##### **We would like to perform analysis on the cost of housing in California that included**:  
+**We would like to perform analysis on the cost of housing in California that included**:  
 - Median Home Price
 - Median Household Income  
 
-##### **Questions the team hopes to answer with the data is:**  
+**Questions the team hopes to answer with the data**  
 - What are the California median household prices in California expected to be in the next five years?  
 - What are the California median household prices in California expected to be in the next ten years?  
 - Based on the ["Best Practices"](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html) in home buying, how much income would be needed to live in a median priced home in California at that time.  
 - What are the top 5 states Californians are moving to?  
 - How does California housing cost compare to those 5 states?  
 
-##### **After our analysis, we hope to answer:**
+**After our analysis, we hope to answer:**
 - Is it time to leave California?  
 <br/>
 <br/>
