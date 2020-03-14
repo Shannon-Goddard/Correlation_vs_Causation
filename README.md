@@ -73,6 +73,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 - [Model Limitations](#model-limitations)  
 - [Model Benefits](#model-benefits)  
 - [Changes In Model's Choice](#changes-in-model-choice)  
+
 [How the Model Was Trained](#how-the-model-was-trained)  
 [Model’s Confusion Matrix](#model’s-confusion-matrix)  
 [Back to top](#table-of-contents)  
