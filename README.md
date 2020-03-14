@@ -440,7 +440,7 @@ A left join using the database is performed on selected states from 2017 and 201
 A connection string using SQLAlchemy connects our python to our PostgreSQL.  
 
 **Entity Relationship Diagram (ERD)**  
-<img align="center" width="400" src="/pics/sql.png"><br/>
+<img align="center" width="400" src="/Data/Migration_FlowDB(2).png"><br/>
 <br/>
 <br/>
 <br/>
