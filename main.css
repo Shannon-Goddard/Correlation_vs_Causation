@@ -3,8 +3,8 @@
   position: absolute;
   top: 250x;
   left: 175px;
-  width: 80%;
-  height: 80%;
+  width: 65%;
+  height: 65%;
 }
 path:hover, circle:hover {
   stroke: #002868 !important;
