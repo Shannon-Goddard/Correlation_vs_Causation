@@ -416,7 +416,6 @@ The last step is to add multiple markers or points to the map. To add a marker f
 
 
 
-
 ### Database Integration  
 **Our final segment includes a fully integrated database, with the following features:**
 - Stores static data for use during the project
@@ -425,6 +424,7 @@ The last step is to add multiple markers or points to the map. To add a marker f
 - Joins using the database language
 - Connection string
 - Entity Relationship Diagram (ERD)  
+
 **Stores static data for use during the project**  
 Once a clean data was obtained, parsed and sorted, it made it clear what types of tables could be useful for the project. Tables were then built in PostgreSQL to store static data. An ERD with a schema was first constructed and helped shape how and what questions we wanted the database to answer or insights to generate. Eventually, multiple tables were built to store static data.  
 
