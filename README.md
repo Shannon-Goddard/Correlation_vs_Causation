@@ -61,13 +61,13 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 ## Summary  
 [Machine Learning Model](#machine-learning-model)  
 [Database Integration](#database-integration)  
-[Description of the analysis phase of the project](#description-of-the-analysis-phase-of-the-project)  
+[Analysis](#analysis)  
 [Dashboard](#dashboard)  
 [Presentation](#presentation)  
 
 ## Machine Learning Model  
 [Data Preprocessing](#data-preprocessing)  
-[Feature Engineering](#feature-engineering)
+[Feature Engineering](#feature-engineering)  
 [Training and Testing Sets](#training-and-testing-sets)  
 [Model Choice](#model-choice)  
 - [Model Limitations](#model-limitations)  
@@ -302,6 +302,7 @@ In summary, this model is good at predicting good housing cost. The model's accu
 <br/>
 <br/>
 
+## Analysis  
 ### Description of the analysis phase of the project  
 <img align="right" width="500" src="/Data/Line Plot.png"><br/>  
 <br/>
