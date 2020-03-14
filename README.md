@@ -61,21 +61,21 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 ## Summary  
 [Machine Learning Model](#machine-learning-model)  
 [Database Integration](#database-integration)  
-[Description of the analysis phase of the project](#description-of-the-analysis-phase-of-the-project)
+[Description of the analysis phase of the project](#description-of-the-analysis-phase-of-the-project)  
 [Dashboard](#dashboard)  
 [Presentation](#presentation)  
 
 ## Machine Learning Model  
 [Data Preprocessing](#data-preprocessing)  
 [Feature Engineering](#feature-engineering)
-[Training and Testing Sets](#training-and-testing-sets)
+[Training and Testing Sets](#training-and-testing-sets)  
 [Model Choice](#model-choice)  
 - [Model Limitations](#model-limitations)  
 - [Model Benefits](#model-benefits)  
-- [Changes In Model's Choice](#changes-in-model-choice)
-[How the Model Was Trained](#how-the-model-was-trained)
+- [Changes In Model's Choice](#changes-in-model-choice)  
+[How the Model Was Trained](#how-the-model-was-trained)  
 [Model’s Confusion Matrix](#model’s-confusion-matrix)  
-[Back to top](#table-of-contents)
+[Back to top](#table-of-contents)  
 [Next Section](#recommendation)
 
 ## Data Preprocessing  
