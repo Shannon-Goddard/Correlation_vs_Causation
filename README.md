@@ -350,7 +350,7 @@ The last step is to add multiple markers or points to the map. To add a marker f
 <img align="right" width="700" src="/Data/leaf_map_here.png"><br/>  
 
  
-### Database
+### Database Integration
 **Our final segment includes a fully integrated database, with the following features:**  
 [Stores Static Data](#stores-static-data)  
 [Interfaces](#interfaces)  
