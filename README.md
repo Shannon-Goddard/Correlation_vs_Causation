@@ -107,7 +107,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 <br/>
 
 ## Resources  
-- **Data Source:** [2010_data](/Resources/data/2010_data.csv) | [2011_data](/Resources/data/2011_data.csv) | [2012_data](/Resources/data/2012_data.csv) | [2013_data](/Resources/data/2013_data.csv) | [2014_data](/Resources/data/2014_data.csv) | [2015_data](/Resources/data/2015_data.csv) | [2016_data](/Resources/data/2016_data.csv) | [2017_data](/Resources/data/2017_data.csv) | [2018_data](/Resources/data/2018_data.csv) | [population_data](/Resources/data/population_data.csv) | [migration_2010](/Resources/data/migration_2010.csv) | [migration_2011](/Resources/data/migration_2011.csv) | [migration_2012](/Resources/data/migration_2012.csv) | [migration_2013](/Resources/data/migration_2013.csv) | [migration_2014](/Resources/data/migration_2014.csv) | [migration_2015](/Resources/data/migration_2015.csv) | [migration_2016](/Resources/data/migration_2016.csv) | [migration_2017](/Resources/data/migration_2017.csv) | [migration_2018](/Resources/data/migration_2018.csv) |  [zillow_data](/Resources/data/zillow_data.csv)  
+- **Data Source:** [2010_data](/Resources/data/2010_data.csv) **|** [2011_data](/Resources/data/2011_data.csv) **|** [2012_data](/Resources/data/2012_data.csv) **|** [2013_data](/Resources/data/2013_data.csv) **|** [2014_data](/Resources/data/2014_data.csv) **|** [2015_data](/Resources/data/2015_data.csv) **|** [2016_data](/Resources/data/2016_data.csv) **|** [2017_data](/Resources/data/2017_data.csv) **|** [2018_data](/Resources/data/2018_data.csv) **|** [population_data](/Resources/data/population_data.csv) **|** [migration_2010](/Resources/data/migration_2010.csv) **|** [migration_2011](/Resources/data/migration_2011.csv) **|** [migration_2012](/Resources/data/migration_2012.csv) **|** [migration_2013](/Resources/data/migration_2013.csv) **|** [migration_2014](/Resources/data/migration_2014.csv) **|** [migration_2015](/Resources/data/migration_2015.csv) **|** [migration_2016](/Resources/data/migration_2016.csv) **|** [migration_2017](/Resources/data/migration_2017.csv) **|** [migration_2018](/Resources/data/migration_2018.csv) **|**  [zillow_data](/Resources/data/zillow_data.csv)  
 <br/>
 <br/>
 <br/>
@@ -483,6 +483,9 @@ Resources for data:
 **README.md header picture** was found at:
 - [zerohedge.com](https://www.zerohedge.com/political/conservative-californians-leaving-droves-america-first-law-and-order-red-states)  
 <br/>  
+
+**Interactive map created with** [websitebeaver.com](https://websitebeaver.com/how-to-make-an-interactive-and-responsive-svg-map-of-us-states-capitals) **| Permissible** [License](https://github.com/WebsiteBeaver/interactive-and-responsive-svg-map-of-us-states-capitals/blob/master/LICENSE)  
+<br/>
 
 **Code pictures** were screenshots of:  
 - [.ipynb]()  
