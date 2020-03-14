@@ -41,9 +41,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 **After our analysis, we hope to answer:**
 - Is it time to leave California?  
 <br/>
-<br/>
-<br/>
-<br/>
+<br/>  
 
 ## Resources  
 - **Data Source:** [2010_data](/Resources/data/2010_data.csv) **|** [2011_data](/Resources/data/2011_data.csv) **|** [2012_data](/Resources/data/2012_data.csv) **|** [2013_data](/Resources/data/2013_data.csv) **|** [2014_data](/Resources/data/2014_data.csv) **|** [2015_data](/Resources/data/2015_data.csv) **|** [2016_data](/Resources/data/2016_data.csv) **|** [2017_data](/Resources/data/2017_data.csv) **|** [2018_data](/Resources/data/2018_data.csv) **|** [population_data](/Resources/data/population_data.csv) **|** [migration_2010](/Resources/data/migration_2010.csv) **|** [migration_2011](/Resources/data/migration_2011.csv) **|** [migration_2012](/Resources/data/migration_2012.csv) **|** [migration_2013](/Resources/data/migration_2013.csv) **|** [migration_2014](/Resources/data/migration_2014.csv) **|** [migration_2015](/Resources/data/migration_2015.csv) **|** [migration_2016](/Resources/data/migration_2016.csv) **|** [migration_2017](/Resources/data/migration_2017.csv) **|** [migration_2018](/Resources/data/migration_2018.csv) **|**  [zillow_data](/Resources/data/zillow_data.csv)  
@@ -53,18 +51,12 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 - **Dependencies:** Pandas, Matplotlib, SciPy  
 - **Algorithms:**  
 <br/>
-<br/>
-<br/>
 <br/>  
 
 ## Objectives   
 - Import, analyze, clean, and preprocess a “real-world” classification dataset.
 - Select, design, and train a binary classification model of our choosing.
 - Optimize model training and input data to achieve desired model performance.  
-<br/>
-<br/>
-<br/>
-<br/>  
 
 ## Summary  
 [Machine Learning Model](#machine-learning-model)  
@@ -72,10 +64,6 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 [Description of the analysis phase of the project](#description-of-the-analysis-phase-of-the-project)
 [Dashboard](#dashboard)  
 [Presentation](#presentation)  
-<br/>
-<br/>
-<br/>
-<br/>  
 
 ## Machine Learning Model  
 [Data Preprocessing](#data-preprocessing)  
@@ -96,7 +84,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 
 The first roadblock our team encountered was lack of data, from our data selection, for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
 
-##### **What data is available?**  
+**What data is available?**  
 First, we account for the data we have. We use the **columns method** and output the columns. Our output of column titles does **not** let us know what data we have. The output shows codes.  
 
 <img align="left" width="700" src="/pics/columns.png"><br/>
@@ -135,7 +123,7 @@ We refered back to the Excel file and expanded the cells to get the full descrip
 <br/>
 <br/>  
 
-##### **What type of data is available?**  
+**What type of data is available?**  
 Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type. Our data is all **Objects** and needs to be converted to a **numeric** data type.  
 
 <img align="left" width="700" src="/pics/dtypes.png"><br/>
@@ -148,7 +136,7 @@ Using the **dtypes method**, we confirm the data type, which also will alert us 
 <br/>
 <br/>  
 
-##### **What data is missing?**  
+**What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the **isnull() method** to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total. We can, easily, read through our output and see there are **no** null values in our dataset. 
 
 <img align="left" width="700" src="/pics/null_values.png"><br/>
@@ -159,7 +147,7 @@ Next, we see if any data is missing. Unsupervised learning models can’t handle
 <br/>
 <br/>  
 
-##### **What data can be removed?**  
+**What data can be removed?**  
 We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
 
 In our dataset, there are **no** rows that have null data points. Using the **duplicated().sum() method**, we, also, saw our dataset did **not** have duplicates.  
@@ -189,7 +177,7 @@ With uncertainty of what housing data would be of value for our analysis, we wen
 - Only numerical data is used.
 - Values are scaled. In other words, data has been manipulated to ensure that the variance between the numbers won’t skew results.  
 
-##### **Is the data in a format that can be passed into an unsupervised learning model?**  
+**Is the data in a format that can be passed into an unsupervised learning model?**  
 We saw that all our data had the incorrect type for each column. We had to use [pandas.to_numeric](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html) to convert our arguments to a numeric type. Also, we know that our model can’t have strings passed into it. The only string value left is the name of the states. 
 
 In our dataset on states housing cost, The scale for Median Income and Median Home Value is much larger than all the other values in the dataset. We adjusted this format by dividing by 1,000 to rescale those data points.  
@@ -201,7 +189,7 @@ In our dataset on states housing cost, The scale for Median Income and Median Ho
 ### **Data Transformation**  
 **Data transformation involves thinking about the future. More times than not, there will be new data coming into our data storage, with three people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.**  
 
-##### **Can I quickly hand off this data for others to use?**  
+**Can I quickly hand off this data for others to use?**  
 The data now needs to be transformed back into a more user-friendly format. We converted the final products into common data type(CSV) files. With our data being cleaned and processed, it is ready to be converted to a readable format for future use.  
 
 We had to perform all these steps on all our datasets. We kept the procees consist, not only, for us to be able to easily concatenate the years, but to have a meaningul analysis.  
@@ -237,19 +225,12 @@ Limitations to us using a random forest model are, random forest models will onl
 ### Model Benefits
 Benifits to us using a random forest model are both output and feature selection are easy to interpret, and they can easily handle outliers and nonlinear data.  
 
-  
-<br/>
-<br/>
 ### Changes In Model's Choice  
 **Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)**  
-<br/>
-<br/>  
 
 ## How the Model Was Trained  
 **Description of how the model was trained (or retrained if the team used an existing model)**  
 In this section, we used Scikit-learn’s StandardScaler module to scale data. The model -> fit -> predict/transform workflow is also used when scaling data. The standard scaler standardizes the data. This means, all our numerical columns will now have a mean of 0 and a standard deviation of 1, reducing the likelihood that large values will unduly influence our model.  
-<br/>
-<br/>  
 
 ## Model's Confusion Matrix  
 **Description and explanation of model’s confusion matrix, including final accuracy score**  
