@@ -2,10 +2,8 @@
  
 #### Table of Contents  
 
-[Project Roadmap](#project-roadmap )    
 [Project Overview](#project-overview)  
 [Resources](#resources)  
-[Technology](#technology)  
 [Objectives](#objectives)  
 [Summary](#summary)  
 [Dashboard](#dashboard)  
@@ -14,65 +12,13 @@
 [Limitations](#limitations)  
 [Sources](#sources)  
 [Communication Protocols](#communication-protocols)  
-<br/>
-<br/>
-<br/>
-<br/>
-
-## Project Roadmap  
-The project roadmap and description of all the project deliverables can be found in [Deliverables.md](/Deliverables.md)  
-<br/>
-<br/>
-<br/>
-<br/>
-
-## Project Overview    
-#### Nearly 700,000 people left California last year
-###### Despite roughly 500,000 people coming to the Golden State in 2018, census data shows more people left California than moved in.
-##### CALIFORNIA, USA — In 2018, nearly 700,000 people decided to pack their bags and leave the California life behind.
-
-##### **By contrast, there were only 501,000 people who decided to follow the California dream and set up camp in the state. With 691,000 people leaving the Golden State for another state, California was in the negative as far as net population change.**
-
-##### The exodus from California also led among other states. Only the numbers for Texas, Florida, and New York came close.
-
-##### **Texas lost 462,000; New York lost 458,000; and Florida lost 470,000.**
-
-##### According to [the Census data](https://www.census.gov/data/tables/time-series/demo/geographic-mobility/state-to-state-migration.html), most Californians found themselves heading to Texas, Arizona, Washington, Nevada, and Oregon.  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**Texas** - 86,000  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**Arizona** - 68,000  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**Washington** - 55,000  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**Nevada** - 50,000  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**Oregon** - 43,000  
-
-##### While California led in people leaving the state in 2018, it came in third for the number of people who moved in. The state was behind Florida, who had 587,000, and Texas, who saw 563,000 move in.
-
-##### **Census data also showed that the number of people leaving California has steadily increased since 2011.**  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**2018** - 691,000  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**2017** - 661,000  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**2016** - 657,000  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**2015** - 643,000  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**2014** - 593,000  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**2013** - 581,000  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**2012** - 566,000  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**2011** - 562,000  
-
-##### A [2018 study by the California Legislative Analyst's Office](https://lao.ca.gov/laoecontax/article/detail/265) revealed that more than a million people left California - spread out over a decade - as opposed to those who moved here from other states.  
-
-##### The study said high taxes, cost of living, and affordable housing were among the main reasons why people were leaving.  
-
-##### A [recent study by UC Berkeley](https://escholarship.org/uc/item/96j2704t) made similar findings with voters. According to the poll, roughly half of the state's voters have considered leaving California.  
-
-##### The main reason was the high cost of housing, but high taxes and political culture were also big reasons voters considered leaving.  
-
-###### &nbsp; &nbsp; &nbsp; &nbsp;  Author: **Eric Escalante**  
-###### &nbsp; &nbsp; &nbsp; &nbsp;  Published: **5:30 PM PST November 5, 2019**  
-###### &nbsp; &nbsp; &nbsp; &nbsp;  Updated: **12:38 PM PST November 11, 2019**  
-###### &nbsp; &nbsp; &nbsp; &nbsp;  Full article can be found at [abc10.com](https://www.abc10.com/article/news/local/california/691000-leave-california/103-e02662aa-dfae-46b2-b94a-f20158053e60)  
+[Project Roadmap](#project-roadmap )
 <br/>
 <br/>
 <br/>
 <br/>  
 
+## Project Overview  
 ### **Reason the topic was selected**  
 ##### **There are many articles written, like this one, about Califorian's leaving due to the high cost of living. The reason this topic was selected, with our group living in California, it's personal.**  
 
@@ -108,12 +54,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 
 ## Resources  
 - **Data Source:** [2010_data](/Resources/data/2010_data.csv) **|** [2011_data](/Resources/data/2011_data.csv) **|** [2012_data](/Resources/data/2012_data.csv) **|** [2013_data](/Resources/data/2013_data.csv) **|** [2014_data](/Resources/data/2014_data.csv) **|** [2015_data](/Resources/data/2015_data.csv) **|** [2016_data](/Resources/data/2016_data.csv) **|** [2017_data](/Resources/data/2017_data.csv) **|** [2018_data](/Resources/data/2018_data.csv) **|** [population_data](/Resources/data/population_data.csv) **|** [migration_2010](/Resources/data/migration_2010.csv) **|** [migration_2011](/Resources/data/migration_2011.csv) **|** [migration_2012](/Resources/data/migration_2012.csv) **|** [migration_2013](/Resources/data/migration_2013.csv) **|** [migration_2014](/Resources/data/migration_2014.csv) **|** [migration_2015](/Resources/data/migration_2015.csv) **|** [migration_2016](/Resources/data/migration_2016.csv) **|** [migration_2017](/Resources/data/migration_2017.csv) **|** [migration_2018](/Resources/data/migration_2018.csv) **|**  [zillow_data](/Resources/data/zillow_data.csv)  
-<br/>
-<br/>
-<br/>
-<br/>  
 
-## Technology
 - **Software:** Jupyter Notebook, pgAdmin,   
 - **Languages:** Python, JSON, SQL  
 - **Dependencies:** Pandas, Matplotlib, SciPy  
@@ -540,4 +481,7 @@ It is important to establish a communication protocol. We created direct message
 - Ideas and links will be done via Slack  
 - Meetups will be held via Zoom  
 
-In an emergency we will inform our group through our group-text and reach out to the staff by direct conversation in Slack.
+In an emergency we will inform our group through our group-text and reach out to the staff by direct conversation in Slack.  
+
+## Project Roadmap  
+The project roadmap and description of all the project deliverables can be found in [Deliverables.md](/Deliverables.md)
