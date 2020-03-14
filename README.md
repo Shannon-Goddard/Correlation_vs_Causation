@@ -6,8 +6,6 @@
 [Resources](#resources)  
 [Objectives](#objectives)  
 [Summary](#summary)  
-[Dashboard](#dashboard)  
-[Presentation](#presentation)  
 [Recommendation](#recommendation)  
 [Limitations](#limitations)  
 [Sources](#sources)  
@@ -19,6 +17,10 @@
 <br/>  
 
 ## Project Overview  
+[Reason the topic was selected](#reason-the-topic-was-selected)  
+[]()  
+[]()  
+[]()
 ### **Reason the topic was selected**  
 ##### **There are many articles written, like this one, about Califorian's leaving due to the high cost of living. The reason this topic was selected, with our group living in California, it's personal.**  
 
@@ -74,19 +76,30 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 <br/>  
 
 ## Summary  
-- Description of the data exploration phase of the project  
-  - Data selection  
-  - Data processing  
-  - Data transformation
-- Machine Learning Model   
-- Database Integration  
-- Description of the analysis phase of the project  
+[Machine Learning Model](#machine-learning-model)  
+[Database Integration](#database-integration)  
+[Description of the analysis phase of the project](#description-of-the-analysis-phase-of-the-project)
+[Dashboard](#dashboard)  
+[Presentation](#presentation)  
 <br/>
 <br/>
 <br/>
 <br/>  
 
-## Description of the data exploration phase of the project  
+## Machine Learning Model  
+[Data Preprocessing](#data-preprocessing)  
+[Feature Engineering](#feature-engineering)
+[Training and Testing Sets](#training-and-testing-sets)
+[Model Choice](#model-choice)  
+- [Model Limitations](#model-limitations)  
+- [Model Benefits](#model-benefits)  
+- [Changes In Model's Choice](#changes-in-model-choice)
+[How the Model Was Trained](#how-the-model-was-trained)
+[Model’s Confusion Matrix](#model’s-confusion-matrix)  
+[Back to top](#table-of-contents)
+[Next Section](#recommendation)
+
+## Data Preprocessing  
 ### **Data Selection**  
 **Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.**  
 
@@ -179,8 +192,7 @@ With uncertainty of what housing data would be of value for our analysis, we wen
 <br/>
 <br/>
 <br/>  
-
-### Data Preprocessing  
+ 
 **Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:**
 - Null values are handled.
 - Only numerical data is used.
@@ -207,39 +219,48 @@ The migration datsets were, also, done similarly. The most predominant change wa
 <br/>
 <br/>
 <br/>
-<br/>
+<br/>  
 
-### Machine Learning Model
+
+## Feature Engineering
 **Description of feature engineering and the feature selection, including the team’s decision-making process**  
 Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions. There are many different models; a mathematical representation of something that happens in the real world. Machine learning can be divided into three learning categories: supervised, unsupervised, and deep.  
 
 We decided to do **supervised learning**, which deals with labeled data. This supervised learning will be to predict, based on data from the census, whether it's time to leave California.  
 <br/>
-<br/>
+<br/>  
 
+## Training and Testing Sets
 **Description of how data was split into training and testing sets**  
 The model uses the training dataset to learn from it. It then uses the testing dataset to assess its performance. If you use your entire dataset to train the model, you won’t know how well the model will perform when it encounters unseen data. That is why it’s important to set aside a portion of your dataset to evaluate your model.  
 <br/>
-<br/>
+<br/>  
 
+## Model Choice
 **Explanation of model choice, including limitations and benefits**  
 We chose to use a random forest classifier. Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision.  
 
+### Model Limitations
+Limitations to us using a random forest model are, random forest models will only handle tabular data, so data such as images or natural language data cannot be used in a random forest without heavy modifications to the data.
+
+### Model Benefits
 Benifits to us using a random forest model are both output and feature selection are easy to interpret, and they can easily handle outliers and nonlinear data.  
 
-Limitations to us using a random forest model are, random forest models will only handle tabular data, so data such as images or natural language data cannot be used in a random forest without heavy modifications to the data.  
+  
 <br/>
 <br/>
-
+### Changes In Model's Choice  
 **Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)**  
 <br/>
-<br/>
+<br/>  
 
+## How the Model Was Trained  
 **Description of how the model was trained (or retrained if the team used an existing model)**  
 In this section, we used Scikit-learn’s StandardScaler module to scale data. The model -> fit -> predict/transform workflow is also used when scaling data. The standard scaler standardizes the data. This means, all our numerical columns will now have a mean of 0 and a standard deviation of 1, reducing the likelihood that large values will unduly influence our model.  
 <br/>
-<br/>
+<br/>  
 
+## Model's Confusion Matrix  
 **Description and explanation of model’s confusion matrix, including final accuracy score**  
 <img align="left" width="900" src="/pics/confusion_matrix.png"><br/>
 <br/>
@@ -356,31 +377,33 @@ The last step is to add multiple markers or points to the map. To add a marker f
 
  
 ### Database
-**Our final segment includes a fully integrated database, with the following features:**
-- Stores static data for use during the project
-- Interfaces with the project
-- Tables
-- Joins using the database language
-- Connection string
-- Entity Relationship Diagram (ERD)  
+**Our final segment includes a fully integrated database, with the following features:**  
+[Stores Static Data](#stores-static-data)  
+[Interfaces](#interfaces)  
+[Tables](#tables)  
+[Joins](#joins)  
+[Connection string](#connection-string)  
+[Entity Relationship Diagram (ERD)](#entity-relationship-diagram-(ERD))  
+[Back to top](#table-of-contents)
+[Next Section](#recommendation)  
 
-**Stores static data for use during the project**  
+## Stores Static Data  
 Once a clean data was obtained, parsed and sorted, it made it clear what types of tables could be useful for the project. Tables were then built in PostgreSQL to store static data. An ERD with a schema was first constructed and helped shape how and what questions we wanted the database to answer or insights to generate. Eventually, multiple tables were built to store static data.  
 
-**Interfaces with the project**  
+## Interfaces  
 The database interfaces with our python notebook file where all the data loading and cleaning occurred. This was achieved by importing create_engine form sqlaclchemy; the information that sqlaclchemy needs to create a database engine.  
 
-**Tables**  
+## Tables  
 Multiple tables were generated to store static data as the project evolved. Tables include combined_ca_data, ca_analysis, housing_and_income, analysis_info, just to mention a few. For example, the ca_analysis table stores static data of all CA who moved to selected states between a given period, ordered by ascending order. Similarly, the analysis_info table stores median housing cost(monthly) data for all states.  
 
-**Joins using the database language**
+## Joins  
 A left join using the database is performed on selected states from 2017 and 2018, left joining on the States which is a column found in both data sets.  
 
 
-**Connection string**  
+## Connection string  
 A connection string using SQLAlchemy connects our python to our PostgreSQL.  
 
-**Entity Relationship Diagram (ERD)**  
+## Entity Relationship Diagram (ERD)  
 <img align="center" width="400" src="/Data/Migration_FlowDB(2).png"><br/>
 <br/>
 <br/>
