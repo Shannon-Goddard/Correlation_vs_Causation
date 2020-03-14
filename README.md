@@ -468,13 +468,14 @@ The presentation can be found in [Google Slides](https://docs.google.com/present
 
 ## Recommendation
 **Recommendation for future analysis**  
+**Anything the team would have done differently**
 <br/>
 <br/>
 <br/>
 <br/>
 
 ## Limitations  
-**Anything the team would have done differently**  
+The creating of the migration flow map requires registration for a [Mapbox](https://www.mapbox.com/) account to generate an API key to allow rendering of maps on the browser. Mapbox does provide a free tier on their [pricing]( https://www.mapbox.com/pricing/), however a credit card is required for the sign up.
 <br/>
 <br/>
 <br/>
