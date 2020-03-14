@@ -356,7 +356,7 @@ The last step is to add multiple markers or points to the map. To add a marker f
 [Joins](#joins)  
 [Connection string](#connection-string)  
 [Entity Relationship Diagram (ERD)](#entity-relationship-diagram-(ERD))  
-[Back to top](#table-of-contents)
+[Back to top](#table-of-contents)  
 [Next Section](#recommendation)  
 
 ## Stores Static Data  
