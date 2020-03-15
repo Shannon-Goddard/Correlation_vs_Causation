@@ -34,7 +34,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 **Questions the team answers with the data**  
 - What are the California median household prices in California expected to be in the next five years?  
 - What are the California median household prices in California expected to be in the next ten years?  
-- Based on the ["Best Practices"](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html) in home buying, how much income would be needed to live in a median priced home in California at that time.  
+- Based on the ["Best Practices"](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html) in home buying, how much income would be needed to live in a median priced home in California at that time?  
 - What are the top 5 states Californians are moving to?  
 - How does California housing cost compare to those 5 states?  
 
