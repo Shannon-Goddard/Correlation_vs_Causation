@@ -44,9 +44,10 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 <br/>  
 
 ## Resources  
-- **Data Source:**  
+- **Data Source:** [Resources](/Resources) 
 
 **Our .csv resources for our analysis were downloaded from [data.census.gov](https://data.census.gov), [www2.census.gov](https://www2.census.gov), and [zillow.com](https://www.zillow.com/)**  
+
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[2010_data](https://data.census.gov/cedsci/table?g=0100000US.04000.001&y=2010&tid=ACSST1Y2010.S2506&t=Financial%20Characteristics%3AHousing%3AHousing%20Value%20and%20Purchase%20Price%3AIncome%20%28Households,%20Families,%20Individuals%29%3AIncome%20and%20Earnings%3AIncome%20and%20Poverty%3AMortgage%20Costs&vintage=2018&hidePreview=true&moe=false)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[migration_2010](https://www2.census.gov/programs-surveys/demo/tables/geographic-mobility/2010/state-to-state-migration/state_to_state_migrations_table_2010.xls)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[population_data](https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv?#)  
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[2011_data](https://data.census.gov/cedsci/table?g=0100000US.04000.001&y=2011&tid=ACSST1Y2011.S2506&t=Financial%20Characteristics%3AHousing%3AHousing%20Value%20and%20Purchase%20Price%3AIncome%20%28Households,%20Families,%20Individuals%29%3AIncome%20and%20Earnings%3AIncome%20and%20Poverty%3AMortgage%20Costs&vintage=2018&hidePreview=true&moe=false)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[migration_2011](https://www2.census.gov/programs-surveys/demo/tables/geographic-mobility/2012/state-to-state-migration/state_to_state_migrations_table_2012.xls)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[zillow_data](https://www.zillow.com/research/data/)  
@@ -68,7 +69,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 
 - **Software:** Jupyter Notebook, PostGreSQL,   
 - **Languages:** Python, JSON, SQL  
-- **Dependencies:** Pandas, Matplotlib, SciPy  
+- **Dependencies:** Pandas, Matplotlib, SciPy, Scikit  
 - **Algorithms:**  
 <br/>
 <br/>  
@@ -99,12 +100,19 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 [Next Section](#recommendation)
 
 ## Data Preprocessing  
+**Data selection entails making good choices about which data will be used.**  
+We encountered a problem of scale/granularity; so we increased the scale to make the comparison at a state level. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states. This decision allowed us to determine, which data will be used.  
+
 ### **Data Selection**  
-**Data selection entails making good choices about which data will be used. Consider what data is available, what data is missing, and what data can be removed.**  
+- What data is available  
+- What type of data is available  
+- What data is missing  
+- What data can be removed  
 
-The first roadblock our team encountered was lack of data, from our data selection, for our origional machine learning concept. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states.  
-
-**What data is available?**  
+**What data is available?**
+Using Pandas in Jupyter Notebook, we can view our data as a data frame. 
+<img align="left" width="700" src="/pics/df.png"><br/>
+  
 First, we account for the data we have. We use the **columns method** and output the columns. Our output of column titles does **not** let us know what data we have. The output shows codes.  
 
 <img align="left" width="700" src="/pics/columns.png"><br/>
@@ -117,31 +125,7 @@ First, we account for the data we have. We use the **columns method** and output
 <br/>
 <br/>  
 
-Scrolling back to the dataframe we can see the first row has the column description.  
 
-<img align="left" width="700" src="/pics/df.png"><br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>  
-
-We refered back to the Excel file and expanded the cells to get the full description of the column values.  
-
-<img align="left" width="700" src="/pics/excel.png"><br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>  
 
 **What type of data is available?**  
 Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type. Our data is all **Objects** and needs to be converted to a **numeric** data type.  
@@ -178,20 +162,6 @@ In our dataset, there are **no** rows that have null data points. Using the **du
 
 With uncertainty of what housing data would be of value for our analysis, we went the safe route and only removed the **Margin of Error!!VALUE!!** columns. Those columns represented a margin of error for each statistic given. We felt,they would not serve a purpose for our, specific, analysis. Maybe, a complimentary analysis giving a margin of error for our analysis, at a later time. For now, we used **pandas.DataFrame.filter** to remove those columns from our dataframe.  
 
-<img align="left" width="700" src="/pics/filter.png"><br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>  
- 
 **Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:**
 - Null values are handled.
 - Only numerical data is used.
