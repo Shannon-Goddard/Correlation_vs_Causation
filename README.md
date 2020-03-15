@@ -313,32 +313,16 @@ The dashboard presents a data story that is logical and easy to follow for someo
 - Data (images and report) from the machine learning task
 - Interactive elements
 - Our dashboard is published on GitPages [Leaving California Dashboard]()  
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## Presentation  
 The presentation can be found in [Google Slides](https://docs.google.com/presentation/d/14h7wNLqN1Vh8AVsPMiOpv18YU4jbhMqiKdh0yhPtdns/edit?usp=sharing)  
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## Recommendation
 **Recommendation for future analysis**  
-**Anything the team would have done differently**
-<br/>
-<br/>
-<br/>
-<br/>
+**Anything the team would have done differently**  
 
 ## Limitations  
-The creating of the migration flow map requires registration for a [Mapbox](https://www.mapbox.com/) account to generate an API key to allow rendering of maps on the browser. Mapbox does provide a free tier on their [pricing]( https://www.mapbox.com/pricing/), however a credit card is required for the sign up.
-<br/>
-<br/>
-<br/>
-<br/>  
+The creating of the migration flow map requires registration for a [Mapbox](https://www.mapbox.com/) account to generate an API key to allow rendering of maps on the browser. Mapbox does provide a free tier on their [pricing]( https://www.mapbox.com/pricing/), however a credit card is required for the sign up.  
 
 ## Sources  
 ### DBD created at : [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com/)
@@ -363,10 +347,6 @@ The creating of the migration flow map requires registration for a [Mapbox](http
 - [.ipynb]()  
 - [.ipynb]()  
 - [.ipynb]()  
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## Communication Protocols  
 It is important to establish a communication protocol. We created direct messages for only team members in Slack at [final-project-jas](https://ucbdatasept19.slack.com/archives/CTXNA5K5G) and exchanged cell phone numbers where we created a group-text.  
