@@ -44,11 +44,9 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 <br/>  
 
 ## Resources  
-- **Data Source:** [Resources](/Resources)  
-**Our .csv resources for our analysis were downloaded from [data.census.gov](https://data.census.gov), [www2.census.gov](https://www2.census.gov), and [zillow.com](https://www.zillow.com/)** 
+- **Data Source:**  
 
-Resources for data:
-
+**Our .csv resources for our analysis were downloaded from [data.census.gov](https://data.census.gov), [www2.census.gov](https://www2.census.gov), and [zillow.com](https://www.zillow.com/)**  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[2010_data](https://data.census.gov/cedsci/table?g=0100000US.04000.001&y=2010&tid=ACSST1Y2010.S2506&t=Financial%20Characteristics%3AHousing%3AHousing%20Value%20and%20Purchase%20Price%3AIncome%20%28Households,%20Families,%20Individuals%29%3AIncome%20and%20Earnings%3AIncome%20and%20Poverty%3AMortgage%20Costs&vintage=2018&hidePreview=true&moe=false)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[migration_2010](https://www2.census.gov/programs-surveys/demo/tables/geographic-mobility/2010/state-to-state-migration/state_to_state_migrations_table_2010.xls)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[population_data](https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv?#)  
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[2011_data](https://data.census.gov/cedsci/table?g=0100000US.04000.001&y=2011&tid=ACSST1Y2011.S2506&t=Financial%20Characteristics%3AHousing%3AHousing%20Value%20and%20Purchase%20Price%3AIncome%20%28Households,%20Families,%20Individuals%29%3AIncome%20and%20Earnings%3AIncome%20and%20Poverty%3AMortgage%20Costs&vintage=2018&hidePreview=true&moe=false)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[migration_2011](https://www2.census.gov/programs-surveys/demo/tables/geographic-mobility/2012/state-to-state-migration/state_to_state_migrations_table_2012.xls)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[zillow_data](https://www.zillow.com/research/data/)  
