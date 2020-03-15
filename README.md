@@ -10,11 +10,7 @@
 [Limitations](#limitations)  
 [Sources](#sources)  
 [Communication Protocols](#communication-protocols)  
-[Project Roadmap](#project-roadmap )
-<br/>
-<br/>
-<br/>
-<br/>  
+[Project Roadmap](#project-roadmap )  
 
 ## Project Overview  
 ### **Reason the topic was selected**  
@@ -40,8 +36,6 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 
 **After our analysis, we answer:**
 - Is it time to leave California?  
-<br/>
-<br/>  
 
 ## Resources  
 - **Data Source:** csv resources for our analysis were downloaded from [data.census.gov](https://data.census.gov), [www2.census.gov](https://www2.census.gov), and [zillow.com](https://www.zillow.com/)  
@@ -63,14 +57,11 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[2017_data](https://data.census.gov/cedsci/table?g=0100000US.04000.001&y=2017&tid=ACSST1Y2017.S2506&t=Financial%20Characteristics%3AHousing%3AHousing%20Value%20and%20Purchase%20Price%3AIncome%20%28Households,%20Families,%20Individuals%29%3AIncome%20and%20Earnings%3AIncome%20and%20Poverty%3AMortgage%20Costs&vintage=2018&hidePreview=true&moe=false)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[migration_2017](https://www2.census.gov/programs-surveys/demo/tables/geographic-mobility/2017/state-to-state-migration/State_to_State_Migrations_Table_2017.xls)  
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[2018_data](https://data.census.gov/cedsci/table?g=0100000US.04000.001&y=2018&tid=ACSST1Y2018.S2506&t=Financial%20Characteristics%3AHousing%3AHousing%20Value%20and%20Purchase%20Price%3AIncome%20%28Households,%20Families,%20Individuals%29%3AIncome%20and%20Earnings%3AIncome%20and%20Poverty%3AMortgage%20Costs&vintage=2018&hidePreview=true&moe=false)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[migration_2018](https://www2.census.gov/programs-surveys/demo/tables/geographic-mobility/2018/state-to-state-migration/State_to_State_Migrations_Table_2018.xls)  
-<br/>
 
 - **Software:** Jupyter Notebook, PostGreSQL,   
 - **Languages:** Python, JSON, SQL  
 - **Dependencies:** Pandas, Matplotlib, SciPy, Scikit  
 - **Algorithms:**  
-<br/>
-<br/>  
 
 ## Objectives  
 - Import, analyze, clean, and preprocess a “real-world” classification dataset  
