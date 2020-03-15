@@ -14,13 +14,13 @@
 
 ## Project Overview  
 ### **Reason the topic was selected**  
-**There are many articles written about Califorian's leaving due to the high cost of living. There are many news clips, like the ones we chose for our video embeded in our header. The reason this topic was selected, with our group living in California, it's personal. We live throughout the state, Southern California to Northern California, with a wide range of interests, backgrounds, experiences. We find commonality in the abiding weight in questioning, "Is it time to leave California?".**   
+**There are many articles written about Californian’s  leaving due to the high cost of living. There are many news clips, like the ones we chose for our video embedded in our header. The reason this topic was selected, with our group living in California, it's personal. We live throughout the state, Southern California to Northern California, with a wide range of interests, backgrounds, experiences. We find commonality in the abiding weight in questioning, "Is it time to leave California?".**   
 
-As a broad generalization, most people can afford to purchase a house worth about **3X** their **total (gross) annual income**, assuming a **20% down** payment and a moderate amount of other long-term debts, such as car or student loan payments. This best practice can be found at [mymoneyblog.com](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html). As there are many similar "Best Practices" in home buying, We would like to keep a consistancy throughout the analysis and use this one, three times total annual income. The consistancy will make the analysis meaningful. 
+As a broad generalization, most people can afford to purchase a house worth about **3X** their **total (gross) annual income**, assuming a **20% down** payment and a moderate amount of other long-term debts, such as car or student loan payments. This best practice can be found at [mymoneyblog.com](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html). As there are many similar "Best Practices" in home buying, We would like to keep a consistency throughout the analysis and use this one, three times total annual income. The consistency will make the analysis meaningful. 
 
-With the best pracice in mind and the median price of homes currently, as of 02/13/20, listed in San Bernardino County is **$350,000**, according to [zillow.com](https://www.zillow.com/san-bernardino-county-ca/home-values/), a single gross income of **$116,666.67** would be needed to purchase a **median price** home in **San Bernardino County**.  
+With the best practice in mind and the median price of homes currently, as of 02/13/20, listed in San Bernardino County is **$350,000**, according to [zillow.com](https://www.zillow.com/san-bernardino-county-ca/home-values/), a single gross income of **$116,666.67** would be needed to purchase a **median price** home in **San Bernardino County**.  
 
-Although, that number is flabbergasting enough, it fails when compared to surrounding California counties.These counties the median home prices are, easily, **doubled**.  Meaning, the gross annual income would, also, have to **double**.  
+Although, that number is flabbergasting enough, it fails when compared to surrounding California counties. These counties the median home prices are, easily, **doubled**.  Meaning, the gross annual income would, also, have to **double**.  
 Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php)  
 
 **We performed analysis on the cost of housing in California that included**:  
@@ -89,7 +89,7 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 
 ## Data Preprocessing  
 **Data selection entails making good choices about which data will be used.**  
-We encountered a problem of scale/granularity; so we increased the scale to make the comparison at a state level. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obsticle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states. This decision allowed us to determine, which data will be used.  
+We encountered a problem of scale/granularity; so we increased the scale to make the comparison at a state level. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Although, there is robust amount of data available through the [data.census.gov](https://data.census.gov) website, after filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obstacle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states. This decision allowed us to determine, which data will be used.  
 
 ### **Data Selection**  
 - What data is available  
@@ -135,7 +135,7 @@ In our dataset, there are **no** rows that have null data points. Using the **du
 <img align="left" width="700" src="/pics/duplicate.png"><br/>
 <br/> 
 
-With uncertainty of what housing data would be of value for our analysis, we went the safe route and only removed the **Margin of Error!!VALUE!!** columns. Those columns represented a margin of error for each statistic given. We felt,they would not serve a purpose for our, specific, analysis. Maybe, a complimentary analysis giving a margin of error for our analysis, at a later time. For now, we used **pandas.DataFrame.filter** to remove those columns from our dataframe.  
+With uncertainty of what housing data would be of value for our analysis, we went the safe route and only removed the **Margin of Error!!VALUE!!** columns. Those columns represented a margin of error for each statistic given. We felt, they would not serve a purpose for our, specific, analysis. Maybe, a complimentary analysis giving a margin of error for our analysis, at a later time. For now, we used **pandas.DataFrame.filter** to remove those columns from our data frame.  
 
 **Data processing involves organizing the data by formatting, cleaning, and sampling it. For data processing, the focus is on making sure the data is set up for the unsupervised learning model, which requires the following:**
 - Null values are handled.
@@ -153,9 +153,9 @@ In our dataset on states housing cost, The scale for Median Income and Median Ho
 **Can I quickly hand off this data for others to use?**  
 The data now needs to be transformed back into a more user-friendly format. We converted the final products into common data type(CSV) files. With our data being cleaned and processed, it is ready to be converted to a readable format for future use.  
 
-We had to perform all these steps on all our datasets. We kept the procees consist, not only, for us to be able to easily concatenate the years, but to have a meaningul analysis.  
+We had to perform all these steps on all our datasets. We kept the process consist, not only, for us to be able to easily concatenate the years, but to have a meaningful analysis.  
 
-The migration datsets were, also, done similarly. The most predominant change was having to add a line of code to remove the commas from the number values in order to be able to make them floats.  
+The migration datasets were, also, done similarly. The most predominant change was having to add a line of code to remove the commas from the number values in order to be able to make them floats.  
 
 ## Feature Engineering
 **Description of feature engineering and the feature selection, including the team’s decision-making process**  
@@ -175,7 +175,7 @@ We chose to use a random forest classifier. Random forest classifiers are a type
 Limitations to us using a random forest model are, random forest models will only handle tabular data, so data such as images or natural language data cannot be used in a random forest without heavy modifications to the data.
 
 ## Model Benefits
-Benifits to us using a random forest model are both output and feature selection are easy to interpret, and they can easily handle outliers and nonlinear data.  
+Benefits to us using a random forest model are both output and feature selection are easy to interpret, and they can easily handle outliers and nonlinear data.  
 
 ## Changes In Model's Choice  
 **Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)**  
@@ -333,7 +333,7 @@ The creating of the migration flow map requires registration for a [Mapbox](http
 ## Communication Protocols  
 It is important to establish a communication protocol. We created direct messages for only team members in Slack at [final-project-jas](https://ucbdatasept19.slack.com/archives/CTXNA5K5G) and exchanged cell phone numbers where we created a group-text.  
 
-- Instant commumnication will be done via text  
+- Instant communication will be done via text  
 - Ideas and links will be done via Slack  
 - Meetups will be held via Zoom  
 
