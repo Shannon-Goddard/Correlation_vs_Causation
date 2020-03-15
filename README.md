@@ -130,14 +130,12 @@ Using the **dtypes method**, we confirm the data type, which also will alert us 
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>  
+<br/> 
 
 **What data is missing?**  
 Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the **isnull() method** to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total. We can, easily, read through our output and see there are **no** null values in our dataset. 
 
 <img align="left" width="700" src="/pics/null_values.png"><br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -150,8 +148,7 @@ We have begun to explore the data and have taken a look at null values. Next, we
 In our dataset, there are **no** rows that have null data points. Using the **duplicated().sum() method**, we, also, saw our dataset did **not** have duplicates.  
 
 <img align="left" width="700" src="/pics/duplicate.png"><br/>
-<br/>
-<br/>  
+<br/> 
 
 With uncertainty of what housing data would be of value for our analysis, we went the safe route and only removed the **Margin of Error!!VALUE!!** columns. Those columns represented a margin of error for each statistic given. We felt,they would not serve a purpose for our, specific, analysis. Maybe, a complimentary analysis giving a margin of error for our analysis, at a later time. For now, we used **pandas.DataFrame.filter** to remove those columns from our dataframe.  
 
@@ -164,10 +161,6 @@ With uncertainty of what housing data would be of value for our analysis, we wen
 We saw that all our data had the incorrect type for each column. We had to use [pandas.to_numeric](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html) to convert our arguments to a numeric type. Also, we know that our model can’t have strings passed into it. The only string value left is the name of the states. 
 
 In our dataset on states housing cost, The scale for Median Income and Median Home Value is much larger than all the other values in the dataset. We adjusted this format by dividing by 1,000 to rescale those data points.  
-<br/>
-<br/>
-<br/>
-<br/>  
 
 ### **Data Transformation**  
 **Data transformation involves thinking about the future. More times than not, there will be new data coming into our data storage, with three people working on different types of data analysis. We want to make sure that whoever wants to use the data in the future can do so.**  
@@ -178,25 +171,16 @@ The data now needs to be transformed back into a more user-friendly format. We c
 We had to perform all these steps on all our datasets. We kept the procees consist, not only, for us to be able to easily concatenate the years, but to have a meaningul analysis.  
 
 The migration datsets were, also, done similarly. The most predominant change was having to add a line of code to remove the commas from the number values in order to be able to make them floats.  
-<br/>
-<br/>
-<br/>
-<br/>  
-
 
 ## Feature Engineering
 **Description of feature engineering and the feature selection, including the team’s decision-making process**  
 Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions. There are many different models; a mathematical representation of something that happens in the real world. Machine learning can be divided into three learning categories: supervised, unsupervised, and deep.  
 
 We decided to do **supervised learning**, which deals with labeled data. This supervised learning will be to predict, based on data from the census, whether it's time to leave California.  
-<br/>
-<br/>  
 
 ## Training and Testing Sets
 **Description of how data was split into training and testing sets**  
 The model uses the training dataset to learn from it. It then uses the testing dataset to assess its performance. If you use your entire dataset to train the model, you won’t know how well the model will perform when it encounters unseen data. That is why it’s important to set aside a portion of your dataset to evaluate your model.  
-<br/>
-<br/>  
 
 ## Model Choice
 **Explanation of model choice, including limitations and benefits**  
@@ -248,41 +232,28 @@ In this section, we used Scikit-learn’s StandardScaler module to scale data. T
 
 ##### **Precision**  
 Precision is the measure of how reliable a positive classification is. From our results, the precision for the good housing cost can be determined by the ratio **TP/(TP + FP)**, which is **112/(112 + 2) = .9825**. The precision for the bad housing cost can be determined as follows: **2/(2 + 1) = .6667**. A low precision is indicative of a large number of false positives—of the 3 housing cost we predicted to be bad housing cost,  1 was actually a good housing cost.
-<br/>
-<br/>  
+<br/> 
 
 ##### **Recall scores**  
 Recall is the ability of the classifier to find all the positive samples. It can be determined by the ratio: TP/(TP + FN), or  for the good housing cost **112/(112 + 1) = .9912** and for the bad housing cost **2/(2 + 2) = .5**. A low recall is indicative of a large number of false negatives.
-<br/>
 <br/>  
 
 ##### **Balanced accuracy score**  
 An accuracy score is not always an appropriate or a meaningful performance metric. This program’s accuracy score appears to be great at **0.9744**.
-<br/>
-<br/>  
+<br/> 
 
 ##### **F1 score**  
 F1 score is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0.
-<br/>
 <br/>  
 
 ##### **Support**  
 Support is the number of actual occurrences of the class in the specified dataset. For our results, there are **113** actual occurrences for the good housing cost and **4** actual occurrences for bad housing cost.
-<br/>
-<br/>  
+<br/> 
 
 ##### **Recommendation on the model to use:**  
 In summary, this model is good at predicting good housing cost. The model's accuracy of is high at **0.9744**, the precision and F1 score are good enough to state that the model will be good at classifying good housing cost.  
-<br/>
-<br/>
-<br/>
-<br/>
 
 **How does the model address the question or problem the team is solving.**  
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## Analysis  
 ### Description of the analysis phase of the project  
@@ -305,7 +276,6 @@ In the step following, it is essential to allow our index.html file to use the l
 The last step is to add multiple markers or points to the map. To add a marker for each location or state receiving greater than 10,000 CA migrants in 2018, we iterate through the array of longitudes and latitudes and add each to the map. For best practice, we save the states array in an external file and refer to that file and dataset in the logic.js file. Finally, to add data from each object in the cities array we use Leaflet’s bindPopup() method on the marker() function.
 <img align="right" width="700" src="/Data/leaf_map_here.png"><br/>  
 
- 
 ### Database Integration
 **Our final segment includes a fully integrated database, with the following features:**  
 [Stores Static Data](#stores-static-data)  
@@ -328,7 +298,6 @@ Multiple tables were generated to store static data as the project evolved. Tabl
 
 ## Joins  
 A left join using the database is performed on selected states from 2017 and 2018, left joining on the States which is a column found in both data sets.  
-
 
 ## Connection string  
 A connection string using SQLAlchemy connects our python to our PostgreSQL.  
@@ -371,14 +340,9 @@ The creating of the migration flow map requires registration for a [Mapbox](http
 <br/>
 <br/>
 <br/>
-<br/>
-
-
+<br/>  
 
 ## Sources  
-### Description of the source of data  
-  
-
 ### DBD created at : [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com/)
 <br/>  
 
