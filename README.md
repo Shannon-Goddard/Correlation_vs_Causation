@@ -18,7 +18,7 @@
 
 ## Project Overview  
 ### **Reason the topic was selected**  
-**There are many articles written about Califorian's leaving due to the high cost of living. There are many news clips, like the ones we chose for our video embeded in our header. The reason this topic was selected, with our group living in California, it's personal. We live throughout the state, southern California to Northern Cali. with a wide range of interests, backgrounds, experiences. We find commonality in the abiding weight in questioning, "Is it time to leave California?".**   
+**There are many articles written about Califorian's leaving due to the high cost of living. There are many news clips, like the ones we chose for our video embeded in our header. The reason this topic was selected, with our group living in California, it's personal. We live throughout the state, Southern California to Northern California, with a wide range of interests, backgrounds, experiences. We find commonality in the abiding weight in questioning, "Is it time to leave California?".**   
 
 As a broad generalization, most people can afford to purchase a house worth about **3X** their **total (gross) annual income**, assuming a **20% down** payment and a moderate amount of other long-term debts, such as car or student loan payments. This best practice can be found at [mymoneyblog.com](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html). As there are many similar "Best Practices" in home buying, We would like to keep a consistancy throughout the analysis and use this one, three times total annual income. The consistancy will make the analysis meaningful. 
 
