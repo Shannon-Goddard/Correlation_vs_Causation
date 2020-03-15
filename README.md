@@ -109,23 +109,18 @@ We encountered a problem of scale/granularity; so we increased the scale to make
 - What data is missing  
 - What data can be removed  
 
-**What data is available?**
-Using Pandas in Jupyter Notebook, we can view our data as a data frame. 
+**What data is available?** Using Pandas in Jupyter Notebook, we can view our data as a data frame. 
 <img align="left" width="700" src="/pics/df.png"><br/>
-  
-First, we account for the data we have. We use the **columns method** and output the columns. Our output of column titles does **not** let us know what data we have. The output shows codes.  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-<img align="left" width="700" src="/pics/columns.png"><br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>  
-
-
+First, we account for the data we have. We use the **columns method** and output the columns.  
 
 **What type of data is available?**  
 Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type. Our data is all **Objects** and needs to be converted to a **numeric** data type.  
