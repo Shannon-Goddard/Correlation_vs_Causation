@@ -316,23 +316,18 @@ The presentation can be found in [Google Slides](https://docs.google.com/present
 The creating of the migration flow map requires registration for a [Mapbox](https://www.mapbox.com/) account to generate an API key to allow rendering of maps on the browser. Mapbox does provide a free tier on their [pricing]( https://www.mapbox.com/pricing/), however a credit card is required for the sign up.  
 
 ## Sources  
-### DBD created at : [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com/)
-<br/>  
+**DBD created at : [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com/)**  
 
-### Description of visual sources:
 **README.md video** was created with clips from: 
 - [California faces housing 'crisis' amid extremely high rents](https://www.youtube.com/watch?v=kJH4wSW_X5A)
 - [California housing crisis reaches boiling point](https://www.youtube.com/watch?v=Q4Zq5NmoWoM)
 - [Can Big Tech Curb A Housing Crisis It Helped Cause](https://www.youtube.com/watch?v=e-cT0gQQsiw)
 - [Goodbye, California! Longtime residents fleeing rising housing cost](https://www.youtube.com/watch?v=Q4t7GlCs2IY)  
-<br/>  
 
 **README.md header picture** was found at:
 - [zerohedge.com](https://www.zerohedge.com/political/conservative-californians-leaving-droves-america-first-law-and-order-red-states)  
-<br/>  
 
 **Interactive map created with** [websitebeaver.com](https://websitebeaver.com/how-to-make-an-interactive-and-responsive-svg-map-of-us-states-capitals) **| Permissible** [License](https://github.com/WebsiteBeaver/interactive-and-responsive-svg-map-of-us-states-capitals/blob/master/LICENSE)  
-<br/>
 
 **Code pictures** were screenshots of:  
 - [.ipynb]()  
