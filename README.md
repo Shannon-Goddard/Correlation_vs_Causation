@@ -1,4 +1,4 @@
-[![news](/pics/header.png)](/vids/News_video.mp4?raw=true)  
+[![news](/pics/header.png)](https://youtu.be/5GHBWSG_ifE)  
  
 #### Table of Contents  
 
