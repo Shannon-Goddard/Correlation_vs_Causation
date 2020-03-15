@@ -109,8 +109,7 @@ We encountered a problem of scale/granularity; so we increased the scale to make
 <br/>
 <br/>  
 
-**What type of data is available?**  
-Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type. Our data is all **Objects** and needs to be converted to a **numeric** data type.  
+**What type of data is available?** Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type. Our data is all **Objects** and needs to be converted to a **numeric** data type.  
 
 <img align="left" width="700" src="/pics/dtypes.png"><br/>
 <br/>
@@ -121,8 +120,7 @@ Using the **dtypes method**, we confirm the data type, which also will alert us 
 <br/>
 <br/> 
 
-**What data is missing?**  
-Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the **isnull() method** to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total. We can, easily, read through our output and see there are **no** null values in our dataset. 
+**What data is missing?** Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the **isnull() method** to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total. We can, easily, read through our output and see there are **no** null values in our dataset. 
 
 <img align="left" width="700" src="/pics/null_values.png"><br/>
 <br/>
@@ -131,8 +129,7 @@ Next, we see if any data is missing. Unsupervised learning models can’t handle
 <br/>
 <br/>  
 
-**What data can be removed?**  
-We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
+**What data can be removed?** We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
 
 In our dataset, there are **no** rows that have null data points. Using the **duplicated().sum() method**, we, also, saw our dataset did **not** have duplicates.  
 
