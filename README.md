@@ -118,9 +118,7 @@ We encountered a problem of scale/granularity; so we increased the scale to make
 <br/>
 <br/>
 <br/>
-<br/>
-
-First, we account for the data we have. We use the **columns method** and output the columns.  
+<br/>  
 
 **What type of data is available?**  
 Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type. Our data is all **Objects** and needs to be converted to a **numeric** data type.  
@@ -288,37 +286,11 @@ In summary, this model is good at predicting good housing cost. The model's accu
 
 ## Analysis  
 ### Description of the analysis phase of the project  
-<img align="right" width="500" src="/pics/Line Plot.png"><br/>  
-<br/>
-<br/>
-<br/>
-<br/>
-Different visualization types serve different purposes. The purpose of our line chart is to display data over time. With Matplotlib set up, we were able to see the rate the top five states Californians were moving to.  
-<img align="left" width="700" src="/pics/bar graph_by Year.png"><br/>
-<br/>
-<br/>
-<br/>
-<br/>  
-
-A bar chart tells a different visual story than a line chart. There are many benefits to using a bar chart. They’re good at displaying discrete data in distinct columns. 
-<img align="right" width="700" src="/pics/bar graph_by Name.png"><br/>  
-<br/>
-<br/>  
-
-They also tend to be visually strong. In a bar chart, we can clearly see the differences among the groups and the bar color of each group.  
-<br/>
-<br/>
-<br/>
-<br/>  
-<br/>
-<br/>
-<br/>
-<br/>
 One way we can tell stories with data is through interactive maps, which is what we created in our dashboard.  
 
-The purpose of this map is to visually show the number of people moving out of California (CA) by year and the differences in these numbers by States receiving CA migrants.  
+The purpose of this map is to visually show the number of people moving out of California by year and the differences in these numbers by States receiving Californian migrants.  
 
-A map was well suited for our project as the project is location-based. For stakeholders or our audience, a map visualization of where Californians (CA) are migrating and in what numbers is critical for understanding the core of the project and also visually appealing.  
+A map was well suited for our project as the project is location-based. For stakeholders or our audience, a map visualization of where Californians are migrating and in what numbers is critical for understanding the core of the project and also visually appealing.  
 
 To complete this project, we use selected data from our CSV and retrieve a list of geographical coordinates or centers from census.gov website. Then add the data to a map.  
 
