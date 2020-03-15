@@ -184,13 +184,13 @@ The model uses the training dataset to learn from it. It then uses the testing d
 **Explanation of model choice, including limitations and benefits**  
 We chose to use a random forest classifier. Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision.  
 
-### Model Limitations
+## Model Limitations
 Limitations to us using a random forest model are, random forest models will only handle tabular data, so data such as images or natural language data cannot be used in a random forest without heavy modifications to the data.
 
-### Model Benefits
+## Model Benefits
 Benifits to us using a random forest model are both output and feature selection are easy to interpret, and they can easily handle outliers and nonlinear data.  
 
-### Changes In Model's Choice  
+## Changes In Model's Choice  
 **Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)**  
 
 ## How the Model Was Trained  
