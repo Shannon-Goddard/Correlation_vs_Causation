@@ -1,4 +1,14 @@
-# Machine Learning Model
+# Machine Learning Model  
+[Data Preprocessing](#data-preprocessing)  
+[Feature Engineering](#feature-engineering)  
+[Training and Testing Sets](#training-and-testing-sets)  
+[Model Choice](#model-choice)  
+[Model Limitations](#model-limitations)  
+[Model Benefits](#model-benefits)  
+[Changes In Model's Choice](#changes-in-model-choice)  
+[How the Model Was Trained](#how-the-model-was-trained)  
+[Model’s Confusion Matrix](#model’s-confusion-matrix)  
+
 ## Data Preprocessing  
 **Data selection entails making good choices about which data will be used.**  
 We encountered a problem of scale/granularity; so we increased the scale to make the comparison at a state level. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Despite previously having access to more information, we discovered that the data available through the [data.census.gov](https://data.census.gov) website only contained data sets from 2010 to 2018. After filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obstacle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states. This decision allowed us to determine, which data will be used.  
