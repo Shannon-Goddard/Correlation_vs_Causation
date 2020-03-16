@@ -95,14 +95,14 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 ### Description of the analysis phase of the project  
 
 ### [Database Integration](/Database%20Integration.md)  
-[Stores Static Data](#stores-static-data)  
-[Interfaces](#interfaces)  
-[Tables](#tables)  
-[Joins](#joins)  
-[Connection string](#connection-string)  
-[Entity Relationship Diagram (ERD)](#entity-relationship-diagram-(ERD))  
-[Back to top](#table-of-contents)  
-[Next Section](#recommendation)  
+[Static Data](/Database%20Integration.md/static-data)  
+[Interface](/Database%20Integration.md/interfaces)  
+[Tables](/Database%20Integration.md/tables)  
+[Joins](/Database%20Integration.md/joins)  
+[Connection string](/Database%20Integration.md/connection-string)  
+[Entity Relationship Diagram (ERD)](/Database%20Integration.md/entity-relationship-diagram-(ERD))  
+[Back to top](/Database%20Integration.md/table-of-contents)  
+[Next Section](/Database%20Integration.md/recommendation)  
 
 ### Dashboard
 The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:
