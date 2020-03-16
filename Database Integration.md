@@ -29,5 +29,5 @@ A connection string using SQLAlchemy connects our python to our PostgreSQL.
 <br/>
 <br/>  
 
-[Back to Top](#database-integration)
+[Back to Top](#database-integration)  
 [Back to README.md](/README.md)
