@@ -6,7 +6,6 @@
 [Resources](#resources)  
 [Objectives](#objectives)  
 [Summary](#summary)  
-[Recommendation](#recommendation)  
 [Limitations](#limitations)  
 [Sources](#sources)  
 [Communication Protocols](#communication-protocols)  
@@ -33,10 +32,12 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 - Based on the ["Best Practices"](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html) in home buying, how much income would be needed to live in a median priced home in California at that time?  
 - What are the top 5 states Californians are moving to?  
 - How does California housing cost compare to those 5 states?  
-
-**After our analysis, we answer:**
 - Is it time to leave California?  
 
+**Description of the data exploration phase of the project**
+Data selection entails making good choices about which data will be used. We encountered a problem of scale/granularity; so we increased the scale to make the comparison at a state level. Our first concept involved extracting data for our individual counties to compare against each other, then choose one county from another state to compare against our indivual results. Despite previously having access to more information, we discovered that the data available through the [data.census.gov](https://data.census.gov) website only contained data sets from 2010 to 2018. After filtering what was needed for our analysis, the amount of data remaining was not enough to provide a meaningful analysis. To overcome this obstacle we decided to broaden our analysis from four counties to all states in the U.S.. California is, now, our targeted data to compare against all the other states. This decision allowed us to determine which data will be used.  
+
+**Description of the analysis phase of the project**
 With the vast amount of data we used for our analysis, we devoloped a "user friendly" dashboard to diplay all the information. The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes a Leaflet.js Application Programming Interface (API) to populate a geographical map with migration data from [www2.census.gov](https://www2.census.gov). Each states migration flow is visually represented by a circle, where a higher migration population has a larger diameter. In addition, each state has a popup marker that, when clicked, shows the population and migration for that state. We, also, have an interactive HTML map. A drop down table allows the user to select a year. The map is then updated with the year selected information, each state, when hovered on, shows the median housing cost for that state.  
 
 <img align="left" width="250" src="/pics/migflow2_map2018.png"><br/>
@@ -47,7 +48,7 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 <br/>
 <br/>
 <br/>
-<br/>
+<br/>  
 
 ## Resources  
 - **Software:** Jupyter Notebook, PostGreSQL,   
@@ -80,6 +81,13 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 - Optimization methodology to increase model performance  
 
 ## Summary  
+[Machine Learning Model](#machine-learning-model)  
+[Database Integration](#database-integration)  
+[Analysis](#analysis)  
+[Dashboard](#dashboard)  
+[Presentation](#presentation)  
+[Result of Analysis](#result-of-analysis)  
+
 ### [Machine Learning Model](/Machine%20Learning.md)  
 [Data Preprocessing](#data-preprocessing)  
 [Feature Engineering](#feature-engineering)  
@@ -91,9 +99,6 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 [How the Model Was Trained](#how-the-model-was-trained)  
 [Model’s Confusion Matrix](#model’s-confusion-matrix)  
 
-### [Analysis](/Analysis.md)  
-### Description of the analysis phase of the project  
-
 ### [Database Integration](/Database%20Integration.md)  
 [Static Data](/Database%20Integration.md/static-data)  
 [Interface](/Database%20Integration.md/interfaces)  
@@ -104,8 +109,14 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 [Back to top](/Database%20Integration.md/table-of-contents)  
 [Next Section](/Database%20Integration.md/recommendation)  
 
+### [Analysis](/Analysis.md)  
+[Jupyter Notebook Analysis]
+[Machine Learning Model Analysis]  
+[Database Integration Analysis]  
+[Dashboard Visual Analysis]
+
 ### Dashboard
-The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:
+The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes the following:
 - Images from the initial analysis
 - Data (images and report) from the machine learning task
 - Interactive elements
@@ -113,6 +124,8 @@ The dashboard presents a data story that is logical and easy to follow for someo
 
 ### Presentation  
 The presentation can be found at [Google Slides](https://docs.google.com/presentation/d/14h7wNLqN1Vh8AVsPMiOpv18YU4jbhMqiKdh0yhPtdns/edit?usp=sharing)  
+
+### Result of analysis
 
 ### Recommendation
 **Recommendation for future analysis**
@@ -125,10 +138,10 @@ As for the RandomForest Classifier, it would be interesting to see if the model 
 
 Our original plan was to gather data from 1980 through now, to be able to show the fluctuations in home value. We had also hoped to show that the cost of housing and annual income has increased, but not at the same rates and not at sustainable rates. However, the datasets that were available on the census.gov website only went as far back as 2010. If given more time, it might have been possible to get access to previous years and convert it into datasets that were similar to the 2010-2018 data.
 
-### Limitations  
+## Limitations  
 The creating of the migration flow map requires registration for a [Mapbox](https://www.mapbox.com/) account to generate an API key to allow rendering of maps on the browser. Mapbox does provide a free tier on their [pricing]( https://www.mapbox.com/pricing/), however a credit card is required for the sign up.  
 
-### Sources  
+## Sources  
 **DBD created at : [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com/)**  
 
 **README.md video** was created with clips from: 
@@ -147,7 +160,7 @@ The creating of the migration flow map requires registration for a [Mapbox](http
 - [.ipynb]()  
 - [.ipynb]()  
 
-### Communication Protocols  
+## Communication Protocols  
 It is important to establish a communication protocol. We created direct messages for only team members in Slack at [final-project-jas](https://ucbdatasept19.slack.com/archives/CTXNA5K5G) and exchanged cell phone numbers where we created a group-text.  
 
 - Instant communication will be done via text  
@@ -156,7 +169,7 @@ It is important to establish a communication protocol. We created direct message
 
 In an emergency we will inform our group through our group-text and reach out to the staff by direct conversation in Slack.  
 
-### Project Roadmap  
+## Project Roadmap  
 The project roadmap and description of all the project deliverables can be found in [Deliverables.md](/Deliverables.md)  
 
 [Back to top](#table-of-contents)
