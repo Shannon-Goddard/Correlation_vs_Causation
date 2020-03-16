@@ -108,9 +108,9 @@ The limitation to us using a Random Forest model is that they will only handle t
 ## Model Benefits
 Benefits to us using a random forest model are both output and feature selection are easy to interpret, and they can easily handle outliers and nonlinear data.  
 
-## Changes In Model's Choice  
-**Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)**
-The main change between Segment 2 and Segment 3 was the feature engineering done to prepare for the RandomForest model. The original data does not have a target column, so one was created using a calculation of our choosing. The original calculation of monthly housing cost to monthly income ratio less than 28% only produced four "positive" outcomes all in 2010, so the model performed very well at predicting when to stay (precision 0.98, recall 0.99), but not reliably in terms of when to leave (precision 0.67, recall 0.50). Due to the number of people that have migrated from their states from 2016 on, the calculation was changed to the use of home value being less than three times the annual income. This produced a much more reasonable target column with 33 "positive" outcomes and allowed the model to train and test better.
+## Changes In Model Choice  
+**Explanation of changes in model choice**
+The main change was the feature engineering done to prepare for the RandomForest model. The original data does not have a target column, so one was created using a calculation of our choosing. The original calculation of monthly housing cost to monthly income ratio less than 28% only produced four "positive" outcomes all in 2010, so the model performed very well at predicting when to stay (precision 0.98, recall 0.99), but not reliably in terms of when to leave (precision 0.67, recall 0.50). Due to the number of people that have migrated from their states from 2016 on, the calculation was changed to the use of home value being less than three times the annual income. This produced a much more reasonable target column with 33 "positive" outcomes and allowed the model to train and test better.
 
 ## How the Model Was Trained  
 **Description of how the model was trained (or retrained if the team used an existing model)**  
