@@ -1,5 +1,4 @@
-# Database Integration
-**Our final segment includes a fully integrated database, with the following features:**  
+# Database Integration  
 [Static Data](#static-data)  
 [Interface](#interface)  
 [Tables](#tables)  
