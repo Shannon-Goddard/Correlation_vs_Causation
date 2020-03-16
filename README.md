@@ -39,9 +39,9 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 
 With the vast amount of data we used for our analysis, we devoloped a "user friendly" dashboard to diplay all the information. The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes a Leaflet.js Application Programming Interface (API) to populate a geographical map with migration data from [www2.census.gov](https://www2.census.gov). Each states migration flow is visually represented by a circle, where a higher migration population has a larger diameter. In addition, each state has a popup marker that, when clicked, shows the population and migration for that state. We, also, have an interactive HTML map. A drop down table allows the user to select a year. The map is then updated with the year selected information, each state, when hovered on, shows the median housing cost for that state.  
 
-<img align="left" width="700" src="/pics/dashboard.png"><br/>
-<img align="left" width="700" src="/pics/migration.png"><br/>
-<img align="left" width="700" src="/pics/cost.png"><br/>
+<img align="left" width="200" src="/pics/migflow2_map2018.png"><br/>
+<img align="left" width="200" src="/pics/migflow2_map2018.png"><br/>
+<img align="left" width="200" src="/pics/cost_map.png"><br/>
 
 ## Resources  
 - **Software:** Jupyter Notebook, PostGreSQL,   
