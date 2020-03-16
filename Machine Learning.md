@@ -28,44 +28,26 @@ Vast amounts of housing, population and migration information is available on ce
 <br/>
 <br/>
 <br/>
-<br/>  
-
-We also found that the Zillow website has housing cost information for every month starting in April 1996. We focused on the data for California for our analysis.
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>  
 
-**What type of data is available?** Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type. Our data is all **Objects** and needs to be converted to a **numeric** data type.  
+We also found that the Zillow website has housing cost information for every month starting in April 1996. We focused on the data for California for our analysis.  
 
-<img align="left" width="700" src="/pics/dtypes.png"><br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/> 
+**What type of data is available?**  
+Using the **dtypes method**, we confirm the data type, which also will alert us if anything should be changed in the next step. All the columns we plan to use in our model must contain a numerical data type. Our data is all **Objects** and needs to be converted to a **numeric** data type.  
 
-**What data is missing?** Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the **isnull() method** to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total. We can, easily, read through our output and see there are **no** null values in our dataset. 
+**What data is missing?**  
+Next, we see if any data is missing. Unsupervised learning models can’t handle missing data. If we try to run a model on a dataset with missing data, we’ll get an error. Pandas has the **isnull() method** to check for missing values. We loop through each column, check if there are null values, sum them up, and print out a readable total. We can, easily, read through our output and see there are **no** null values in our dataset.  
 
-<img align="left" width="700" src="/pics/null_values.png"><br/>
-<br/>
-Once the datasets were combined for use in the machine learning models, we discovered that the census information had changed over time, creating gaps in the data for home value. Starting in 2015, there was an increase in the breakout of housing costs over $500,000 and a reduction in the categories for housing between $50,000 and $150,000. To remedy this, the groups were combined into categories that fit most of the information so that all rows and columns were still included.
-<br/>
-<br/>
-<br/>  
+Once the datasets were combined for use in the machine learning models, we discovered that the census information had changed over time, creating gaps in the data for home value. Starting in 2015, there was an increase in the breakout of housing costs over $500,000 and a reduction in the categories for housing between $50,000 and $150,000. To remedy this, the groups were combined into categories that fit most of the information so that all rows and columns were still included.  
 
-**What data can be removed?** We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
+**What data can be removed?**  
+We have begun to explore the data and have taken a look at null values. Next, we determine if the data can be removed. We consider: Are there string columns that we can’t use? Are there columns with excessive null data points? Was our decision to handle missing values to just remove them?  
 
 In the Migration Flow dataset, each row had a null data point to signify that no person migrated to the same state. For example, it doesn't make sense to say that a person migrated from Alabama to Alabama, so the value was null. Each of these values was changed to 0 for the purpose of the machine learning models. Also, because Puerto Rico was not placed into a Region, like the rest of the states, all rows for Puerto Rico were removed.
 
 Using the **duplicated().sum() method**, we also saw our dataset did **not** have duplicates.  
-
-<img align="left" width="700" src="/pics/duplicate.png"><br/>
-<br/> 
 
 With uncertainty of what housing data would be of value for our analysis, we went the safe route and only removed the **Margin of Error!!VALUE!!** columns. Those columns represented a margin of error for each statistic given. We felt, they would not serve a purpose for our, specific, analysis. Maybe, a complimentary analysis giving a margin of error for our analysis, at a later time. For now, we used **pandas.DataFrame.filter** to remove those columns from our data frame.  
 
