@@ -1,7 +1,7 @@
 ### Database Integration
 **Our final segment includes a fully integrated database, with the following features:**  
-[Stores Static Data](#stores-static-data)  
-[Interfaces](#interfaces)  
+[Static Data](#static-data)  
+[Interface](#interface)  
 [Tables](#tables)  
 [Joins](#joins)  
 [Connection string](#connection-string)  
@@ -9,10 +9,10 @@
 [Back to top](#table-of-contents)  
 [Next Section](#recommendation)  
 
-## Stores Static Data  
+## Static Data  
 Once a clean data was obtained, parsed and sorted, it made it clear what types of tables could be useful for the project. Tables were then built in PostgreSQL to store static data. An ERD with a schema was first constructed and helped shape how and what questions we wanted the database to answer or insights to generate. Eventually, multiple tables were built to store static data.  
 
-## Interfaces  
+## Interface  
 The database interfaces with our python notebook file where all the data loading and cleaning occurred. This was achieved by importing create_engine form sqlaclchemy; the information that sqlaclchemy needs to create a database engine.  
 
 ## Tables  
