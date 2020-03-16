@@ -82,7 +82,7 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 - Optimization methodology to increase model performance  
 
 ## Summary  
-### [Machine Learning Model]  
+### Machine Learning Model  
 Click [here](/Machine%20Learning.md) for details on:  
 - Data Preprocessing  
 - Feature Engineering  
@@ -94,7 +94,7 @@ Click [here](/Machine%20Learning.md) for details on:
 - How the Model Was Trained  
 - Model’s Confusion Matrix  
 
-### [Database Integration]  
+### Database Integration  
 Click [here](/Database%20Integration.md) for details on:
 - Static Data  
 - Interface  
@@ -103,7 +103,7 @@ Click [here](/Database%20Integration.md) for details on:
 - Connection string  
 - Entity Relationship Diagram (ERD)  
 
-### [Analysis]  
+### Analysis  
 Click [here](/Analysis.md) for details on:
 - Jupyter Notebook Analysis  
 - Machine Learning Model Analysis  
