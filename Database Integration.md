@@ -5,6 +5,7 @@
 [Joins](#joins)  
 [Connection string](#connection-string)  
 [Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)  
+[Back to README.md](/README.md)
 
 ## Static Data  
 Once a clean data was obtained, parsed and sorted, it made it clear what types of tables could be useful for the project. Tables were then built in PostgreSQL to store static data. An ERD with a schema was first constructed and helped shape how and what questions we wanted the database to answer or insights to generate. Eventually, multiple tables were built to store static data.  
@@ -27,3 +28,6 @@ A connection string using SQLAlchemy connects our python to our PostgreSQL.
 <br/>
 <br/>
 <br/>  
+
+[Back to Top](#database-integration)
+[Back to README.md](/README.md)
