@@ -91,11 +91,10 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 [How the Model Was Trained](#how-the-model-was-trained)  
 [Model’s Confusion Matrix](#model’s-confusion-matrix)  
 
-## [Analysis](/Analysis.md)  
+### [Analysis](/Analysis.md)  
 ### Description of the analysis phase of the project  
 
-### [Database Integration](/Database%20Integration.md)
-**Our final segment includes a fully integrated database, with the following features:**  
+### [Database Integration](/Database%20Integration.md)  
 [Stores Static Data](#stores-static-data)  
 [Interfaces](#interfaces)  
 [Tables](#tables)  
@@ -105,39 +104,17 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 [Back to top](#table-of-contents)  
 [Next Section](#recommendation)  
 
-## Stores Static Data  
-Once a clean data was obtained, parsed and sorted, it made it clear what types of tables could be useful for the project. Tables were then built in PostgreSQL to store static data. An ERD with a schema was first constructed and helped shape how and what questions we wanted the database to answer or insights to generate. Eventually, multiple tables were built to store static data.  
-
-## Interfaces  
-The database interfaces with our python notebook file where all the data loading and cleaning occurred. This was achieved by importing create_engine form sqlaclchemy; the information that sqlaclchemy needs to create a database engine.  
-
-## Tables  
-Multiple tables were generated to store static data as the project evolved. Tables include combined_ca_data, ca_analysis, housing_and_income, analysis_info, just to mention a few. For example, the ca_analysis table stores static data of all CA who moved to selected states between a given period, ordered by ascending order. Similarly, the analysis_info table stores median housing cost(monthly) data for all states.  
-
-## Joins  
-A left join using the database is performed on selected states from 2017 and 2018, left joining on the States which is a column found in both data sets.  
-
-## Connection string  
-A connection string using SQLAlchemy connects our python to our PostgreSQL.  
-
-## Entity Relationship Diagram (ERD)  
-<img align="center" width="400" src="/Data/Migration_FlowDB(2).png"><br/>
-<br/>
-<br/>
-<br/>
-<br/>  
-
-## Dashboard
+### Dashboard
 The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:
 - Images from the initial analysis
 - Data (images and report) from the machine learning task
 - Interactive elements
 - Our dashboard is published on GitPages [Leaving California Dashboard]()  
 
-## Presentation  
+### Presentation  
 The presentation can be found at [Google Slides](https://docs.google.com/presentation/d/14h7wNLqN1Vh8AVsPMiOpv18YU4jbhMqiKdh0yhPtdns/edit?usp=sharing)  
 
-## Recommendation
+### Recommendation
 **Recommendation for future analysis**
 
 A linear regression was performed using the census data for 2010-2018 as well as the Zillow monthly data from April 1996 to January 2020. These regression equations were very different from each other, mainly due to the amount of information that was available in each dataset. Future analysis could include comparing the home values in the upcoming months to see if either model was close to reality. Another venue for future analysis would be to perform similar linear regressions for the other 49 US states to see if any of those models are an accurate representation of the home values in the near future. Even more interesting would be to see how the inclusion of market fluctuations in the Zillow data will hold up when predicting home values in 2030 and beyond.
@@ -148,10 +125,10 @@ As for the RandomForest Classifier, it would be interesting to see if the model 
 
 Our original plan was to gather data from 1980 through now, to be able to show the fluctuations in home value. We had also hoped to show that the cost of housing and annual income has increased, but not at the same rates and not at sustainable rates. However, the datasets that were available on the census.gov website only went as far back as 2010. If given more time, it might have been possible to get access to previous years and convert it into datasets that were similar to the 2010-2018 data.
 
-## Limitations  
+### Limitations  
 The creating of the migration flow map requires registration for a [Mapbox](https://www.mapbox.com/) account to generate an API key to allow rendering of maps on the browser. Mapbox does provide a free tier on their [pricing]( https://www.mapbox.com/pricing/), however a credit card is required for the sign up.  
 
-## Sources  
+### Sources  
 **DBD created at : [quickdatabasediagrams.com](https://www.quickdatabasediagrams.com/)**  
 
 **README.md video** was created with clips from: 
@@ -170,7 +147,7 @@ The creating of the migration flow map requires registration for a [Mapbox](http
 - [.ipynb]()  
 - [.ipynb]()  
 
-## Communication Protocols  
+### Communication Protocols  
 It is important to establish a communication protocol. We created direct messages for only team members in Slack at [final-project-jas](https://ucbdatasept19.slack.com/archives/CTXNA5K5G) and exchanged cell phone numbers where we created a group-text.  
 
 - Instant communication will be done via text  
@@ -179,7 +156,7 @@ It is important to establish a communication protocol. We created direct message
 
 In an emergency we will inform our group through our group-text and reach out to the staff by direct conversation in Slack.  
 
-## Project Roadmap  
+### Project Roadmap  
 The project roadmap and description of all the project deliverables can be found in [Deliverables.md](/Deliverables.md)  
 
 [Back to top](#table-of-contents)
