@@ -86,7 +86,7 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 [Dashboard](#dashboard)  
 [Presentation](#presentation)  
 
-## Machine Learning Model  
+## [Machine Learning Model](/Machine%20Learning.md)  
 [Data Preprocessing](#data-preprocessing)  
 [Feature Engineering](#feature-engineering)  
 [Training and Testing Sets](#training-and-testing-sets)  
