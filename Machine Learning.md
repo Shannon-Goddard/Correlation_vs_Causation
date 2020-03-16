@@ -147,5 +147,5 @@ In summary, this model is good at predicting both good and bad housing cost. The
 **How does the model address the question or problem the team is solving?**
 While there are many factors to consider when determining if it is time to move to a different state, the model performed well at predicting if the median cost of housing is too high for the median annual income of the 50 US states from 2010 through 2018. This is by no means the final determining factor in making such a decision, but it is analysis worth looking at.  
 
-[Back to Top](#machine-learning-model)
+[Back to Top](#machine-learning-model)  
 [Back to README.md](/README.md)
