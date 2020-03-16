@@ -5,7 +5,7 @@
 [Tables](#tables)  
 [Joins](#joins)  
 [Connection string](#connection-string)  
-[Entity Relationship Diagram (ERD)](#entity-relationship-diagram-(ERD))  
+[Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)  
 
 ## Static Data  
 Once a clean data was obtained, parsed and sorted, it made it clear what types of tables could be useful for the project. Tables were then built in PostgreSQL to store static data. An ERD with a schema was first constructed and helped shape how and what questions we wanted the database to answer or insights to generate. Eventually, multiple tables were built to store static data.  
