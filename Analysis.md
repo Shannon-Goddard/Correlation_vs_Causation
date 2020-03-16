@@ -1,4 +1,4 @@
-## Analysis  
+# Analysis  
 ### Description of the analysis phase of the project  
 One way we can tell stories with data is through interactive maps, which is what we created in our dashboard.  
 
