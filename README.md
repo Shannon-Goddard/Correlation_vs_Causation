@@ -48,10 +48,7 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 ## Resources  
 - **Software:** Jupyter Notebook, PostGreSQL,   
 - **Languages:** Python, JSON, SQL  
