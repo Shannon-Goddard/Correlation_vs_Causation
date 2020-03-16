@@ -5,13 +5,15 @@
 [Dashboard Visual Analysis](#dashboard-visual-analysis)  
 
 ## Jupyter Notebook Analysis  
-[Back to Top](#analysis)
+
 ## Machine Learning Model Analysis  
-[Back to Top](#analysis)
+[Back to Top](#analysis)  
+
 ## Database Integration Analysis  
-[Back to Top](#analysis)
+[Back to Top](#analysis)  
+
 ## Dashboard Visual Analysis  
-[Back to Top](#analysis)
+[Back to Top](#analysis)  
 One way we can tell stories with data is through interactive maps, which is what we created in our dashboard.  
 
 The purpose of this map is to visually show the number of people moving out of California by year and the differences in these numbers by States receiving Californian migrants.  
