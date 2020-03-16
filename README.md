@@ -81,13 +81,6 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 - Optimization methodology to increase model performance  
 
 ## Summary  
-[Machine Learning Model](#machine-learning-model)  
-[Database Integration](#database-integration)  
-[Analysis](#analysis)  
-[Dashboard](#dashboard)  
-[Presentation](#presentation)  
-[Result of Analysis](#result-of-analysis)  
-
 ### [Machine Learning Model](/Machine%20Learning.md)  
 [Data Preprocessing](#data-preprocessing)  
 [Feature Engineering](#feature-engineering)  
@@ -110,10 +103,10 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 [Next Section](/Database%20Integration.md/recommendation)  
 
 ### [Analysis](/Analysis.md)  
-[Jupyter Notebook Analysis]
-[Machine Learning Model Analysis]  
-[Database Integration Analysis]  
-[Dashboard Visual Analysis]
+[Jupyter Notebook Analysis]()  
+[Machine Learning Model Analysis]()  
+[Database Integration Analysis]()  
+[Dashboard Visual Analysis]()  
 
 ### Dashboard
 The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes the following:
