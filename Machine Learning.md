@@ -7,7 +7,7 @@
 [Model Benefits](#model-benefits)  
 [Changes In Model's Choice](#changes-in-model-choice)  
 [How the Model Was Trained](#how-the-model-was-trained)  
-[Model’s Confusion Matrix](#model’s-confusion-matrix)  
+[Model’s Confusion Matrix](#model%E2%80%99s-confusion-matrix)  
 
 ## Data Preprocessing  
 **Data selection entails making good choices about which data will be used.**  
