@@ -82,31 +82,29 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 
 ## Summary  
 ### [Machine Learning Model](/Machine%20Learning.md)  
-[Data Preprocessing](#data-preprocessing)  
-[Feature Engineering](#feature-engineering)  
-[Training and Testing Sets](#training-and-testing-sets)  
-[Model Choice](#model-choice)  
-[Model Limitations](#model-limitations)  
-[Model Benefits](#model-benefits)  
-[Changes In Model's Choice](#changes-in-model-choice)  
-[How the Model Was Trained](#how-the-model-was-trained)  
-[Model’s Confusion Matrix](#model’s-confusion-matrix)  
+- Data Preprocessing  
+- Feature Engineering  
+- Training and Testing Sets  
+- Model Choice  
+- Model Limitations  
+- Model Benefits  
+- Changes In Model's Choice  
+- How the Model Was Trained  
+- Model’s Confusion Matrix  
 
 ### [Database Integration](/Database%20Integration.md)  
-[Static Data](/Database%20Integration.md/static-data)  
-[Interface](/Database%20Integration.md/interfaces)  
-[Tables](/Database%20Integration.md/tables)  
-[Joins](/Database%20Integration.md/joins)  
-[Connection string](/Database%20Integration.md/connection-string)  
-[Entity Relationship Diagram (ERD)](/Database%20Integration.md/entity-relationship-diagram-(ERD))  
-[Back to top](/Database%20Integration.md/table-of-contents)  
-[Next Section](/Database%20Integration.md/recommendation)  
+- Static Data  
+- Interface  
+- Tables  
+- Joins  
+- Connection string  
+- Entity Relationship Diagram (ERD)  
 
 ### [Analysis](/Analysis.md)  
-[Jupyter Notebook Analysis]()  
-[Machine Learning Model Analysis]()  
-[Database Integration Analysis]()  
-[Dashboard Visual Analysis]()  
+- Jupyter Notebook Analysis  
+- Machine Learning Model Analysis  
+- Database Integration Analysis  
+- Dashboard Visual Analysis  
 
 ### Dashboard
 The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes the following:
