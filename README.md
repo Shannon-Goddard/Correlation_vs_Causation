@@ -26,13 +26,11 @@ Pricing can be seen on [laalmanac.com](http://www.laalmanac.com/economy/ec37.php
 - Median Home Price
 - Median Household Income  
 
-**Questions the team answers with the data**  
-- What are the California median household prices in California expected to be in the next five years?  
+**Questions the team answers with the data**    
 - What are the California median household prices in California expected to be in the next ten years?  
 - Based on the ["Best Practices"](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html) in home buying, how much income would be needed to live in a median priced home in California at that time?  
 - What are the top 5 states Californians are moving to?  
 - How does California housing cost compare to those 5 states?  
-
 - Is it time to leave California?  
 
 **Description of the data exploration phase of the project**  
@@ -121,7 +119,36 @@ The dashboard presents a data story that is logical and easy to follow for someo
 ### Presentation  
 The presentation can be found at [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRPRYl5EeTXoGJxJPMSvwe9Y6fMAqUzO8Dy-muM66Io3Hx2QggDBBcRvqVJm9GlAwUasHoYhnPj7QyV/pub?start=false&loop=false&delayms=10000)  
 
-### Result of analysis
+### Result of analysis  
+**What are the California median household prices in California expected to be in the next ten years?**  
+The predicted median home value in **2030** is **$678226.74** based on April 1996 to January 2020 Zillow data.
+
+**Based on the ["Best Practices"](https://www.mymoneyblog.com/4-different-rules-of-thumb-for-how-much-house-you-can-afford.html) in home buying, how much income would be needed to live in a median priced home in California at that time?**  
+**$226,075.58**  
+A single income would need to make an annual salary of **$226,075.58** or full time hourly rate of **$108.70**
+A double income would need to make annual salaries of **$113,037.79**  or full time hourly rates of **$54.35**
+
+**What are the top 5 states Californians are moving to?**  
+From **2010** to **2018** the top **5** sates Californians are moving to listed in descending order:
+- Texas  
+- Arizona  
+- Washington  
+- New York  
+- Nevada
+
+**How does California housing cost compare to those 5 states?**  
+The average median home value from **2010** to **2018**:  
+- California - **$439,834** 
+- Texas - **$167,823**  
+- Arizona - **$200,089**  
+- Washington - **$297,645**  
+- New York - **$313,178**  
+- Nevada - **$211,667**
+
+**Is it time to leave California?**   
+When comparing the average median home value from **2010** to **2018**, it is easy to see why Californians are, mostly, migrating to these states.  
+
+A regression line was done on the census.gov data to compare the median home value predictions with the Zillow data predictions. While the prediction for 2030 goes along with the current trend, the possibility that the median home value will be this large is the main contributing factor in determining, **it is time to leave California**.
 
 ### Recommendation
 **Recommendation for future analysis**
