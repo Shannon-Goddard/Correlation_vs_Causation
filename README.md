@@ -53,7 +53,7 @@ With the vast amount of data we used for our analysis, we devoloped a "user frie
 <br/>  
 
 ## Resources  
-- **Software:** Jupyter Notebook, PostGreSQL,   
+- **Software:** Jupyter Notebook, VS Code, PostGreSQL   
 - **Languages:** Python, JSON, SQL  
 - **Dependencies:** Pandas, Matplotlib, SciPy, NumPy, Scikit-learn, hvplot, Plotly express  
 - **Algorithms:** K-means, Random Forest Classifier, LinReg 
