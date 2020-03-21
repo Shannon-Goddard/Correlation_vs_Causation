@@ -129,7 +129,7 @@ A single income would need to make an annual salary of **$226,075.58** or full t
 A double income would need to make annual salaries of **$113,037.79**  or full time hourly rates of **$54.35**
 
 **What are the top 5 states Californians are moving to?**  
-From **2010** to **2018** the top **5** sates Californians are moving to listed in descending order:
+From **2010** to **2018** the top **5** sates Californians were moving to listed in descending order:
 - Texas  
 - Arizona  
 - Washington  
