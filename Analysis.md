@@ -25,6 +25,7 @@ Two other essential pieces needed includes the config.js and logic.js files. The
 In the step following, it is essential to allow our index.html file to use the logic.js and config.js scripts. To do this, we add our scripts to the body of the index.html file. Next, we add a circleMarker() function to the map via Leaflet.  
 
 The last step is to add multiple markers or points to the map. To add a marker for each location or state receiving greater than 10,000 CA migrants in 2018, we iterate through the array of longitudes and latitudes and add each to the map. For best practice, we save the states array in an external file and refer to that file and dataset in the logic.js file. Finally, to add data from each object in the cities array we use Leaflet’s bindPopup() method on the marker() function.  
+
 <img align="left" width="900" src="/pics/MigFlow_map.png"><br/>
 <br/>
 <br/>
@@ -69,6 +70,11 @@ We maintained the entire dataset for our HTML map to support further analysis.
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>  
 
 ### Plots  
@@ -76,6 +82,11 @@ A linear regression was performed using the census data for 2010-2018 as well as
 As for the RandomForest Classifier, it would be interesting to see if the model could accurately predict good and bad housing costs with data from the 2020 census.  
 
 <img align="left" width="900" src="/pics/Machine_Learning.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
