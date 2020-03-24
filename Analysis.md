@@ -54,7 +54,12 @@ We maintained the entire dataset for our HTML map to support further analysis.
 <br/>
 <br/>
 <br/>
-<br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Plots  
 A linear regression was performed using the census data for 2010-2018 as well as the Zillow monthly data from April 1996 to January 2020. These regression equations were very different from each other, mainly due to the amount of information that was available in each dataset. A recommendation for future analysis could include comparing the home values in the upcoming months to see if either model was close to reality. Another venue for future analysis would be to perform similar linear regressions for the other 49 US states to see if any of those models are an accurate representation of the home values in the near future. Even more interesting would be to see how the inclusion of market fluctuations in the Zillow data will hold up when predicting home values in 2030 and beyond.
@@ -70,7 +75,12 @@ As for the RandomForest Classifier, it would be interesting to see if the model 
 <br/>
 <br/>
 <br/>
-<br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-[Back to Top](#analysis)
+[Back to Top](#analysis)  
 [Back to README.md](/README.md)
