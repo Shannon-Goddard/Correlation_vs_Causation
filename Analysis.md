@@ -78,7 +78,8 @@ We maintained the entire dataset for our HTML map to support further analysis.
 <br/>  
 
 ### HTML Table  
-Our table allows the user to take a look at census data for each state by year to see housing costs, income, and migration changes. It filters by year and/or state.
+Our table allows the user to take a look at census data for each state by year to see housing costs, income, and migration changes. It filters by year and/or state.  
+
 <img align="left" width="900" src="/pics/Machine_Learning.png"><br/>
 <br/>
 <br/>
