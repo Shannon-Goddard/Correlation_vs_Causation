@@ -116,8 +116,7 @@ Our table allows the user to take a look at census data for each state by year t
 <img align="right" width="200" src="/pics/median_home_value2.png"><br/>A regression line was done on the census.gov data to compare the median home value predictions with the Zillow data predictions. While the prediction for 2030 goes along with the current trend, the possibility that the median home value will be this large is the main contributing factor for possibly leaving the state.  
 <br/>
 <br/>
-<br/>
-Looking beyond California US Migration Analysis, the census.gov website has migration flow data for each year starting in 2010. The information includes population, how many lived in the same or a different state the previous year, and the number moving between states.  
+**Looking beyond California US Migration Analysis, the census.gov website has migration flow data for each year starting in 2010. The information includes population, how many lived in the same or a different state the previous year, and the number moving between states.**  
 
 <img align="right" width="250" src="/pics/state_migration_kmeans_scatter.png"><br/>After removing the state to state information, a K-means machine learning model was run to see if there was any interesting grouping going on with the migration flows. The scatterplot shows that there are 5 distinct classes for the 50 states between 2010 and 2018, based on population and the number of people who lived in a different state the previous year.  
 
