@@ -117,7 +117,7 @@ The dashboard presents a data story that is logical and easy to follow for someo
 - Our dashboard is published on GitPages [Leaving California Dashboard]()  
 
 ### Presentation  
-The presentation can be found at [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRPRYl5EeTXoGJxJPMSvwe9Y6fMAqUzO8Dy-muM66Io3Hx2QggDBBcRvqVJm9GlAwUasHoYhnPj7QyV/pub?start=false&loop=false&delayms=10000)  
+The presentation can be found [here](https://us1-broadcast.officeapps.live.com/m/Broadcast.aspx?Fi=56e56fc1154c6a69%5Fe0626675%2Dd9fc%2D4aa8%2D98d7%2D8770d479b352%2Dasync%2Epptx)  
 
 ### Result of analysis  
 **What are the California median household prices in California expected to be in the next ten years?**  
