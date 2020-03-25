@@ -46,7 +46,7 @@ The last step is to add multiple markers or points to the map. To add a marker f
 ### HTML Map  
 Image maps are a valuable way to display complex sets of data. For instance, out html map consist of over 2,250 statistics broken down from 50 states over the course of 9 years. If presented as text, this amount of data can become redundant. Image maps are useful displaying large datasets, such as ours. Allowing the user to understand social, economic, and demographic conditions visually.  
 
-During our analysis in Jupyter Notebook using Pandas, we noticed a migration trend of Californians each year. The top five states Californians are moving to is Texas, Arizona, Washington, New York, and Nevada. We pulled the housing cost data from data.census.gov to find correlations for this trend. As we suspected, the housing cost was half of California's in the topfive migrated states.  
+During our analysis in Jupyter Notebook using Pandas, we noticed a migration trend of Californians each year. The top five states Californians are moving to is Texas, Arizona, Washington, New York, and Nevada. We pulled the housing cost data from data.census.gov to find correlations for this trend. As we suspected, the housing cost was half of California's in those states.  
 
 We maintained the entire dataset for our HTML map to support further analysis.  
 
