@@ -1,4 +1,4 @@
-CKeck-out this interactive map [here](https://shannon-goddard.github.io/Correlation_vs_Causation/)  
+Check-out this interactive map [here](https://shannon-goddard.github.io/Correlation_vs_Causation/)  
 
 ![](/project.png)  
 
