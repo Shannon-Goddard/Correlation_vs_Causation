@@ -23,7 +23,7 @@ In this module, we created a map to organize census data that is stored as a Jav
 ## Summary  
 **Check-out this interactive map [here](https://shannon-goddard.github.io/Correlation_vs_Causation/)**  
 
-![](name-of-giphy.gif)  
+![]()  
 
 This map is used in a dashboard published on **AWS | Check-out it out:**
 - [Leaving California Dashboard](http://leavingcabucket.s3-website.us-east-2.amazonaws.com/)
