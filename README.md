@@ -25,8 +25,7 @@ In this module, we created a map to organize census data that is stored as a Jav
 
 ![](name-of-giphy.gif)  
 
-This map is used in a dashboard published on AWS 
-**Check-out it out:**
+This map is used in a dashboard published on AWS | **Check-out it out:**
 - [Leaving California Dashboard](http://leavingcabucket.s3-website.us-east-2.amazonaws.com/)
 - [Leaving California Github](https://github.com/JVChermak/Leaving_California.git)  
 
